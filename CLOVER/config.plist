@@ -333,7 +333,7 @@
 					<key>Comment</key>
 					<string>_PTS(1,N) to ZPTS(1,N)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1BUUwE=
@@ -375,7 +375,7 @@
 					<key>Comment</key>
 					<string>_WAK(1,N) to ZWAK(1,N)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwE=
@@ -389,7 +389,7 @@
 					<key>Comment</key>
 					<string>change Method(GPRW,2,N) to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					R1BSVwI=
