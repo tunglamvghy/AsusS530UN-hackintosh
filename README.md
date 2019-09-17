@@ -9,7 +9,7 @@
   + Intel UHD620 (1536MB of dynamic memory (shared from the system))
   + NVIDIA GeForce MX150 2GB
 - **Network:**
-  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2))
+  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) <use USB Wifi Comfast CF-811AC instead>
   + Ethernet: No
   + Bluetooth: V4.1
 - **Audio:** Realtek ALC256
