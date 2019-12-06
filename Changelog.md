@@ -1,3 +1,8 @@
+**06/12/2019**
+- Cập nhật OpenCore to 0.5.4
+- Cập nhật các kexts lên phiên bản mới nhất
+- Fix kernel panic của Whatevergreen 1.3.6
+
 **18/11/2019**
 - Ổn định trên macOS 10.15.1
 - Ngừng update Clover
