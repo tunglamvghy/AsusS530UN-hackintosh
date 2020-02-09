@@ -1,14 +1,32 @@
+**08/02/2020**
+- Sửa ACPI để AsusSMC kext hoạt động
+- Sửa lỗi đèn nền bàn phím
+- Danh sách phím chức năng Fn:
+  + F1: Mute
+  + F2/F3: Giảm/Tăng âm
+  + F4/F5: Giảm/Tăng độ sáng màn hình
+  + F6: Bật/Tắt Touchpad
+  + F7/F8: Tăng/Giảm đèn nền bàn phím (16 mức độ)
+  + F9/F10/F11/F12: Home/End/PgUp/PgDown
+  + Fn + phím cách: Play/Pause âm nhạc
+  + Fn + Enter : Sleep máy tính (chạy file install_daemon.sh để hoạt động)
+  + Fn + Esc: Tắt/Bật màn hình
+- Thêm firmware Bluetooth  
+- Sửa hoàn toàn lỗi âm thanh
+- Cập nhật OpenCore lên 0.5.5
+- Cập nhật toàn bộ kext lên phiên bản mới nhất
+
 **06/12/2019**
-- Cập nhật OpenCore to 0.5.4
+- Cập nhật OpenCore lên 0.5.4
 - Cập nhật các kexts lên phiên bản mới nhất
-- Fix kernel panic của Whatevergreen 1.3.6
+- Sửa lỗi kernel panic của Whatevergreen 1.3.6
 
 **18/11/2019**
 - Ổn định trên macOS 10.15.1
-- Ngừng update Clover
-- Update OC Bootloader
-- Update Kexts
-- Fix Audio
+- Ngừng Cập nhật Clover (chuyển hoàn toàn sang OpenCore)
+- Cập nhật OC Bootloader
+- Cập nhật Kexts
+- Sửa lỗi âm thanh
 - Loại bỏ kext USB Wifi (dùng file cài trên trang chủ)
 
 **17/09/2019**
