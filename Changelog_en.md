@@ -1,3 +1,7 @@
+**2020/02/21**
+- Update Kexts
+- Replace USBInjectAll.kext with USBMap.kext
+
 **2020/02/08**
 - Edit ACPI to make AsusSMC kext work
 - Fix Keyboard Backlight

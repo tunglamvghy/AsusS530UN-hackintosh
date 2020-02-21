@@ -1,3 +1,7 @@
+**21/02/2020**
+- Cập nhật kexts
+- Thay thế USBInjectAll thành USBMap
+
 **08/02/2020**
 - Sửa ACPI để AsusSMC kext hoạt động
 - Sửa lỗi đèn nền bàn phím
