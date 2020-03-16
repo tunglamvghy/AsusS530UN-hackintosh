@@ -1,6 +1,5 @@
 ## [Donate me](https://paypal.me/vtlam98)
-I'll try to keep this repo up-to-date BUT
-As a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
+I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
 Any donation would help me a lot!
 
 # Asus Vivobook S530UN
@@ -61,8 +60,13 @@ Any donation would help me a lot!
 
 ## Credits
 @RehabMan for his guide for beginner
+
 @alexandred and his team for VoodooI2C
+
 @acidanthera for his OpenCore Bootloader and kexts
+
 @hieplpvip for AsusSMC kexts
+
 @black.dragon74 for custom FAN control (see https://osxlatitude.com/forums/topic/10244-how-to-implement-custom-fan-control-on-asus-laptops/)
+
 and many more people that I can't list here.
