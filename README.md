@@ -1,9 +1,13 @@
+## [Donate me](https://paypal.me/vtlam98)
+I'll try to keep this repo up-to-date BUT
+As a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
+Any donation would help me a lot!
+
 # Asus Vivobook S530UN
 # Mac OS X 10.15 Catalina
 
-
 # Specification
-- **MainBoard:** Asus X530UN
+- **MainBoard:** Asus X530UN.
 - **Processor:** Intel Core i5-8250U @ 1.6GHz (KabyLake-R)
 - **Graphic:** 
   + Intel UHD620 (1536MB of dynamic memory (shared from the system))
@@ -24,7 +28,7 @@
 
 # WORKING:
 - [x] **Graphics UHD 620**
-- [x] Graphics NVIDIA GeForce MX150 (NOT support now)
+- [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
 - [ ] WiFi (Replace with USB Wifi or waiting for Intel Wifi firmware)
 - [x] Bluetooth (fully supported)
@@ -54,3 +58,11 @@
 
 # KNOWN ISSUES
 - Waiting for Intel Wifi firmware (soon)
+
+## Credits
+@RehabMan for his guide for beginner
+@alexandred and his team for VoodooI2C
+@acidanthera for his OpenCore Bootloader and kexts
+@hieplpvip for AsusSMC kexts
+@black.dragon74 for custom FAN control (see https://osxlatitude.com/forums/topic/10244-how-to-implement-custom-fan-control-on-asus-laptops/)
+and many more people that I can't list here.
