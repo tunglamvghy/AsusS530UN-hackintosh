@@ -1,3 +1,7 @@
+**16/03/2020**
+- Cập nhật OpenCore v0.5.6
+- fix lỗi boot
+
 **21/02/2020**
 - Cập nhật kexts
 - Thay thế USBInjectAll thành USBMap

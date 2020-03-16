@@ -1,3 +1,7 @@
+**2020/03/16**
+- Update OpenCore to v0.5.6
+- fix boot error after update OpenCore
+
 **2020/02/21**
 - Update Kexts
 - Replace USBInjectAll.kext with USBMap.kext
