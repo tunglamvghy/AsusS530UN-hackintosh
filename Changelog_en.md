@@ -1,6 +1,14 @@
+**Installation**
+1. Make installation device and install MacOS to your PC (use Clover folder)
+2. Download **OC** folder and **Boot** folder copy it to your PC folder
+3. Copy VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext from /EFI/OC/Kexts/ and install them to /L/E then rebuild cache using Hackintool.
+4. Set Bootx64.efi to first boot in UEFI Setup
+5. Restart and enjoy your hackintosh
+
 **2020/03/16**
 - Update OpenCore to v0.5.6
 - fix boot error after update OpenCore
+- known bugs: cant load VoodooI2C and VoodooPS2Controller from OpenCore. Just install those kext to /L/E and rebuild cache using Hackintool.
 
 **2020/02/21**
 - Update Kexts

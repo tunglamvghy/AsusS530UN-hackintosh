@@ -1,6 +1,14 @@
+**Cách cài đặt**
+1. Tạo bộ cài USB (hỏi chị google) và cài macOS vào máy bạn (có thể dùng Clover | OpenCore không load được bàn phím =))
+2. Tải thư mục **OC** và **Boot** và chép vào thư mục EFI của máy
+3. Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /EFI/OC/Kexts và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool
+4. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
+5. Khởi động lại máy và thưởng thức!!
+
 **16/03/2020**
 - Cập nhật OpenCore v0.5.6
 - fix lỗi boot
+- lỗi chưa sửa: không load được VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ OpenCore (sửa bằng cách Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /EFI/OC/Kexts và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool )
 
 **21/02/2020**
 - Cập nhật kexts

@@ -1851,7 +1851,7 @@
 			</dict>
 		</dict>
 		<key>Block</key>
-		<dict>
+				<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
 				<string>UIScale</string>
@@ -1906,14 +1906,14 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>FVFYD0FZLYWM</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>F22CD30B-5623-4C14-BF56-618EDF39877E</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string></string>
+			<string>FVF910404GU0000AD</string>
 			<key>ROM</key>
 			<data>NBITRDUh</data>
 			<key>SpoofVendor</key>
@@ -1921,9 +1921,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>FVFYD0FZLYWM</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>F22CD30B-5623-4C14-BF56-618EDF39877E</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1934,7 +1934,7 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/8f/wAAAAA=</data>
 			<key>MLB</key>
-			<string></string>
+			<string>FVF910404GU0000AD</string>
 			<key>ROM</key>
 			<data>NBITRDUh</data>
 		</dict>
@@ -1958,7 +1958,6 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>AppleUsbKbDxe.efi</string>
 			<string>HiiDatabase.efi</string>
-			<string>VirtualSmc.efi</string>
 			<string>XhciDxe.efi</string>
 		</array>
 		<key>Audio</key>
