@@ -4,7 +4,7 @@ Any donation would help me a lot!
 
 # Asus Vivobook S530UN
 # Mac OS X 10.15 Catalina
-
+![Alt text](https://cdn.tgdd.vn/Files/2019/10/08/1206129/img_0541_800x450.png)
 # Specification
 - **MainBoard:** Asus X530UN.
 - **Processor:** Intel Core i5-8250U @ 1.6GHz (KabyLake-R)
@@ -58,6 +58,8 @@ Any donation would help me a lot!
 # KNOWN ISSUES
 - Waiting for Intel Wifi firmware (soon)
 
+# Screenshoots
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/Screen%20Shot%202020-02-08%20at%2022.59.14.png)
 ## Credits
 @RehabMan for his guide for beginner
 
