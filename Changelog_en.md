@@ -5,6 +5,10 @@
 4. Set Bootx64.efi to first boot in UEFI Setup
 5. Restart and enjoy your hackintosh
 
+**2020/04/02**
+- Update kexts
+- Fix boot issues related to IGPU after update to MacOS 10.15.4
+
 **2020/03/16**
 - Update OpenCore to v0.5.6
 - fix boot error after update OpenCore

@@ -5,6 +5,10 @@
 4. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
 5. Khởi động lại máy và thưởng thức!!
 
+**02/04/2020**
+- Cập nhật kexts
+- Sửa lỗi boot do IGPU sau khi update lên 10.15.4
+
 **16/03/2020**
 - Cập nhật OpenCore v0.5.6
 - fix lỗi boot
