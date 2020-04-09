@@ -5,6 +5,12 @@
 4. Set Bootx64.efi to first boot in UEFI Setup
 5. Restart and enjoy your hackintosh
 
+**2020/04/09**
+- Update OpenCore to v0.5.8 (newest config)
+- Update kexts
+- Fix boot issues related to IGPU after update to MacOS 10.15.4 (completely fixed)
+- Known issues: Sometimes lost sound after booting to Windows and come back MacOS
+
 **2020/04/02**
 - Update kexts
 - Fix boot issues related to IGPU after update to MacOS 10.15.4
