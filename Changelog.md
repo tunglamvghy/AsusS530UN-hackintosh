@@ -1,9 +1,17 @@
 **Cách cài đặt**
 1. Tạo bộ cài USB (hỏi chị google) và cài macOS vào máy bạn (có thể dùng Clover | OpenCore không load được bàn phím =))
 2. Tải thư mục **OC** và **Boot** và chép vào thư mục EFI của máy
-3. Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /EFI/OC/Kexts và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool
-4. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
-5. Khởi động lại máy và thưởng thức!!
+3. Chỉnh sửa lại PlatformInfo trong **config.plist** (tạo mới bằng [https://github.com/corpnewt/GenSMBIOS])
+4. Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /Kexts in /L/E và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool
+5. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
+6. Khởi động lại máy và thưởng thức!!
+
+**12/04/2020**
+- Thêm GUI khởi động cho OpenCore và âm thanh (tự kích hoạt âm thanh trong config.plist)
+- Tối ưu hoá. Loại bỏ 1 số phần không cần thiết
+- Chỉnh về chế độ cân bằng điện năng vs hiệu năng
+- Sửa lỗi DRM
+- Lỗi còn tồn tại: Thỉnh thoảng mất âm thanh sau khi khởi động từ Windows và chuyển sang MacOS (reset máy bằng giữ nút nguồn vài giây để âm thanh hoạt động lại)
 
 **09/04/2020**
 - Cập nhật OpenCore lên v0.5.8

@@ -1,9 +1,17 @@
 **Installation**
 1. Make installation device and install MacOS to your PC (use Clover folder)
 2. Download **OC** folder and **Boot** folder copy it to your PC folder
-3. Copy VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext from /EFI/OC/Kexts/ and install them to /L/E then rebuild cache using Hackintool.
-4. Set Bootx64.efi to first boot in UEFI Setup
-5. Restart and enjoy your hackintosh
+3. Edit **PlatformInfo** in **config.plist** (Generate new MacInfo: [https://github.com/corpnewt/GenSMBIOS])
+4. Copy VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext from **/EFI/OC/Kexts/** and install them to **/L/E** then rebuild cache using *Hackintool*.
+5. Set **Bootx64.efi** to first boot in **UEFI Setup**
+6. Restart and enjoy your hackintosh
+
+**2020/04/12**
+- Add GUI for OpenCore by OpenCanopy
+- Add startup sound (manually enable in config.plist)
+- Optimized. Remove some unused things.
+- Fixed DRM
+- Known issues: Sometimes lost sound after booting to Windows and come back MacOS (try to hard-reset your PC to make sound working again)
 
 **2020/04/09**
 - Update OpenCore to v0.5.8 (newest config)

@@ -1,0 +1,123 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Reset BGRT table Displayed status field to false.\nThis works around firmwares that provide BGRT table but fail to handle screen updates afterwards."; ObjectID = "0zY-cF-e9r"; */
+"0zY-cF-e9r.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Reset BGRT table Displayed status field to false.\nThis works around firmwares that provide BGRT table but fail to handle screen updates afterwards.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "1. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n2. Count\nType: plist integer\nDefault value: 0\nDescription: Number of patch occurrences to apply. 0 applies the patch to all occurrences found.\n3. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI patch will not be used unless set to true.\n4. Find\nType: plist data\nDefault value: Empty data\nDescription: Data to find. Must equal to Replace in size.\n5. Limit\nType: plist integer\nDefault value: 0\nDescription: Maximum number of bytes to search for. Can be set to 0 to look through the whole ACPI table.\n6. Mask\nType: plist data\nDefault value: Empty data\nDescription: Data bitwise mask used during find comparison. Allows fuzzy search by ignoring not masked (set to zero) bits. Can be set to empty data to be ignored. Must equal to Replace in size otherwise.\n7. OemTableId\nType: plist data, 8 bytes\nDefault value: All zero\nDescription: Match table OEM ID to be equal to this value unless all zero.\n8. Replace\nType: plist data\nDefault value: Empty data\nDescription: Replacement data of one or more bytes.\n9. ReplaceMask\nType: plist data\nDefault value: Empty data\nDescription: Data bitwise mask used during replacement. Allows fuzzy replacement by updating masked (set to non-zero) bits. Can be set to empty data to be ignored. Must equal to Replace in size otherwise.\n10. Skip\nType: plist integer\nDefault value: 0\nDescription: Number of found occurrences to be skipped before replacement is done.\n11. TableLength\nType: plist integer\nDefault value: 0\nDescription: Match table size to be equal to this value unless 0.\n12. TableSignature Type:\ntextttplist data, 4 bytes\nDefault value: All zero\nDescription: Match table signature to be equal to this value unless all zero."; ObjectID = "2tM-Ig-MFJ"; */
+"2tM-Ig-MFJ.ibShadowedToolTip" = "1. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n2. Count\nType: plist integer\nDefault value: 0\nDescription: Number of patch occurrences to apply. 0 applies the patch to all occurrences found.\n3. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI patch will not be used unless set to true.\n4. Find\nType: plist data\nDefault value: Empty data\nDescription: Data to find. Must equal to Replace in size.\n5. Limit\nType: plist integer\nDefault value: 0\nDescription: Maximum number of bytes to search for. Can be set to 0 to look through the whole ACPI table.\n6. Mask\nType: plist data\nDefault value: Empty data\nDescription: Data bitwise mask used during find comparison. Allows fuzzy search by ignoring not masked (set to zero) bits. Can be set to empty data to be ignored. Must equal to Replace in size otherwise.\n7. OemTableId\nType: plist data, 8 bytes\nDefault value: All zero\nDescription: Match table OEM ID to be equal to this value unless all zero.\n8. Replace\nType: plist data\nDefault value: Empty data\nDescription: Replacement data of one or more bytes.\n9. ReplaceMask\nType: plist data\nDefault value: Empty data\nDescription: Data bitwise mask used during replacement. Allows fuzzy replacement by updating masked (set to non-zero) bits. Can be set to empty data to be ignored. Must equal to Replace in size otherwise.\n10. Skip\nType: plist integer\nDefault value: 0\nDescription: Number of found occurrences to be skipped before replacement is done.\n11. TableLength\nType: plist integer\nDefault value: 0\nDescription: Match table size to be equal to this value unless 0.\n12. TableSignature Type:\ntextttplist data, 4 bytes\nDefault value: All zero\nDescription: Match table signature to be equal to this value unless all zero.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "4j9-uJ-Gbu"; */
+"4j9-uJ-Gbu.headerCell.title" = "Mask";
+
+/* Class = "NSButtonCell"; title = "NormalizeHeaders"; ObjectID = "6NS-cZ-NZu"; */
+"6NS-cZ-NZu.title" = "NormalizeHeaders";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "1. All\nType: plist boolean\nDefault value: false\nDescription: If set to true, all ACPI tables matching the condition will be dropped. Otherwise only first matched table.\n2. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI table will not be removed unless set to true.\n4. OemTableId\nType: plist data, 8 bytes\nDefault value: All zero\nDescription: Match table OEM ID to be equal to this value unless all zero.\n5. TableLength\nType: plist integer\nDefault value: 0\nDescription: Match table size to be equal to this value unless 0.\n6. TableSignature\nType: plist data, 4 bytes\nDefault value: All zero\nDescription: Match table signature to be equal to this value unless all zero.\n\nNote: Make sure not to specify table signature when the sequence needs to be replaced in multiple places. Especially when performing different kinds of renames."; ObjectID = "8sm-zn-vNl"; */
+"8sm-zn-vNl.ibShadowedToolTip" = "1. All\nType: plist boolean\nDefault value: false\nDescription: If set to true, all ACPI tables matching the condition will be dropped. Otherwise only first matched table.\n2. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI table will not be removed unless set to true.\n4. OemTableId\nType: plist data, 8 bytes\nDefault value: All zero\nDescription: Match table OEM ID to be equal to this value unless all zero.\n5. TableLength\nType: plist integer\nDefault value: 0\nDescription: Match table size to be equal to this value unless 0.\n6. TableSignature\nType: plist data, 4 bytes\nDefault value: All zero\nDescription: Match table signature to be equal to this value unless all zero.\n\nNote: Make sure not to specify table signature when the sequence needs to be replaced in multiple places. Especially when performing different kinds of renames.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "1. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n\n2. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI table will not be added unless set to true.\n\n3. Path\nType: plist string\nDefault value: Empty string\nDescription: File paths meant to be loaded as ACPI tables. Example values include DSDT.aml, SubDir/SSDT-8.aml, SSDT-USBX.aml, etc.\n\nACPI table load order follows the item order in the array. All ACPI tables load from OC/ACPI/Custom directory. Note: All tables but tables with DSDT table identifier (determined by parsing data not by filename) insert new tables into ACPI stack. DSDT, unlike the rest, performs replacement of DSDT table."; ObjectID = "9ZU-zR-Tmy"; */
+"9ZU-zR-Tmy.ibShadowedToolTip" = "1. Comment\nType: plist string\nDefault value: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n\n2. Enabled\nType: plist boolean\nDefault value: false\nDescription: This ACPI table will not be added unless set to true.\n\n3. Path\nType: plist string\nDefault value: Empty string\nDescription: File paths meant to be loaded as ACPI tables. Example values include DSDT.aml, SubDir/SSDT-8.aml, SSDT-USBX.aml, etc.\n\nACPI table load order follows the item order in the array. All ACPI tables load from OC/ACPI/Custom directory. Note: All tables but tables with DSDT table identifier (determined by parsing data not by filename) insert new tables into ACPI stack. DSDT, unlike the rest, performs replacement of DSDT table.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "A4Q-If-0AG"; */
+"A4Q-If-0AG.headerCell.title" = "Skip";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "CVl-gt-v4L"; */
+"CVl-gt-v4L.headerCell.title" = "TableLength";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "CbM-86-go4"; */
+"CbM-86-go4.headerCell.title" = "Path*";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "DxA-Lh-I4Q"; */
+"DxA-Lh-I4Q.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "FLp-3q-DSv"; */
+"FLp-3q-DSv.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "JFF-S2-t99"; */
+"JFF-S2-t99.headerCell.title" = "ReplaceMask";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "JjS-7V-0PV"; */
+"JjS-7V-0PV.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "K4n-vm-jxn"; */
+"K4n-vm-jxn.headerCell.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "Kbb-Cq-tfz"; */
+"Kbb-Cq-tfz.title" = "List Of Patches";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "MtH-av-7W0"; */
+"MtH-av-7W0.headerCell.title" = "TableLength";
+
+/* Class = "NSButtonCell"; title = "Browse"; ObjectID = "Ndv-7C-25y"; */
+"Ndv-7C-25y.title" = "Browse";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "NtB-gi-4nw"; */
+"NtB-gi-4nw.headerCell.title" = "Replace";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "Nxc-pO-D4k"; */
+"Nxc-pO-D4k.headerCell.title" = "OemTableId";
+
+/* Class = "NSButtonCell"; title = "RebaseRegions"; ObjectID = "OG6-fc-Q9m"; */
+"OG6-fc-Q9m.title" = "RebaseRegions";
+
+/* Class = "NSTextFieldCell"; title = "Multiple selection allowed"; ObjectID = "SPY-Vf-Izp"; */
+"SPY-Vf-Izp.title" = "Multiple selection allowed";
+
+/* Class = "NSButtonCell"; title = "ResetHwSig"; ObjectID = "Z6k-wb-4yC"; */
+"Z6k-wb-4yC.title" = "ResetHwSig";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "c8a-dM-DNw"; */
+"c8a-dM-DNw.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "cAx-1U-xJ9"; */
+"cAx-1U-xJ9.headerCell.title" = "Comment";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Cleanup ACPI header fields to workaround macOS ACPI implementation bug causing boot crashes. Reference: Debugging AppleACPIPlatform on 10.13 by Alex James aka theracermaster. The issue is fixed in macOS Mojave (10.14)."; ObjectID = "eza-Xg-dPF"; */
+"eza-Xg-dPF.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Cleanup ACPI header fields to workaround macOS ACPI implementation bug causing boot crashes. Reference: Debugging AppleACPIPlatform on 10.13 by Alex James aka theracermaster. The issue is fixed in macOS Mojave (10.14).";
+
+/* Class = "NSButtonCell"; title = "ResetLogoStatus"; ObjectID = "fCv-Py-taQ"; */
+"fCv-Py-taQ.title" = "ResetLogoStatus";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "gIS-d5-pG5"; */
+"gIS-d5-pG5.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "ger-9o-NnS"; */
+"ger-9o-NnS.headerCell.title" = "Limit";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "hIr-Vr-rVp"; */
+"hIr-Vr-rVp.headerCell.title" = "Count";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Attempt to heuristically relocate ACPI memory regions. Not recommended.\n\nACPI tables are often generated dynamically by underlying firmware implementation. Among the position- independent code, ACPI tables may contain physical addresses of MMIO areas used for device configuration, usually grouped in regions (e.g. OperationRegion). Changing firmware settings or hardware configuration, upgrading or patching the firmware inevitably leads to changes in dynamically generated ACPI code, which sometimes lead to the shift of the addresses in aforementioned OperationRegion constructions.\nFor this reason it is very dangerous to apply any kind of modifications to ACPI tables. The most reasonable approach is to make as few as possible changes to ACPI and try to not replace any tables, especially DSDT. When this is not possible, then at least attempt to ensure that custom DSDT is based on the most recent DSDT or remove writes and reads for the affected areas.\nWhen nothing else helps this option could be tried to avoid stalls at PCI Configuration Begin phase of macOS booting by attempting to fix the ACPI addresses. It does not do magic, and only works with most common cases. Do not use unless absolutely required."; ObjectID = "iWF-dk-0VK"; */
+"iWF-dk-0VK.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Attempt to heuristically relocate ACPI memory regions. Not recommended.\n\nACPI tables are often generated dynamically by underlying firmware implementation. Among the position- independent code, ACPI tables may contain physical addresses of MMIO areas used for device configuration, usually grouped in regions (e.g. OperationRegion). Changing firmware settings or hardware configuration, upgrading or patching the firmware inevitably leads to changes in dynamically generated ACPI code, which sometimes lead to the shift of the addresses in aforementioned OperationRegion constructions.\nFor this reason it is very dangerous to apply any kind of modifications to ACPI tables. The most reasonable approach is to make as few as possible changes to ACPI and try to not replace any tables, especially DSDT. When this is not possible, then at least attempt to ensure that custom DSDT is based on the most recent DSDT or remove writes and reads for the affected areas.\nWhen nothing else helps this option could be tried to avoid stalls at PCI Configuration Begin phase of macOS booting by attempting to fix the ACPI addresses. It does not do magic, and only works with most common cases. Do not use unless absolutely required.";
+
+/* Class = "NSTableColumn"; headerCell.title = "All"; ObjectID = "iwn-0u-n3y"; */
+"iwn-0u-n3y.headerCell.title" = "All";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "jB3-Fa-Mq9"; */
+"jB3-Fa-Mq9.label" = "Patch";
+
+/* Class = "NSButtonCell"; title = "FadtEnableReset"; ObjectID = "l7b-Bk-2B3"; */
+"l7b-Bk-2B3.title" = "FadtEnableReset";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "mHJ-L1-J8M"; */
+"mHJ-L1-J8M.headerCell.title" = "TableSignature*";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "qk5-w1-h2Q"; */
+"qk5-w1-h2Q.headerCell.title" = "OemTableId";
+
+/* Class = "NSTabViewItem"; label = "Block"; ObjectID = "swX-ck-WbC"; */
+"swX-ck-WbC.label" = "Block";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reset FACS table HardwareSignature value to 0.\nThis works around firmwares that fail to maintain hardware signature across the reboots and cause issues with waking from hibernation."; ObjectID = "u3f-B9-p1e"; */
+"u3f-B9-p1e.ibShadowedToolTip" = "Type: plist boolean\nFailsafe: false\nDescription: Reset FACS table HardwareSignature value to 0.\nThis works around firmwares that fail to maintain hardware signature across the reboots and cause issues with waking from hibernation.";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "wld-sU-lGp"; */
+"wld-sU-lGp.headerCell.title" = "TableSignature*";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Provide reset register and flag in FADT table to enable reboot and shutdown on legacy hardware. Not recommended unless required."; ObjectID = "xYB-OX-ce7"; */
+"xYB-OX-ce7.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Provide reset register and flag in FADT table to enable reboot and shutdown on legacy hardware. Not recommended unless required.";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "y3O-8J-sex"; */
+"y3O-8J-sex.label" = "Add";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "z8k-hB-WoQ"; */
+"z8k-hB-WoQ.headerCell.title" = "Enabled";

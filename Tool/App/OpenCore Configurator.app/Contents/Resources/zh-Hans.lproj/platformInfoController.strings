@@ -1,0 +1,447 @@
+
+/* Class = "NSTextFieldCell"; title = "SmcVersion"; ObjectID = "01x-DY-Yh2"; */
+"01x-DY-Yh2.title" = "SmcVersion";
+
+/* Class = "NSTabViewItem"; label = "DataHub - Generic - PlatformNVRAM"; ObjectID = "0SG-Wz-rih"; */
+"0SG-Wz-rih.label" = "DataHub  -  Generic  -  PlatformNVRAM";
+
+/* Class = "NSTextFieldCell"; title = "UpdateSMBIOSMode"; ObjectID = "0uc-j4-cpH"; */
+"0uc-j4-cpH.title" = "UpdateSMBIOSMode";
+
+/* Class = "NSTextFieldCell"; title = "ROM"; ObjectID = "1Sc-Fb-KaM"; */
+"1Sc-Fb-KaM.title" = "ROM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets InitialTSC in gEfiProcessorSubClassGuid. Sets initial TSC value, normally 0."; ObjectID = "2Oj-go-m5S"; */
+"2Oj-go-m5S.ibShadowedToolTip" = "默认值:0\n描述:在gEfiProcessorSubClassGuid中设置InitialTSC。设置初始TSC值，通常为0。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "38m-qA-it7"; */
+"38m-qA-it7.ibShadowedToolTip" = "从plist\nDefault值添加或删除此部分:添加";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "4bx-F9-aab"; */
+"4bx-F9-aab.title" = "生成";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeatures and ExtendedFirmwareFeatures Description: 64-bit firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeatures. Upper 64 bits match ExtendedFirmwareFeatures."; ObjectID = "4l3-Do-kcw"; */
+"4l3-Do-kcw.ibShadowedToolTip" = "默认值:0\nSMBIOS:APPLE_SMBIOS_TABLE_TYPE128  -  FirmwareFeatures和ExtendedFirmwareFeatures说明:64位固件具有位掩码。有关更多详细信息，请参阅AppleFeatures.h。低32位与FirmwareFeatures匹配。高64位与ExtendedFirmwareFeatures匹配。";
+
+/* Class = "NSTextFieldCell"; title = "PlatformNVRAM"; ObjectID = "5bx-Mf-EOd"; */
+"5bx-Mf-EOd.title" = "PlatformNVRAM";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "67d-7j-Elg"; */
+"67d-7j-Elg.title" = "Serial Number";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeatures. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeaturesMask\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeaturesMask"; ObjectID = "6Kd-rJ-POa"; */
+"6Kd-rJ-POa.ibShadowedToolTip" = "默认值:未安装\n描述:此变量与FirmwareFeatures配对。指定NVRAM变量的值:\n•4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeaturesMask\n•4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeaturesMask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Release Date\nDescription: Firmware release date. Similar to BIOSVersion. May look like 12/08/2017."; ObjectID = "6gn-IY-sd7"; */
+"6gn-IY-sd7.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:BIOS信息（类型0） -  BIOS发布日期\n说明:固件发布日期。与BIOSVersion相似。可能看起来像12/08/2017。";
+
+/* Class = "NSTextFieldCell"; title = "Startup Power Events"; ObjectID = "7XG-zt-wiU"; */
+"7XG-zt-wiU.title" = "Startup Power Events";
+
+/* Class = "NSTextFieldCell"; title = "SKU Number"; ObjectID = "7ZS-hv-cMX"; */
+"7ZS-hv-cMX.title" = "SKU Number";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "7eK-xY-ftU"; */
+"7eK-xY-ftU.title" = "Version";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "7qD-we-NcT"; */
+"7qD-we-NcT.title" = "Version";
+
+/* Class = "NSButtonCell"; title = "UpdateNVRAM"; ObjectID = "8Bn-0E-TZu"; */
+"8Bn-0E-TZu.title" = "UpdateNVRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: MacPro6,1\nDescription: Refer to SMBIOS SystemProductName."; ObjectID = "8g1-Si-2Vs"; */
+"8g1-Si-2Vs.ibShadowedToolTip" = "默认值:MacPro6,1\n说明:请参阅SMBIOS SystemProductName。";
+
+/* Class = "NSTextFieldCell"; title = "DataHub"; ObjectID = "8wz-5k-5Zd"; */
+"8wz-5k-5Zd.title" = "DataHub";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "9UV-S4-eO3"; */
+"9UV-S4-eO3.title" = "生成";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type: plist string\nDefault value: Auto\nDescription: Update SMBIOS fields approach:\n• Auto — Overwrite if new size is <= than the page-aligned original and there are no issues with legacy region unlock. Create otherwise.\n• Create — Replace the tables with newly allocated EfiReservedMemoryType at AllocateMaxAddress without any fallbacks.\n• Overwrite — Overwrite existing gEfiSmbiosTableGuid and gEfiSmbiosTable3Guid data if it fits new size. Abort with unspecified state otherwise.\n• Custom — Write first SMBIOS table (gEfiSmbiosTableGuid) to gOcCustomSmbiosTableGuid to workaround firmwares overwriting SMBIOS contents at ExitBootServices. Otherwise equivalent to Create. Requires patching AppleSmbios.kext and AppleACPIPlatform.kext to read from another GUID: \"EB9D2D31\" -> \"EB9D2D35\" (in ASCII)."; ObjectID = "9o2-8y-dq6"; */
+"9o2-8y-dq6.ibShadowedToolTip" = "AUTO--通常使用Auto(自动)或Create(创建即可--(推荐Auto)\nCustom--Dell机器应选择Custom(自定义)\nOverWrite(覆盖)--覆盖现有的SmbiosTableGUID数据(不推荐)-如果当SmbiosTableGUID覆盖过程中无法匹配新的大小则操作会被终止而导致SMBIOS数据注入失败，引导时无法绕过兼容性检查出现开机禁行--报错 ：This Version of MacOS X is not Supported on this Platform";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean \nFailsafe: false \nDescription: Forces Windows support in FirmwareFeatures. \nAdded bits to FirmwareFeatures:\n• FW_FEATURE_SUPPORTS_CSM_LEGACY_MODE (0x1) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being not the first partition on the disk.\n• FW_FEATURE_SUPPORTS_UEFI_WINDOWS_BOOT (0x20000000) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being the first partition on the disk."; ObjectID = "9sY-PL-wkx"; */
+"9sY-PL-wkx.ibShadowedToolTip" = "如果WINDOWS的EFI分区不是磁盘上的第一个分区启用它，不然有可能无法引导WINDOWS。";
+
+/* Class = "NSTextFieldCell"; title = "UUID"; ObjectID = "ADr-qW-Bb4"; */
+"ADr-qW-Bb4.title" = "UUID";
+
+/* Class = "NSTextFieldCell"; title = "BIOS"; ObjectID = "AuX-4b-jtu"; */
+"AuX-4b-jtu.title" = "BIOS";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets name in gEfiMiscSubClassGuid. Value found on Macs is platform in ASCII."; ObjectID = "BJm-4X-red"; */
+"BJm-4X-red.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置名称。在Mac上找到的值是ASCII平台。";
+
+/* Class = "NSTextFieldCell"; title = "Board"; ObjectID = "CDl-Mt-vej"; */
+"CDl-Mt-vej.title" = "Board";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets StartupPowerEvents in gEfiMiscSubClassGuid. Value found on Macs is power management state bitmask, normally 0. Known bits read by X86PlatformPlugin.kext:\n• 0x00000001 — Shutdown cause was a PWROK event (Same as GEN_PMCON_2 bit 0)\n• 0x00000002 — Shutdown cause was a SYS_PWROK event (Same as GEN_PMCON_2 bit 1)\n• 0x00000004 — Shutdown cause was a THRMTRIP# event (Same as GEN_PMCON_2 bit 3)\n• 0x00000008 — Rebooted due to a SYS_RESET# event (Same as GEN_PMCON_2 bit 4)\n• 0x00000010 — Power Failure (Same as GEN_PMCON_3 bit 1 PWR_FLR)\n• 0x00000020 — Loss of RTC Well Power (Same as GEN_PMCON_3 bit 2 RTC_PWR_STS)\n• 0x00000040 — General Reset Status (Same as GEN_PMCON_3 bit 9 GEN_RST_STS)\n• 0xffffff80 — SUS Well Power Loss (Same as GEN_PMCON_3 bit 14)\n• 0x00010000 — Wake cause was a ME Wake event (Same as PRSTS bit 0, ME_WAKE_STS)\n• 0x00020000 — Cold Reboot was ME Induced event (Same as PRSTS bit 1 ME_HRST_COLD_STS) • 0x00040000 — Warm Reboot was ME Induced event (Same as PRSTS bit 2 ME_HRST_WARM_STS) • 0x00080000 — Shutdown was ME Induced event (Same as PRSTS bit 3 ME_HOST_PWRDN)\n• 0x00100000 — Global reset ME Wachdog Timer event (Same as PRSTS bit 6)\n• 0x00200000 — Global reset PowerManagment Wachdog Timer event (Same as PRSTS bit 15)"; ObjectID = "CdO-kb-3WH"; */
+"CdO-kb-3WH.ibShadowedToolTip" = "默认值:0\n描述:在gEfiMiscSubClassGuid中设置StartupPowerEvents。在Mac上找到的值是电源管理状态位掩码，通常为0. X86PlatformPlugin.kext读取的已知位:\n•0x00000001  - 关闭原因是PWROK事件（与GEN_PMCON_2位0相同）\n•0x00000002  - 关闭原因是SYS_PWROK事件（与GEN_PMCON_2位1相同）\n•0x00000004  - 关闭原因是THRMTRIP＃事件（与GEN_PMCON_2位3相同）\n•0x00000008  - 由于SYS_RESET＃事件而重新启动（与GEN_PMCON_2位4相同）\n•0x00000010  - 电源故障（与GEN_PMCON_3位1 PWR_FLR相同）\n•0x00000020  -  RTC电源损耗（与GEN_PMCON_3位2 RTC_PWR_STS相同）\n•0x00000040  - 通用复位状态（与GEN_PMCON_3位9 GEN_RST_STS相同）\n•0xffffff80  -  SUS功率损耗良好（与GEN_PMCON_3位14相同）\n•0x00010000  - 唤醒原因是ME唤醒事件（与PRSTS位0相同，ME_WAKE_STS）\n•0x00020000  - 冷重启是ME诱发事件（与PRSTS位1 ME_HRST_COLD_STS相同） •0x00040000  - 热重启是ME诱发事件（与PRSTS位2 ME相同_HRST_WARM_STS）•0x00080000  - 关闭是ME诱发事件（与PRSTS位3 ME_HOST_PWRDN相同）\n•0x00100000  - 全局复位ME Wachdog定时器事件（与PRSTS位6相同）\n•0x00200000  - 全局复位PowerManagment Wachdog定时器事件（与PRSTS第15位）";
+
+/* Class = "NSTextFieldCell"; title = "MemoryFormFactor"; ObjectID = "CxA-si-OgU"; */
+"CxA-si-OgU.title" = "MemoryFormFactor";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Asset Tag Number Description: Chassis type name. Varies, could be empty or MacBook-Aluminum."; ObjectID = "D26-kV-2wQ"; */
+"D26-kV-2wQ.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统机箱或机箱（类型3） - 资产标签号说明:机箱类型名称。各种各样，可能是空的或MacBook-Aluminium。";
+
+/* Class = "NSTextFieldCell"; title = "Asset Tag"; ObjectID = "FGe-q0-v48"; */
+"FGe-q0-v48.title" = "Asset Tag";
+
+/* Class = "NSButtonCell"; title = "UpdateDataHub"; ObjectID = "FvU-m3-lup"; */
+"FvU-m3-lup.title" = "UpdateDataHub";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Asset Tag\nDescription: Asset tag number. Varies, may be empty or Type2 - Board Asset Tag."; ObjectID = "GJj-A4-bd9"; */
+"GJj-A4-bd9.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 资产标签\n说明:资产标签号。变化，可能是空的或Type2  - 董事会资产标签。";
+
+/* Class = "NSTextFieldCell"; title = "Product Name"; ObjectID = "GbE-LE-4eK"; */
+"GbE-LE-4eK.title" = "Product Name";
+
+/* Class = "NSTextFieldCell"; title = "Board Revision"; ObjectID = "GiG-2a-PMR"; */
+"GiG-2a-PMR.title" = "Board Revision";
+
+/* Class = "NSTextFieldCell"; title = "Platform Name"; ObjectID = "Gud-fK-xY5"; */
+"Gud-fK-xY5.title" = "Platform Name";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Version\nDescription: Product iteration version number. May look like 1.1"; ObjectID = "Hjz-kh-KPV"; */
+"Hjz-kh-KPV.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） - 版本\n描述:产品迭代版本号。可能看起来像1.1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "IJO-Va-YDO"; */
+"IJO-Va-YDO.ibShadowedToolTip" = "从plist添加或删除此部分:\n默认值:添加";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "IqG-Mw-D8N"; */
+"IqG-Mw-D8N.title" = "在config.plist里添加此部分内容";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — SKU Number\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models. Sometimes it can be just empty."; ObjectID = "J9G-p3-A50"; */
+"J9G-p3-A50.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） -  SKU编号\n说明:Mac Board ID（board-id）。在旧型号中可能看起来像Mac-7BA5B2D9E42DDD94或Mac-F221BEC8。有时它可能只是空的。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RPlt in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RPlt key."; ObjectID = "JBr-Jy-s8V"; */
+"JBr-Jy-s8V.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置RPlt。 VirtualSMC或FakeSMC读取的自定义属性，用于生成SMC RPlt密钥。";
+
+/* Class = "NSTextFieldCell"; title = "System UUID"; ObjectID = "JCc-EO-5xz"; */
+"JCc-EO-5xz.title" = "System UUID";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "JEO-9d-aFI"; */
+"JEO-9d-aFI.title" = "在config.plist里添加此部分内容";
+
+/* Class = "NSButtonCell"; title = "AdviseWindows"; ObjectID = "Jk7-vn-L68"; */
+"Jk7-vn-L68.title" = "AdviseWindows";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "KNP-Ab-25u"; */
+"KNP-Ab-25u.title" = "生成";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_MLB and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB"; ObjectID = "L5e-wR-9li"; */
+"L5e-wR-9li.ibShadowedToolTip" = "默认值:未安装\n说明:指定NVRAM变量的值4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_MLB和4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeaturesMask. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeatures\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeatures"; ObjectID = "L5k-Nq-H9Z"; */
+"L5k-Nq-H9Z.ibShadowedToolTip" = "默认值:未安装\n描述:此变量与FirmwareFeaturesMask配对。指定NVRAM变量的值:\n•4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeatures\n•4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeatures";
+
+/* Class = "NSTextFieldCell"; title = "Device Paths Supported"; ObjectID = "LHd-Wt-aT8"; */
+"LHd-Wt-aT8.title" = "支持的设备路径";
+
+/* Class = "NSTextFieldCell"; title = "Release Date"; ObjectID = "Lof-UF-S84"; */
+"Lof-UF-S84.title" = "Release Date";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "MRn-KI-kxS"; */
+"MRn-KI-kxS.title" = "生成";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "MW7-wk-hds"; */
+"MW7-wk-hds.title" = "Serial Number";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the value of NVRAM variable 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID."; ObjectID = "MpC-g9-pKJ"; */
+"MpC-g9-pKJ.ibShadowedToolTip" = "指定NVRAM变量4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID的值.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "N0I-Qi-97B"; */
+"N0I-Qi-97B.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Location In Chassis"; ObjectID = "NKp-1W-cwW"; */
+"NKp-1W-cwW.title" = "Location In Chassis";
+
+/* Class = "NSTextFieldCell"; title = "Features"; ObjectID = "Ntb-g0-8oU"; */
+"Ntb-g0-8oU.title" = "Features";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "Oqy-j7-kv6"; */
+"Oqy-j7-kv6.title" = "Manufacturer";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "PHO-4O-OIP"; */
+"PHO-4O-OIP.ibShadowedToolTip" = "从plist添加或删除此部分\n默认值:添加";
+
+/* Class = "NSSegmentedCell"; PVt-qS-yBp.ibShadowedLabels[0] = "Model Lookup"; ObjectID = "PVt-qS-yBp"; */
+"PVt-qS-yBp.ibShadowedLabels[0]" = "机型查询";
+
+/* Class = "NSSegmentedCell"; PVt-qS-yBp.ibShadowedLabels[1] = "Check Coverage"; ObjectID = "PVt-qS-yBp"; */
+"PVt-qS-yBp.ibShadowedLabels[1]" = "检查序列号有效性";
+
+/* Class = "NSTextFieldCell"; title = "System Product Name"; ObjectID = "Pwo-2A-1gv"; */
+"Pwo-2A-1gv.title" = "System Product Name";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "Q7C-PE-T4u"; */
+"Q7C-PE-T4u.title" = "Version";
+
+/* Class = "NSTextFieldCell"; title = "Vendor"; ObjectID = "R7K-qk-Tpk"; */
+"R7K-qk-Tpk.title" = "Vendor";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 16-bit\nDefault value: Automatic\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE131 - ProcessorType Description: Combined of Processor Major and Minor types."; ObjectID = "RLW-Hz-QKb"; */
+"RLW-Hz-QKb.ibShadowedToolTip" = "默认值:自动\nSMBIOS:APPLE_SMBIOS_TABLE_TYPE131  -  ProcessorType描述:处理器主要和次要类型的组合。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Family Description: Family name. May look like iMac Pro."; ObjectID = "Rag-wy-fpE"; */
+"Rag-wy-fpE.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） - 系列描述:系列名称。可能看起来像iMac Pro。";
+
+/* Class = "NSTextFieldCell"; title = "Generic"; ObjectID = "Rcs-Ds-NTm"; */
+"Rcs-Ds-NTm.title" = "Generic";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Generate PlatformInfo based on Generic section instead of using values from DataHub, NVRAM, and SMBIOS sections.\nEnabling this option is useful when Generic section is flexible enough. When enabled SMBIOS, DataHub, and PlatformNVRAM data is unused."; ObjectID = "RfW-jb-UfW"; */
+"RfW-jb-UfW.ibShadowedToolTip" = "选中此项时，OC不会应用DataHub ，PlatformNVRAM ，SMBIOS中的所有内容，\"自动\"选项要求必须配合Generic部分，详细内容OpenCore.efi会根据Generic中的SystemProductName 匹配完成所有自动填充。\n所以选择自动时，应该去掉这三个部分的\"在config.plist里添加此部分内容\"选择框，已防止这三部分内容在config文件里写入";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — Vendor\nDescription: BIOS Vendor. All rules of SystemManufacturer do apply."; ObjectID = "SO7-47-4Z3"; */
+"SO7-47-4Z3.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:BIOS信息（类型0） - 供应商\n说明:BIOS供应商。 SystemManufacturer的所有规则都适用。";
+
+/* Class = "NSTextFieldCell"; title = "Platform Feature"; ObjectID = "SVD-ga-fZP"; */
+"SVD-ga-fZP.title" = "Platform Feature";
+
+/* Class = "NSTextFieldCell"; title = "Firmware Features Mask"; ObjectID = "T2c-VK-Zji"; */
+"T2c-VK-Zji.title" = "Firmware Features Mask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: all zero\nDescription: Refer to 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM"; ObjectID = "TTj-aB-3ch"; */
+"TTj-aB-3ch.ibShadowedToolTip" = "<0x############> 可以是任意 6 Byte MAC 地址, 如 0x112233000000";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update SMBIOS fields. These fields are read from Generic or SMBIOS sections depending on Automatic value."; ObjectID = "U5f-5A-ryt"; */
+"U5f-5A-ryt.ibShadowedToolTip" = "必须选YES, 无论\"自动\"选项是否选择！";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "U5s-uE-f0J"; */
+"U5s-uE-f0J.ibShadowedToolTip" = "从plist\n默认值添加或删除此部分:添加";
+
+/* Class = "NSTabViewItem"; label = "SMBIOS"; ObjectID = "ULX-O6-vek"; */
+"ULX-O6-vek.label" = "机型";
+
+/* Class = "NSButtonCell"; title = "from SMBIOS"; ObjectID = "UNS-re-qUK"; */
+"UNS-re-qUK.title" = "来自机型";
+
+/* Class = "NSButtonCell"; title = "UpdateSMBIOS"; ObjectID = "Uzb-U1-Thj"; */
+"Uzb-U1-Thj.title" = "UpdateSMBIOS";
+
+/* Class = "NSButtonCell"; title = "from System"; ObjectID = "VKd-ep-fuP"; */
+"VKd-ep-fuP.title" = "来自系统";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: Automatic\nDescription: Sets FSBFrequency in gEfiProcessorSubClassGuid. Sets CPU FSB frequency."; ObjectID = "W2E-oe-9Uq"; */
+"W2E-oe-9Uq.ibShadowedToolTip" = "默认值:自动\n描述:在gEfiProcessorSubClassGuid中设置FSBFrequency。设置CPU FSB频率。";
+
+/* Class = "NSTextFieldCell"; title = "Board Product"; ObjectID = "WDt-qb-GcR"; */
+"WDt-qb-GcR.title" = "Board Product";
+
+/* Class = "NSTextFieldCell"; title = "ARTFrequency"; ObjectID = "WEo-Ob-3Vp"; */
+"WEo-Ob-3Vp.title" = "ARTFrequency";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Sets REV in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC REV key."; ObjectID = "X7k-fY-cFM"; */
+"X7k-fY-cFM.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置REV。由VirtualSMC或FakeSMC读取的自定义属性，用于生成SMC REV密钥。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Product\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models."; ObjectID = "X9U-bM-MRj"; */
+"X9U-bM-MRj.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 产品\n说明:Mac Board ID（board-id）。在旧型号中可能看起来像Mac-7BA5B2D9E42DDD94或Mac-F221BEC8。";
+
+/* Class = "NSTextFieldCell"; title = "MLB"; ObjectID = "XDd-C5-ehh"; */
+"XDd-C5-ehh.title" = "MLB";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update DataHub fields. These fields are read from Generic or DataHub sections depending on Automatic value."; ObjectID = "XRB-18-dHU"; */
+"XRB-18-dHU.ibShadowedToolTip" = "必须选YES, 无论\"自动\"选项是否选择！";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Board Type\nDescription: Either 0xA (Motherboard (includes processor, memory, and I/O) or 0xB (Processor/Memory Module), refer to Table 15 – Baseboard: Board Type for more details."; ObjectID = "YgB-Sp-EZ5"; */
+"YgB-Sp-EZ5.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 板类型\n描述:0xA（主板（包括处理器，内存和I / O）或0xB（处理器/内存）模块），请参阅表15  - 底板:电路板类型以获取更多详细信息。";
+
+/* Class = "NSButtonCell"; title = "Automatic"; ObjectID = "Yle-7s-0Gt"; */
+"Yle-7s-0Gt.title" = "自动";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply."; ObjectID = "YnG-4B-0S3"; */
+"YnG-4B-0S3.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统机箱或机箱（类型3） - 制造商说明:电路板制造商。 SystemManufacturer的所有规则都适用。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE133 - PlatformFeature\nDescription: Platform features bitmask. Refer to AppleFeatures.h for more details."; ObjectID = "Yog-wn-LaZ"; */
+"Yog-wn-LaZ.ibShadowedToolTip" = "默认值:0\nSMBIOS:APPLE_SMBIOS_TABLE_TYPE133  -  PlatformFeature\n说明:平台功能位掩码。有关更多详细信息，请参阅AppleFeatures.h。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Sets SMBIOS vendor fields to Acidanthera.\nIt is dangerous to use Apple in SMBIOS vendor fields for reasons given in SystemManufacturer description. However, certain firmwares may not provide valid values otherwise, which could break some software."; ObjectID = "Z8Z-8r-mnL"; */
+"Z8Z-8r-mnL.ibShadowedToolTip" = "选YES (仿冒制造商为 Acidanthera 来避免出现冲突)。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Serial Number\nDescription: Product serial number in defined format. Known formats are described in macserial."; ObjectID = "a03-aA-XtL"; */
+"a03-aA-XtL.ibShadowedToolTip" = "类型:plist字符串\n默认值:OEM指定\nSMBIOS:系统信息（类型1） - 序列号\n描述:定义格式的产品序列号。已知格式以macserial描述。";
+
+/* Class = "NSTextFieldCell"; title = "Features Mask"; ObjectID = "aAi-r5-EIk"; */
+"aAi-r5-EIk.title" = "Features Mask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Location in Chassis Description: Varies, may be empty or Part Component."; ObjectID = "aXB-A5-lJa"; */
+"aXB-A5-lJa.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 机箱中的位置说明:变化，可能为空或零件组件。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets SystemSerialNumber in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemSerialNumber in Unicode."; ObjectID = "agr-Am-FjN"; */
+"agr-Am-FjN.ibShadowedToolTip" = "默认值:未安装\n说明:在gEfiMiscSubClassGuid中设置SystemSerialNumber。在Mac上找到的值等于Unicode中的SMBIOS SystemSerialNumber。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RBr in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RBr key."; ObjectID = "bTa-i4-4eq"; */
+"bTa-i4-4eq.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置RBr。 VirtualSMC或FakeSMC读取的自定义属性，用于生成SMC RBr密钥。";
+
+/* Class = "NSTextFieldCell"; title = "System UUID"; ObjectID = "baC-2d-vGR"; */
+"baC-2d-vGR.title" = "System UUID";
+
+/* Class = "NSTextFieldCell"; title = "System Product Name"; ObjectID = "baG-Ud-vWe"; */
+"baG-Ud-vWe.title" = "System Product Name";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Version\nDescription: Board version number. Varies, may match SystemProductName or SystemProductVersion."; ObjectID = "cWR-8m-2Jn"; */
+"cWR-8m-2Jn.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 版本\n说明:电路板版本号。变化，可能与SystemProductName或SystemProductVersion匹配。";
+
+/* Class = "NSTextFieldCell"; title = "InitialTSC"; ObjectID = "dDc-Pn-pL2"; */
+"dDc-Pn-pL2.title" = "InitialTSC";
+
+/* Class = "NSTextFieldCell"; title = "Chassis"; ObjectID = "deV-WE-QcF"; */
+"deV-WE-QcF.title" = "Chassis";
+
+/* Class = "NSTextFieldCell"; title = "System"; ObjectID = "e0A-vD-ufi"; */
+"e0A-vD-ufi.title" = "System";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match BoardProduct."; ObjectID = "eGy-sp-yaM"; */
+"eGy-sp-yaM.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统机箱或机箱（类型3） - 版本描述:应匹配BoardProduct。";
+
+/* Class = "NSSegmentedCell"; eez-pY-d3O.ibShadowedLabels[0] = "Mac"; ObjectID = "eez-pY-d3O"; */
+"eez-pY-d3O.ibShadowedLabels[0]" = "Mac";
+
+/* Class = "NSSegmentedCell"; eez-pY-d3O.ibShadowedLabels[1] = "Hack"; ObjectID = "eez-pY-d3O"; */
+"eez-pY-d3O.ibShadowedLabels[1]" = "Hack";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "fWq-dP-cDy"; */
+"fWq-dP-cDy.title" = "在config.plist里添加此部分内容";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Type\nDescription: Chassis type, refer to Table 17 — System Enclosure or Chassis Types for more details."; ObjectID = "frw-3J-2Cg"; */
+"frw-3J-2Cg.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统机箱或机箱（类型3） - 键入\n说明:机箱类型，有关详细信息，请参阅表17  - 系统机箱或机箱类型。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — UUID\nDescription: A UUID is an identifier that is designed to be unique across both time and space. It requires no central registration process."; ObjectID = "fux-7e-g2r"; */
+"fux-7e-g2r.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） -  UUID\n描述:UUID是一个标识符，设计为在时间和空间上都是唯一的。它不需要中央注册过程。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match SystemSerialNumber."; ObjectID = "gTB-8E-Nin"; */
+"gTB-8E-Nin.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统机箱或机箱（类型3） - 版本描述:应与SystemSerialNumber匹配。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Manufacturer\nDescription: OEM manufacturer of the particular board. Shall not be specified unless strictly required. Should not contain Apple Inc., as this confuses numerous services present in the operating system, such as firmware updates, eficheck, as well as kernel extensions developed in Acidanthera, such as Lilu and its plugins."; ObjectID = "gqH-S3-VMd"; */
+"gqH-S3-VMd.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） - 制造商\n说明:特定电路板的OEM制造商。除非严格要求，否则不得指定。不应包含Apple Inc.，因为这会混淆操作系统中存在的大量服务，例如固件更新，eficheck，以及Acidanthera中开发的内核扩展，例如Lilu及其插件。";
+
+/* Class = "NSButtonCell"; title = "SpoofVendor"; ObjectID = "gyz-Gt-IQK"; */
+"gyz-Gt-IQK.title" = "SpoofVendor\n仿冒主板厂商";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "gzt-RV-VqZ"; */
+"gzt-RV-VqZ.title" = "Manufacturer";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Version\nDescription: Firmware version. This value gets updated and takes part in update delivery configuration and macOS version compatibility. This value could look like MM71.88Z.0234.B00.1809171422 in older firmwares, and is described in BiosId.h. In newer firmwares it should look like 236.0.0.0.0 or 220.230.16.0.0 (iBridge: 16.16.2542.0.0,0). iBridge version is read from BridgeOSVersion variable, and is only present on macs with T2."; ObjectID = "h4J-NQ-LcH"; */
+"h4J-NQ-LcH.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:BIOS信息（类型0） -  BIOS版本\n说明:固件版本。此值将更新并参与更新传递配置和macOS版本兼容性。在较旧的固件中，此值可能类似于MM71.88Z.0234.B00.1809171422，并在BiosId.h中进行了描述。在较新的固件中，它应该看起来像236.0.0.0.0或220.230.16.0.0（iBridge:16.16.2542.0.0,0）。从BridgeOSVersion变量读取iBridge版本，并且仅在具有T2的mac上显示。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets board-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS BoardProduct in ASCII."; ObjectID = "h7z-Be-rOD"; */
+"h7z-Be-rOD.ibShadowedToolTip" = "默认值:未安装\n说明:在gEfiMiscSubClassGuid中设置board-id。在Mac上找到的值等于ASCII中的SMBIOS BoardProduct。";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "hOi-c7-jOJ"; */
+"hOi-c7-jOJ.title" = "Type";
+
+/* Class = "NSTextFieldCell"; title = "MLB"; ObjectID = "hxm-Qi-SkM"; */
+"hxm-Qi-SkM.title" = "MLB";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "iJ4-50-puj"; */
+"iJ4-50-puj.title" = "生成";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeaturesMask and ExtendedFirmwareFeaturesMask Description: Supported bits of extended firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeaturesMask. Upper 64 bits match ExtendedFirmwareFeaturesMask."; ObjectID = "ih3-wv-2Kc"; */
+"ih3-wv-2Kc.ibShadowedToolTip" = "默认值:0\nSMBIOS:APPLE_SMBIOS_TABLE_TYPE128  -  FirmwareFeaturesMask和ExtendedFirmwareFeaturesMask描述:支持的扩展固件功能位掩码位。有关更多详细信息，请参阅AppleFeatures.h。低32位与FirmwareFeaturesMask匹配。高64位与ExtendedFirmwareFeaturesMask匹配。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: Not installed\nDescription: Sets system-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemUUID."; ObjectID = "iip-zN-Jsb"; */
+"iip-zN-Jsb.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置system-id。在Mac上找到的值等于SMBIOS SystemUUID。";
+
+/* Class = "NSTextFieldCell"; title = "Product"; ObjectID = "j1k-Mi-kEe"; */
+"j1k-Mi-kEe.title" = "Product";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: OEM specified\nDescription: Refer to SMBIOS SystemUUID."; ObjectID = "jaL-um-8Nb"; */
+"jaL-um-8Nb.ibShadowedToolTip" = "默认值:OEM指定\n说明:请参阅SMBIOS SystemUUID。";
+
+/* Class = "NSTextFieldCell"; title = "SmcBranch"; ObjectID = "jm3-qG-kzP"; */
+"jm3-qG-kzP.title" = "SmcBranch";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "jzf-Ga-G68"; */
+"jzf-Ga-G68.title" = "Manufacturer";
+
+/* Class = "NSTextFieldCell"; title = "ProcessorType"; ObjectID = "kwQ-r3-1fQ"; */
+"kwQ-r3-1fQ.title" = "ProcessorType";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "l5R-bG-c9M"; */
+"l5R-bG-c9M.title" = "Version";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "lvE-6L-IGl"; */
+"lvE-6L-IGl.title" = "在config.plist里添加此部分内容";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 8-bit\nDefault value: OEM specified\nSMBIOS: Memory Device (Type 17) — Form Factor\nDescription: Memory form factor. On Macs it should be DIMM or SODIMM."; ObjectID = "m9k-yK-AdV"; */
+"m9k-yK-AdV.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:内存设备（类型17） - 外形尺寸\n说明:内存形状因子。在Mac上它应该是DIMM或SODIMM。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply."; ObjectID = "mON-cg-FYL"; */
+"mON-cg-FYL.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 制造商描述:电路板制造商。 SystemManufacturer的所有规则都适用。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OPENCORE_SN1\nDescription: Refer to SMBIOS SystemSerialNumber."; ObjectID = "mPV-Tv-466"; */
+"mPV-Tv-466.ibShadowedToolTip" = "默认值:OPENCORE_SN1\n说明:请参阅SMBIOS SystemSerialNumber。";
+
+/* Class = "NSTextFieldCell"; title = "BID"; ObjectID = "mqi-pJ-IwL"; */
+"mqi-pJ-IwL.title" = "BID";
+
+/* Class = "NSTextFieldCell"; title = "SmcRevision"; ObjectID = "o2A-1V-M8O"; */
+"o2A-1V-M8O.title" = "SmcRevision";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets Model in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemProductName in Unicode."; ObjectID = "o9h-XT-hbD"; */
+"o9h-XT-hbD.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiMiscSubClassGuid中设置模型。在Mac上找到的值等于Unicode中的SMBIOS SystemProductName。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 16 bytes\nFailsafe: All zero\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE134 - Version\nDescription: ASCII string containing SMC version in upper case. Missing on T2 based Macs. Ignored when zero."; ObjectID = "oMm-l1-RDC"; */
+"oMm-l1-RDC.ibShadowedToolTip" = "去苹果官网看看你的三码是什么状态，但我们是黑苹果，嘿嘿，你懂得！";
+
+/* Class = "NSTextFieldCell"; title = "SmcPlatform"; ObjectID = "p5r-L2-V0b"; */
+"p5r-L2-V0b.title" = "SmcPlatform";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1), Product Name\nDescription: Preferred Mac model used to mark the device as supported by the operating system. This value must be specified by any configuration for later automatic generation of the related values in this and other SMBIOS tables and related configuration parameters. If SystemProductName is not compatible with the target operating system, -no_compat_check boot argument may be used as an override.\nNote: If SystemProductName is unknown, and related fields are unspecified, default values should be assumed as being set to MacPro6,1 data. The list of known products can be found in MacInfoPkg."; ObjectID = "p9S-yK-fiz"; */
+"p9S-yK-fiz.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1），产品名称\n说明:用于将设备标记为操作系统支持的首选Mac模型。必须通过任何配置指定此值，以便以后自动生成此SMBIOS表和其他SMBIOS表及相关配置参数中的相关值。如果SystemProductName与目标操作系统不兼容，则-no_compat_check引导参数可用作覆盖。\n注意:如果SystemProductName未知，并且未指定相关字段，则应假定默认值设置为MacPro6,1数据。可以在MacInfoPkg中找到已知产品列表。";
+
+/* Class = "NSTextFieldCell"; title = "Family"; ObjectID = "pbb-64-p0X"; */
+"pbb-64-p0X.title" = "Family";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: Not installed\nDescription: Sets ARTFrequency in gEfiProcessorSubClassGuid. Sets CPU ART frequency, Skylake and newer."; ObjectID = "qOV-63-yas"; */
+"qOV-63-yas.ibShadowedToolTip" = "默认值:未安装\n描述:在gEfiProcessorSubClassGuid中设置ARTFrequency。设置CPU ART频率，Skylake和更新。";
+
+/* Class = "NSTextFieldCell"; title = "Firmware"; ObjectID = "qoc-xS-eEN"; */
+"qoc-xS-eEN.title" = "Firmware";
+
+/* Class = "NSTextFieldCell"; title = "System Serial Number"; ObjectID = "quh-uV-8rJ"; */
+"quh-uV-8rJ.title" = "System Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "Asset Tag"; ObjectID = "rL4-uJ-e4c"; */
+"rL4-uJ-e4c.title" = "Asset Tag";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OPENCORE_MLB_SN11\nDescription: Refer to SMBIOS BoardSerialNumber."; ObjectID = "rLa-T9-n6A"; */
+"rLa-T9-n6A.ibShadowedToolTip" = "默认值:OPENCORE_MLB_SN11\n说明:请参阅SMBIOS BoardSerialNumber。";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "rjU-uH-nCF"; */
+"rjU-uH-nCF.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "System Serial Number"; ObjectID = "sXU-di-o5I"; */
+"sXU-di-o5I.title" = "System Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "ROM"; ObjectID = "t2F-TN-y72"; */
+"t2F-TN-y72.title" = "ROM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 1 byte\nDefault value: 0\nDescription: Sets board-rev in gEfiMiscSubClassGuid. Value found on Macs seems to correspond to internal board revision (e.g. 01)."; ObjectID = "vrV-lt-VAU"; */
+"vrV-lt-VAU.ibShadowedToolTip" = "默认值:0\n描述:在gEfiMiscSubClassGuid中设置board-rev。在Mac上找到的值似乎对应于内部板修订（例如01）。";
+
+/* Class = "NSTextFieldCell"; title = "FSBFrequency"; ObjectID = "wVQ-fG-k75"; */
+"wVQ-fG-k75.title" = "FSBFrequency";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "wqB-YC-Vht"; */
+"wqB-YC-Vht.title" = "Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "x5o-Jb-Da4"; */
+"x5o-Jb-Da4.title" = "Type";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Serial Number\nDescription: Board serial number in defined format. Known formats are described in macserial."; ObjectID = "xDD-P3-Saq"; */
+"xDD-P3-Saq.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:底板（或模块）信息（类型2） - 序列号\n说明:已定义格式的板序列号。已知格式以macserial描述。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 1 byte\nDefault value: Not installed\nDescription: Sets DevicePathsSupported in gEfiMiscSubClassGuid. Must be set to 01 for AppleACPIPlat- form.kext to append SATA device paths to Boot#### and efi-boot-device-data variables. Set to 01 on all modern Macs."; ObjectID = "yKq-oF-Y1T"; */
+"yKq-oF-Y1T.ibShadowedToolTip" = "默认值:未安装\n说明:在gEfiMiscSubClassGuid中设置DevicePathsSupported。对于AppleACPIPlat- form.kext，必须设置为01才能将SATA设备路径附加到Boot ####和efi-boot-device-data变量。在所有现代Mac上设置为01。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_ROM and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM"; ObjectID = "yhE-PH-xkY"; */
+"yhE-PH-xkY.ibShadowedToolTip" = "默认值:未安装\n说明:指定NVRAM变量的值4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_ROM和4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM";
+
+/* Class = "NSTextFieldCell"; title = "Firmware Features"; ObjectID = "z92-Rg-GSY"; */
+"z92-Rg-GSY.title" = "Firmware Features";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update NVRAM fields related to platform information.\nThese fields are read from Generic or PlatformNVRAM sections depending on Automatic value. All the other fields are to be specified with NVRAM section.\nIf UpdateNVRAM is set to false the aforementioned variables can be updated with NVRAM section. If UpdateNVRAM is set to true the behaviour is undefined when any of the fields are present in NVRAM section."; ObjectID = "zXC-sw-kEf"; */
+"zXC-sw-kEf.ibShadowedToolTip" = "必须选YES, 无论\"自动\"选项是否选择！";

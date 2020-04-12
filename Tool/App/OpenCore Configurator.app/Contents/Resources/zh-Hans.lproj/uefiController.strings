@@ -1,0 +1,315 @@
+
+/* Class = "NSButtonCell"; title = "AppleImageConversion"; ObjectID = "0AM-nb-Yrd"; */
+"0AM-nb-Yrd.title" = "AppleImageConversion";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple audio protocols with builtin versions.\nApple audio protocols allow macOS bootloader and OpenCore to play sounds and signals for screen reading or\naudible error reporting. Supported protocols are beep generation and VoiceOver. VoiceOver protocol is specific to Gibraltar machines (T2) and is not supported before macOS High Sierra (10.13). Instead older macOS versions use AppleHDA protocol, which is currently not implemented.\n\nOnly one set of audio protocols can be available at a time, so in order to get audio playback in OpenCore user interface on Mac system implementing some of these protocols this setting should be enabled.\n\nNote: Backend audio driver needs to be configured in UEFI Audio section for these protocols to be able to stream audio."; ObjectID = "0RZ-LX-aI2"; */
+"0RZ-LX-aI2.ibShadowedToolTip" = "重新安装具有内置版本的Apple音频协议。\nApple音频协议允许macOS引导程序和OpenCore播放声音和信号以进行屏幕阅读或声音错误报告。\n支持的协议是蜂鸣声生成和VoiceOver。 在macOS High Sierra（10.13）之前不受支持。相反，较早的macOS版本使用AppleHDA协议，该协议目前尚未实现。\n\n要在实现某些协议的Mac系统上的OpenCore用户界面中获得音频播放，应启用此设置。\n\n注意：需要在UEFI-->Audio部分中配置后端音频驱动程序，这些协议才能使用。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: NO\nDescription: Select firmwares, namely APTIO IV, may contain invalid values in MSR_FLEX_RATIO (0x194) MSR register. These values may cause macOS boot failure on Intel platforms.\nNote: While the option is not supposed to induce harm on unaffected firmwares, its usage is not recommended when it is not required."; ObjectID = "0Sc-nS-2YL"; */
+"0Sc-nS-2YL.ibShadowedToolTip" = "如果你没有在bios中解锁CFG，一定要选YES。";
+
+/* Class = "NSTextFieldCell"; title = "AudioDevice"; ObjectID = "0gM-HU-fz5"; */
+"0gM-HU-fz5.title" = "AudioDevice";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Play chime sound at startup.\n\nEnabling this setting plays boot chime through builtin audio support. Volume level is determined by MinimumVolume and VolumeAmplifier settings and SystemAudioVolume NVRAM variable.\n\nNote: this setting is separate from StartupMute NVRAM variable to avoid conflicts when the firmware is able to play boot chime."; ObjectID = "10Z-Yt-6vt"; */
+"10Z-Yt-6vt.ibShadowedToolTip" = "在启动时播放Duang的提示音。\n注意：此设置与StartupMute NVRAM变量分开，以避免在固件能够播放启动铃声时发生冲突。";
+
+/* Class = "NSTextFieldCell"; title = "DirectGopCacheMode"; ObjectID = "1JJ-Gt-7yy"; */
+"1JJ-Gt-7yy.title" = "DirectGopCacheMode";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reconnect console controllers after changing screen resolution.\nOn some firmwares when screen resolution is changed via GOP, it is required to reconnect the controllers, which produce the console protocols (simple text out). Otherwise they will not produce text based on the new resolution.\nNote: On several boards this logic may result in black screen when launching OpenCore from Shell and thus it is optional. In versions prior to 0.5.2 this option was mandatory and not configurable. Please do not use this unless required."; ObjectID = "1QT-lu-i79"; */
+"1QT-lu-i79.ibShadowedToolTip" = "有些固件在 GOP 分辨率改变后要求重新连接控制器才能输出文本, 开启这个选项会导致从 UEFI Shell 中启动 OpenCore 时直接黑屏, 尽量避免开启。\n如果你遇到开机直到登录界面之前一直是黑屏，请试试选择 YES。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Activate audio support by connecting to a backend driver.\n\nEnabling this setting routes audio playback from builtin protocols to a dedicated audio port (AudioOut) of the specified codec (AudioCodec) located on the audio controller (AudioDevice)."; ObjectID = "2zI-kW-5dk"; */
+"2zI-kW-5dk.ibShadowedToolTip" = "通过连接到后端驱动程序来激活音频支持(需要添加AudioDxe.efi驱动程序)。\n\n启用此设置会将音频播放从内置协议路由到位于音频控制器（AudioDevice）上的指定编解码器（AudioCodec）的专用音频端口（AudioOut）。";
+
+/* Class = "NSButtonCell"; title = "HashServices"; ObjectID = "33a-jy-EES"; */
+"33a-jy-EES.title" = "HashServices";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Request redirect of all Boot prefixed variables from EFI_GLOBAL_VARIABLE_GUID to OC_VENDOR_VARIABLE_GUID.\nThis quirk requires OC_FIRMWARE_RUNTIME protocol implemented in OpenRuntime.efi. The quirk lets default boot entry preservation at times when firmwares delete incompatible boot entries. Simply said, you are required to enable this quirk to be able to reliably use Startup Disk preference pane in a firmware that is not compatible with macOS boot entries by design."; ObjectID = "3Q0-sm-ooL"; */
+"3Q0-sm-ooL.ibShadowedToolTip" = "启用此项以便能够在与 macOS 引导项设计上不兼容的固件中可靠地使用[启动磁盘]设置。\n也和记住默认启动条目功能有关，推荐使用YES";
+
+/* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
+"3Ql-TM-Oiv.title" = "TimerResolution";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nFailsafe: empty string\nDescription: Set OEM protocol used for internal pointer driver.\nCurrently the only supported variant is ASUS, using specialised protocol available on select Z87 and Z97 ASUS boards."; ObjectID = "3mi-sh-qNa"; */
+"3mi-sh-qNa.ibShadowedToolTip" = "一般留空\n它使用了某些Z87和Z97 ASUS板上可用的专用协议。";
+
+/* Class = "NSButtonCell"; title = "RequestBootVarRouting"; ObjectID = "4Eq-ma-JKy"; */
+"4Eq-ma-JKy.title" = "RequestBootVarRouting";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Forcibly reinstalls unicode collation services with builtin version. Should be set to true to ensure UEFI Shell compatibility on platforms providing broken unicode collation. In general legacy Insyde and APTIO platforms on Ivy Bridge and earlier are affected."; ObjectID = "4bg-ao-G40"; */
+"4bg-ao-G40.ibShadowedToolTip" = "一般选 NO。\n一些较旧的固件破坏了 Unicode 排序规则, 设置为 YES 可以修复这些系统上 UEFI Shell 的兼容性 (通常为用于 IvyBridge 或更旧的设备)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Enable internal keyboard input translation to AppleKeyMapAggregator protocol.\nThis option activates the internal keyboard interceptor driver, based on AppleGenericInput aka AptioIntput), to fill AppleKeyMapAggregator database for input functioning. In case a separate driver is used, such as OpenUsbKbDxe, this option should never be enabled."; ObjectID = "4fK-xq-9AN"; */
+"4fK-xq-9AN.ibShadowedToolTip" = "开启 OC 的内置键盘支持,部分笔记本电脑在启动菜单界面无法使用键盘，请选择它！\n如果使用 AppleUsbKbdxe.efi 请设置为 NO";
+
+/* Class = "NSButtonCell"; title = "RequestBootVarFallback"; ObjectID = "51n-pL-3hs"; */
+"51n-pL-3hs.title" = "RequestBootVarFallback";
+
+/* Class = "NSTabViewItem"; label = "Audio"; ObjectID = "5Gm-fv-IpR"; */
+"5Gm-fv-IpR.label" = "Audio";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Type: plist array\nDefault value: None\nDescription: Load selected drivers from OC/Drivers directory.\nDesigned to be filled with string filenames meant to be loaded as UEFI drivers. Depending on the firmware a different set of drivers may be required. Loading an incompatible driver may lead your system to unbootable state or even cause permanent firmware damage. Some of the known drivers include:\n• ApfsDriverLoader — APFS file system bootstrap driver adding the support of embedded APFS drivers in bootable APFS containers in UEFI firmwares.\n• AudioDxe — HDA audio support driver in UEFI firmwares for most Intel and some other analog audio controllers.\n• ExFatDxe — Proprietary ExFAT file system driver for Bootcamp support commonly found in Apple firmwares. For Sandy Bridge and earlier CPUs ExFatDxeLegacy driver should be used due to the lack of RDRAND instruction support.\n• HfsPlus — Proprietary HFS file system driver with bless support commonly found in Apple firmwares. For Sandy Bridge and earlier CPUs HfsPlusLegacy driver should be used due to the lack of RDRAND instruction support.\n• HiiDatabase* — HII services support driver from MdeModulePkg. This driver is included in most firmwares starting with Ivy Bridge generation. Some applications with the GUI like UEFI Shell may need this driver to work properly.\n• EnhancedFatDxe — FAT filesystem driver from FatPkg. This driver is embedded in all UEFI firmwares, and cannot be used from OpenCore. It is known that multiple firmwares have a bug in their FAT support implementation, which leads to corrupted filesystems on write attempt. Embedding this driver within the firmware may be required in case writing to EFI partition is needed during the boot process.\n• NvmExpressDxe — NVMe support driver from MdeModulePkg. This driver is included in most firmwares starting with Broadwell generation. For Haswell and earlier embedding it within the firmware may be more favourable in case a NVMe SSD drive is installed.\nOpenCanopy* — OpenCore plugin implementing graphical interface.\nOpenRuntime* — OpenCore plugin implementing OC_FIRMWARE_RUNTIME protocol.\n• OpenUsbKbDxe* — USB keyboard driver adding the support of AppleKeyMapAggregator protocols on top of a custom USB keyboard driver implementation. This is an alternative to builtin KeySupport, which may work better or worse depending on the firmware.\n• VBoxHfs — HFS file system driver with bless support. This driver is an alternative to a closed source HfsPlus driver commonly found in Apple firmwares. While it is feature complete, it is approximately 3 times slower and is yet to undergo a security audit.\n• XhciDxe* — XHCI USB controller support driver from MdeModulePkg. This driver is included in most firmwares starting with Sandy Bridge generation. For earlier firmwares or legacy systems it may be used to support external USB 3.0 PCI cards.\n\nDriver marked with * are bundled with OpenCore. To compile the drivers from UDK (EDK II) use the same command you do normally use for OpenCore compilation, but choose a corresponding package:\ngit clone https://github.com/acidanthera/audk UDK cd UDK\nsource edksetup.sh\nmake -C BaseTools\nbuild -a X64 -b RELEASE -t XCODE5 -p FatPkg/FatPkg.dsc\nbuild -a X64 -b RELEASE -t XCODE5 -p MdeModulePkg/MdeModulePkg.dsc"; ObjectID = "6zo-Jl-Ryl"; */
+"6zo-Jl-Ryl.ibShadowedToolTip" = "从OC/Drivers目录加载选定的驱动程序。\n注意一下填入的顺序\n根据硬件不同，可能需要不同的驱动程序。加载不兼容的驱动程序可能导致系统进入无法启动状态，甚至导致永久性固件损坏。一些已知的驱动程序包括:\n•ApfsDriverLoader-APFS文件系统引导驱动程序，在UEFI固件的可启动APFS容器中添加了对嵌入式APFS驱动程序的支持。\n•FwRuntimeServices-可提高OpenCore和Lilu的安全性通过支持只读和只读NVRAM变量。有些怪癖（例如RequestBootVarRouting）需要此驱动程序才能正常运行。由于是runtime实时驱动程序的性质，即与目标操作系统并行运行，因此无法在OpenCore本身中实现，而是与OpenCore发行版捆绑在一起。\n•EnhancedFatDxe-FatPkg中的FAT文件系统驱动程序。此驱动程序已嵌入所有UEFI固件中，并且无法从OpenCore使用。众所周知，多种固件的FAT支持实现中都有错误，这会导致在尝试写操作时损坏文件系统。如果在引导过程中需要写入EFI分区，则可能需要将此驱动程序嵌入固件中。\n•NvmExpressDxe-来自MdeModulePkg的NVMe支持驱动程序。从Broadwell一代开始的大多数固件中都包含此驱动程序。对于Haswell及更早版本，如果安装了NVMe SSD驱动器，则将其更好地嵌入到固件中。\n•UsbKbDxe-USB键盘驱动程序在自定义USB键盘驱动程序实现的基础上增加了对AppleKeyMapAggregator协议的支持。这是内置KeySupport的替代方法。\n•VBoxHfs-具有支持HFS文件系统的驱动程序。此驱动程序可以替代Apple固件中常见的封闭源HFSPlus驱动程序。虽然功能齐全，但是大约速度慢3倍，并且尚未接受安全审核。\n•XhciDxe-MdeModulePkg中的XHCI USB控制器支持驱动程序。从Sandy Bridge代开始的大多数固件中都包含此驱动程序。对于较早的固件或旧系统，它可以用于支持外部USB 3.0 PCI卡\n•NdkBootPicker-标准OC第三方图形界面模块 ";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Perform UEFI controller connection after driver loading.\nThis option is useful for loading drivers following UEFI driver model, as they may not start by themselves. Examples of such drivers are filesystem or audio drivers. While effective, this option may not be necessary for drivers performing automatic connection, and may slightly slowdown the boot.\n\nNote: Some firmwares, made by Apple in particular, only connect the boot drive to speedup the boot process. Enable this option to be able to see all the boot options when having multiple drives."; ObjectID = "9f0-xd-rhT"; */
+"9f0-xd-rhT.ibShadowedToolTip" = "驱动程序加载后执行UEFI控制器连接。此选项对于加载文件系统驱动程序很有用，该文件系统驱动程序通常遵循UEFI驱动程序模型，并且可能无法自行启动。虽然有效，但此选项对于执行自动连接的驱动程序可能不是必需的，并且可能会稍微减慢启动速度。";
+
+/* Class = "NSButtonCell"; title = "FirmwareVolume"; ObjectID = "AW6-UR-4Ex"; */
+"AW6-UR-4Ex.title" = "FirmwareVolume";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Codec address on the specified audio controller for audio support. Normally this contains first audio codec address on the builtin analog audio controller (HDEF). Audio codec addresses, e.g. 2, can be found in the debug log: \nOCAU: 1/3 PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)/VenMsg(<redacted>,00000000) (4 outputs) \nOCAU: 2/3 PciRoot(0x0)/Pci(0x3,0x0)/VenMsg(<redacted>,00000000) (1 outputs)\nOCAU: 3/3 PciRoot(0x0)/Pci(0x1B,0x0)/VenMsg(<redacted>,02000000) (7 outputs)\n\nAs an alternative this value can be obtained from IOHDACodecDevice class in I/O Registry containing it in IOHDACodecAddress field."; ObjectID = "AZW-9D-hq6"; */
+"AZW-9D-hq6.ibShadowedToolTip" = "用于音频支持的指定音频控制器上的编解码器地址。通常，它包含内置模拟音频控制器（HDEF）上的第一个音频编解码器地址。音频编解码器地址，例如2，可以在调试日志中找到：\nOCAU: 1/3 PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)/VenMsg(<redacted>,00000000) (4 outputs) \nOCAU: 2/3 PciRoot(0x0)/Pci(0x3,0x0)/VenMsg(<redacted>,00000000) (1 outputs)\nOCAU: 3/3 PciRoot(0x0)/Pci(0x1B,0x0)/VenMsg(<redacted>,02000000) (7 outputs)\n\n或者，可以从I/O注册表软件中的IOHDACodecDevice类获取此值，该类包含在IOHDACodecAddress字段中。";
+
+/* Class = "NSButtonCell"; title = "AppleUserInterfaceTheme"; ObjectID = "BvY-5w-QBw"; */
+"BvY-5w-QBw.title" = "AppleUserInterfaceTheme";
+
+/* Class = "NSButtonCell"; title = "Browse"; ObjectID = "CLg-lY-N26"; */
+"CLg-lY-N26.title" = "浏览";
+
+/* Class = "NSButtonCell"; title = "IgnoreInvalidFlexRatio"; ObjectID = "CWI-LU-4dW"; */
+"CWI-LU-4dW.title" = "IgnoreInvalidFlexRatio";
+
+/* Class = "NSButtonCell"; title = "AppleSmcIo"; ObjectID = "Ddl-D0-484"; */
+"Ddl-D0-484.title" = "AppleSmcIo";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Swap Command and Option keys during submission.\nThis option may be useful for keyboard layouts with Option key situated to the right of Command key."; ObjectID = "EIc-ff-Thn"; */
+"EIc-ff-Thn.ibShadowedToolTip" = "交换 Command 和 Option 键,一般选 NO";
+
+/* Class = "NSTextFieldCell"; title = "KeySupportMode"; ObjectID = "EeU-wj-caf"; */
+"EeU-wj-caf.title" = "KeySupportMode";
+
+/* Class = "NSButtonCell"; title = "PointerSupport"; ObjectID = "Elq-pL-QTD"; */
+"Elq-pL-QTD.title" = "PointerSupport";
+
+/* Class = "NSTextFieldCell"; title = "VolumeAmplifier"; ObjectID = "En7-ww-Uj5"; */
+"En7-ww-Uj5.title" = "VolumeAmplifier";
+
+/* Class = "NSTextFieldCell"; title = "KeyForgetThreshold"; ObjectID = "ErN-ks-EzO"; */
+"ErN-ks-EzO.title" = "KeyForgetThreshold";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple SMC I/O protocol with a builtin version.\nThis protocol replaces legacy VirtualSmc UEFI driver, and is compatible with any SMC kernel extension. \nHowever, in case FakeSMC kernel extension is used, manual NVRAM key variable addition may be needed."; ObjectID = "FPA-9t-OzA"; */
+"FPA-9t-OzA.ibShadowedToolTip" = "最新版本已经内置VirtualSmc.efi协议。\n使用此选项可以删除drivers目录下的VirtualSmc.efi文件。\n但是，如果使用FakeSMC内核扩展，则可能需要手动添加NVRAM密钥变量。";
+
+/* Class = "NSButtonCell"; title = "ReplaceTabWithSpace"; ObjectID = "HIh-Oc-UT7"; */
+"HIh-Oc-UT7.title" = "ReplaceTabWithSpace";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Forcibly reinstalls Hash Services protocols with builtin versions. Should be set to true to ensure File Vault 2 compatibility on platforms providing broken SHA-1 hashing. Can be diagnosed by invalid cursor size with UIScale set to 02, in general platforms prior to APTIO V (Haswell and older) are affected."; ObjectID = "HpH-bP-96S"; */
+"HpH-bP-96S.ibShadowedToolTip" = "一般选NO。\n修复运行FileVault时鼠标光标大小不正确的问题, 设置为 YES 可以更好地兼容FileVault";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple Image Conversion protocol with a builtin version."; ObjectID = "ILy-av-YYi"; */
+"ILy-av-YYi.ibShadowedToolTip" = "重建apple图标，一般选择NO。";
+
+/* Class = "NSTabViewItem"; label = "Protocols"; ObjectID = "Ife-ug-MJ5"; */
+"Ife-ug-MJ5.label" = "协议";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple Debug Log protocol with a builtin version."; ObjectID = "JLv-Tn-pJQ"; */
+"JLv-Tn-pJQ.ibShadowedToolTip" = "重新安装具有内置版本的Apple Debug Log协议。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Reinstalls Data Hub protocol with a builtin version. This will drop all previous properties if the protocol was already installed."; ObjectID = "KN0-dq-pSV"; */
+"KN0-dq-pSV.ibShadowedToolTip" = "重建datahub，这里选NO。";
+
+/* Class = "NSTextFieldCell"; title = "AudioCodec"; ObjectID = "L2f-gE-rBP"; */
+"L2f-gE-rBP.title" = "AudioCodec";
+
+/* Class = "NSButtonCell"; title = "OSInfo"; ObjectID = "Ljq-q2-IwF"; */
+"Ljq-q2-IwF.title" = "OSInfo";
+
+/* Class = "NSButtonCell"; title = "DataHub"; ObjectID = "NGa-cY-Uzn"; */
+"NGa-cY-Uzn.title" = "DataHub";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "NbU-Qi-Xhw"; */
+"NbU-Qi-Xhw.title" = "控制台分辨率";
+
+/* Class = "NSButtonCell"; title = "KeyFiltering"; ObjectID = "Of8-Ba-FhQ"; */
+"Of8-Ba-FhQ.title" = "KeyFiltering";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Minimal heard volume level from 0 to 100.\n\nScreen reader will use this volume level, when the calculated volume level is less than MinimumVolume. Boot chime sound will not play if the calculated volume level is less than MinimumVolume."; ObjectID = "PF5-bc-9Z2"; */
+"PF5-bc-9Z2.ibShadowedToolTip" = "最小音量从0到100.\n\n当计算出的音量级别小于MinimumVolume时，屏幕阅读器将使用此音量级别。如果计算出的音量小于MinimumVolume，则不会发出开机提示音。";
+
+/* Class = "NSButtonCell"; title = "AppleAudio"; ObjectID = "POq-ge-Ugg"; */
+"POq-ge-Ugg.title" = "AppleAudio";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "PVa-Cc-beC"; */
+"PVa-Cc-beC.title" = "Quirks";
+
+/* Class = "NSTextFieldCell"; title = "TextRenderer"; ObjectID = "QQF-qM-yZS"; */
+"QQF-qM-yZS.title" = "TextRenderer(文字渲染器)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Attempt to detach USB controller ownership from the firmware driver. While most firmwares manage to properly do that, or at least have an option for, select firmwares do not. As a result, operating system may freeze upon boot. Not recommended unless required."; ObjectID = "TTJ-UT-Xng"; */
+"TTJ-UT-Xng.ibShadowedToolTip" = "大部分的主板都有自动释放USB所有权的功能，我们选NO。如果你开机键盘鼠标卡死了，或者USB失灵，试试选Yes。";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Type: plist string\nFailsafe: empty string\nDescription: Set internal keyboard input translation to AppleKeyMapAggregator protocol mode.\n• Auto — Performs automatic choice as available with the following preference: AMI, V2, V1.\n• V1 — Uses UEFI standard legacy input protocol EFI_SIMPLE_TEXT_INPUT_PROTOCOL.\n• V2 — Uses UEFI standard modern input protocol EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL.\n• AMI — Uses APTIO input protocol AMI_EFIKEYCODE_PROTOCOL.\n\nNote: Currently V1, V2, and AMI unlike Auto only do filtering of the particular specified protocol. This may change in the future versions."; ObjectID = "TTL-Rn-Avg"; */
+"TTL-Rn-Avg.ibShadowedToolTip" = "Auto:键值转换协议模式\nV1: UEFI 旧版输入协议\nV2: UEFI 新输入协议\nAMI: APTIO 输入协议";
+
+/* Class = "NSButtonCell"; title = "ReleaseUsbOwnership"; ObjectID = "UMT-DK-9B5"; */
+"UMT-DK-9B5.title" = "ReleaseUsbOwnership";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Reinstalls device property protocol with a builtin version. This will drop all previous properties if it was already installed. This may be used to ensure full compatibility on VMs or legacy Macs."; ObjectID = "Ueb-hn-jBT"; */
+"Ueb-hn-jBT.ibShadowedToolTip" = "一般选NO\n确保在 VM 或旧白苹果上完全兼容。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Index of the output port of the specified codec starting from 0.\nNormally this contains the index of the green out of the builtin analog audio controller (HDEF). The number of output nodes (N) in the debug log (marked in bold):\nOCAU: 1/3 PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)/VenMsg(<redacted>,00000000) (4 outputs)\nOCAU: 2/3 PciRoot(0x0)/Pci(0x3,0x0)/VenMsg(<redacted>,00000000) (1 outputs)\nOCAU: 3/3 PciRoot(0x0)/Pci(0x1B,0x0)/VenMsg(<redacted>,02000000) (7 outputs) \n\nThe quickest way to find the right port is to bruteforce the values from 0 to N - 1."; ObjectID = "UrW-oc-0Oc"; */
+"UrW-oc-0Oc.ibShadowedToolTip" = "指定编解码器输出端口的索引，一般从0开始.\n\n找到正确端口的最快方法是将值从0暴力尝试到N-1，N是在日志里显示的输出端口索引数，比如日志里显示有3个输出，可以从0-2挨个试.";
+
+/* Class = "NSTabViewItem"; label = "Drivers"; ObjectID = "V9Z-z9-Ejd"; */
+"V9Z-z9-Ejd.label" = "UEFI驱动";
+
+/* Class = "NSButtonCell"; title = "UnblockFsConnect"; ObjectID = "YFj-X6-x1j"; */
+"YFj-X6-x1j.title" = "UnblockFsConnect";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nFailsafe: empty string\nDescription: Device path of the specified audio controller for audio support.\nNormally this contains builtin analog audio controller (HDEF) device path, e.g. PciRoot(0x0)/Pci(0x1b,0x0).\nThe list of recognised audio controllers can be found in the debug log:\nOCAU: 1/3 PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)/VenMsg(<redacted>,00000000) (4 outputs)\nOCAU: 2/3 PciRoot(0x0)/Pci(0x3,0x0)/VenMsg(<redacted>,00000000) (1 outputs)\nOCAU: 3/3 PciRoot(0x0)/Pci(0x1B,0x0)/VenMsg(<redacted>,02000000) (7 outputs)\n\nAs an alternative gfxutil -f HDEF command can be used in macOS. Specifying empty device path will result in the first available audio controller to be used."; ObjectID = "YTE-Ba-80O"; */
+"YTE-Ba-80O.ibShadowedToolTip" = "用于音频功能支持的指定音频控制器的设备路径。\n通常，它包含内置的模拟音频控制器（HDEF）设备路径, 比如:PciRoot(0x0)/Pci(0x1b,0x0).\n可以在调试日志中找到音频控制器的列表:\nOCAU: 1/3 PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)/VenMsg(<redacted>,00000000) (4 outputs)\nOCAU: 2/3 PciRoot(0x0)/Pci(0x3,0x0)/VenMsg(<redacted>,00000000) (1 outputs)\nOCAU: 3/3 PciRoot(0x0)/Pci(0x1B,0x0)/VenMsg(<redacted>,02000000) (7 outputs)\n\n也可以在macOS中使用gfxutil -f HDEF命令获取或者用Hackintool工具查看音频设备地址。指定空的设备路径将导致使用第一个可用的音频控制器.";
+
+/* Class = "NSButtonCell"; title = "UnicodeCollation"; ObjectID = "ZCa-Hx-UFl"; */
+"ZCa-Hx-UFl.title" = "UnicodeCollation";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Use builtin graphics output protocol renderer for console.\nOn some firmwares this may provide better performance or even fix rendering issues, but in general it is recommended not to use this option unless there is obvious benefit."; ObjectID = "a3V-hG-HCC"; */
+"a3V-hG-HCC.ibShadowedToolTip" = "使用内置的图形输出协议渲染器作为控制台。\n在某些固件上，这可能会提供更好的性能，甚至修复渲染问题，但是通常建议除非有明显的好处，否则不要使用此选项。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple Event protocol with a builtin version. This may be used to ensure File Vault 2 compatibility on VMs or legacy Macs."; ObjectID = "aUv-Bv-xUd"; */
+"aUv-Bv-xUd.ibShadowedToolTip" = "虚拟机并具有vault的mac需要用的，选择NO。";
+
+/* Class = "NSTextFieldCell"; title = "PointerSupportMode"; ObjectID = "anR-lZ-CjV"; */
+"anR-lZ-CjV.title" = "PointerSupportMode";
+
+/* Class = "NSButtonCell"; title = "ProvideConsoleGop"; ObjectID = "bdr-Pu-Crr"; */
+"bdr-Pu-Crr.title" = "ProvideConsoleGop";
+
+/* Class = "NSTextFieldCell"; title = "Multiple selection allowed"; ObjectID = "cNF-Pq-AYe"; */
+"cNF-Pq-AYe.title" = "可以多项选择";
+
+/* Class = "NSButtonCell"; title = "KeySupport"; ObjectID = "cia-MM-Epa"; */
+"cia-MM-Epa.title" = "KeySupport";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Some firmwares do not print tab characters or even everything that follows them, causing difficulties or inability to use the UEFI Shell builtin text editor to edit property lists and other documents. This option makes the console output spaces instead of tabs.\n\nNote: This option only applies to System renderer."; ObjectID = "dDZ-Zb-RKY"; */
+"dDZ-Zb-RKY.ibShadowedToolTip" = "某些固件无法打印制表符，甚至不能打印制表符之后的所有内容，从而导致困难或无法使用UEFI Shell内置的文本编辑器来编辑属性列表和其他文档。 此选项使控制台输出空间代替制表符。\n注意:此选项仅适用于系统渲染器才能起作用。";
+
+/* Class = "NSButtonCell"; title = "SanitiseClearScreen"; ObjectID = "dXN-AE-igp"; */
+"dXN-AE-igp.title" = "SanitiseClearScreen";
+
+/* Class = "NSButtonCell"; title = "AppleBootPolicy"; ObjectID = "ddJ-by-qVm"; */
+"ddJ-by-qVm.title" = "AppleBootPolicy";
+
+/* Class = "NSButtonCell"; title = "AppleKeyMap"; ObjectID = "dpz-CS-4eq"; */
+"dpz-CS-4eq.title" = "AppleKeyMap";
+
+/* Class = "NSTextFieldCell"; title = "KeyMergeThreshold"; ObjectID = "du6-Wl-DOI"; */
+"du6-Wl-DOI.title" = "KeyMergeThreshold";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Enable internal pointer driver.\nThis option implements standard UEFI pointer protocol (EFI_SIMPLE_POINTER_PROTOCOL) through select OEM protocols. The option may be useful on Z87 ASUS boards, where EFI_SIMPLE_POINTER_PROTOCOL is broken."; ObjectID = "dzp-p6-AHb"; */
+"dzp-p6-AHb.ibShadowedToolTip" = "如果你是华硕的z87或者z97，你需要打开PointerSupport这个选项。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Ensure GOP (Graphics Output Protocol) on console handle.\nmacOS bootloader requires GOP to be present on console handle, yet the exact location of GOP is not covered by the UEFI specification. This option will ensure GOP is installed on console handle if it is present.\n\nNote: This option will also replace broken GOP protocol on console handle, which may be the case on MacPro5,1 with newer GPUs."; ObjectID = "eGd-xS-rQf"; */
+"eGd-xS-rQf.ibShadowedToolTip" = "在选择系统画面前，你可能看到一些你config配置错误的信息，你可以根据这信息调整自己的配置，也可以选择YES忽略，建议选择YES。";
+
+/* Class = "NSTextFieldCell"; title = "MinimumVolume"; ObjectID = "ehu-K3-gbY"; */
+"ehu-K3-gbY.title" = "MinimumVolume";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Some firmwares reset screen resolution to a failsafe value (like 1024x768) on the attempts to clear screen contents when large display (e.g. 2K or 4K) is used. This option attempts to apply a workaround.\n\nNote: This option only applies to System renderer. On all known affected systems ConsoleMode had to be set to empty string for this to work."; ObjectID = "f0k-6s-W9I"; */
+"f0k-6s-W9I.ibShadowedToolTip" = "当使用大显示（例如2K或4K）时，某些固件会将屏幕分辨率重置为故障安全值（如1024x768），以清除屏幕内容。此选项尝试应用变通方法。\n注意:需要将TextRenderer设置为系统渲染模式才能使其生效。在所有已知的受影响系统上，必须将ConsoleMode设置为空字符串才能使其生效。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Set architecture timer resolution.\nThis option allows to update firmware architecture timer period with the specified value in 100 nanosecond units. Setting a lower value generally improves performance and responsiveness of the interface and input handling.\nThe recommended value is 50000 (5 milliseconds) or slightly higher. Select ASUS Z87 boards use 60000 for the interface. Apple boards use 100000. You may leave it as 0 in case there are issues."; ObjectID = "fda-QM-Vl4"; */
+"fda-QM-Vl4.ibShadowedToolTip" = "固件时钟刷新的频率 (单位: 100纳秒)\n华硕主板为自己的界面使用 60000\n苹果使用 100000";
+
+/* Class = "NSTabViewItem"; label = "Output"; ObjectID = "gJG-UT-7D3"; */
+"gJG-UT-7D3.label" = "显示输出相关";
+
+/* Class = "NSButtonCell"; title = "KeySwap"; ObjectID = "h6b-rN-daY"; */
+"h6b-rN-daY.title" = "KeySwap";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Type: plist string\nFailsafe: Empty string\nDescription: Sets console output screen resolution.\n• Set to WxH@Bpp (e.g. 1920x1080@32) or WxH (e.g. 1920x1080) formatted string to request custom resolution from GOP if available.\n• Set to empty string not to change screen resolution.\n• Set to Max to try to use largest available screen resolution.\nOn HiDPI screens APPLE_VENDOR_VARIABLE_GUID UIScale NVRAM variable may need to be set to 02 to enable HiDPI scaling in FileVault 2 UEFI password interface and boot screen logo. Refer to Recommended Variables section for more details.\nNote: This will fail when console handle has no GOP protocol. When the firmware does not provide it, it can be added with ProvideConsoleGop set to true."; ObjectID = "hVw-xH-z40"; Note = "Do Not Translate"; */
+"hVw-xH-z40.ibShadowedToolTip" = "设置控制台输出屏幕分辨率.\n•设置为空不更改屏幕分辨率.\n•设置为Max以尝试使用最大的可用屏幕分辨率。\n注意:如果控制台句柄没有GOP协议，这将失败，可以将ProvideConsoleGop设置为true进行添加。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple User Interface Theme protocol with a builtin version."; ObjectID = "iFT-xW-ZaT"; */
+"iFT-xW-ZaT.ibShadowedToolTip" = "使用内置版本重新安装Apple用户界面主题协议。";
+
+/* Class = "NSButtonCell"; title = "AppleEvent"; ObjectID = "k4I-Ol-kq5"; */
+"k4I-Ol-kq5.title" = "AppleEvent";
+
+/* Class = "NSTextFieldCell"; title = "Console Mode"; ObjectID = "k5b-42-EPT"; */
+"k5b-42-EPT.title" = "Console Mode";
+
+/* Class = "NSButtonCell"; title = "Connect Drivers"; ObjectID = "kBk-75-acl"; */
+"kBk-75-acl.title" = "连接驱动程序";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Assume simultaneous combination for keys submitted within this timeout in milliseconds.\nSimilarly to KeyForgetThreshold, this option works around the sequential nature of key submission. To be able to recognise simultaneously pressed keys in the situation when all keys arrive sequentially, we are required to set a timeout within which we assume the keys were pressed together.\nHolding multiple keys results in reports every 2 and 1 milliseconds for VMware and APTIO V respectively. Pressing keys one after the other results in delays of at least 6 and 10 milliseconds for the same platforms. The recommended value for this option is 2 milliseconds, but it may be decreased for faster platforms and increased for slower."; ObjectID = "kKb-0m-i9e"; */
+"kKb-0m-i9e.ibShadowedToolTip" = "按住按键被重置的时间间隔 (单位: 毫秒)\n与KeyForgetThreshold类似，此选项适用于密钥提交的顺序性质。 为了能够在所有按键顺序到达的情况下识别同时按下的按键，我们需要设置一个超时时间，在该超时时间内我们假定按键被同时按下。\n按住多个键将分别每2毫秒和1毫秒报告一次VMware和APTIOV。 对于同一平台，一个接一个地按下键会导致至少6到10毫秒的延迟。 此选项的建议值为2毫秒，但对于较快的平台，可能会减小，而对于较慢的平台，可能会增加。";
+
+/* Class = "NSTextFieldCell"; title = "AudioOut"; ObjectID = "kM6-tO-pns"; */
+"kM6-tO-pns.title" = "AudioOut";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Forcibly reinstalls OS Info protocol with builtin versions. This protocol is generally used to receive notifications from macOS bootloader, by the firmware or by other applications."; ObjectID = "l9b-pk-oii"; */
+"l9b-pk-oii.ibShadowedToolTip" = "强制使用内置版本重新安装OS Info协议。该协议通常用于从macOS引导程序，固件或其他应用程序接收通知\n暂时没什么用，选择NO.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Type: plist string \nFailsafe: Empty string \nDescription: Sets console output mode as specified with the WxH (e.g. 80x24) formatted string.\nSet to empty string not to change console mode. Set to Max to try to use largest available console mode. Currently Builtin text renderer supports only one console mode, so this option is ignored.\n\nNote: This field is best to be left empty on most firmwares."; ObjectID = "lye-vu-fi3"; Note = "Do Not Translate"; */
+"lye-vu-fi3.ibShadowedToolTip" = "设置为空字符串不更改控制台模式.设置为Max以尝试使用最大可用控制台模式.\n大多数情况下都选择留空！";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nFailsafe: Empty string\nDescription: Cache mode for builtin graphics output protocol framebuffer.\n\nTuning cache mode may provide better rendering performance on some firmwares. Providing empty string leaves cache control settings to the firmware. Valid non-empty values are: Uncacheable, WriteCombining, and WriteThrough.\n\nNote: This option is not supported on most hardware."; ObjectID = "mQo-dd-EGW"; */
+"mQo-dd-EGW.ibShadowedToolTip" = "内置图形输出协议帧缓冲区的缓存模式。\n调整缓存模式可能会在某些固件上提供更好的渲染性能。提供空字符串会将缓存控制设置留给固件。有效的非空值是:\nUncacheable(不缓存)\nWriteCombining(合并写入)\nWriteThrough(直接写入)\n\n注意:大多数硬件不支持此选项。";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type: plist string\nFailsafe: BuiltinGraphics\nDescription: Chooses renderer for text going through standard console output.\nCurrently two renderers are supported: Builtin and System. System renderer uses firmware services for text rendering. Builtin bypassing firmware services and performs text rendering on its own. Different renderers support a different set of options. It is recommended to use Builtin renderer, as it supports HiDPI mode and uses full screen resolution.\nUEFI firmwares generally support ConsoleControl with two rendering modes: Graphics and Text. Some firmwares do not support ConsoleControl and rendering modes. OpenCore and macOS expect text to only be shown in Graphics mode and graphics to be drawn in any mode. Since this is not required by UEFI specification, exact behaviour varies.\nValid values are combinations of text renderer and rendering mode:\n• BuiltinGraphics — Switch to Graphics mode and use Builtin renderer with custom ConsoleControl.\n• SystemGraphics — Switch to Graphics mode and use System renderer with custom ConsoleControl.\n• SystemText — Switch to Text mode and use System renderer with custom ConsoleControl.\n• SystemGeneric — Use System renderer with system ConsoleControl assuming it behaves correctly.\nThe use of BuiltinGraphics is generally straightforward. For most platforms it is necessary to enable ProvideConsoleGop, set Resolution to Max, and optionally configure Scale.\nThe use of System protocols is more complicated. In general the preferred setting is SystemGraphics or SystemText. Enabling ProvideConsoleGop, setting Resolution to Max, enabling ReplaceTabWithSpace is useful on almost all platforms. SanitiseClearScreen, IgnoreTextInGraphics, and ClearScreenOnModeSwitch are more specific, and their use depends on the firmware.\n\nNote: Some Macs, namely MacPro5,1, may have broken console output with newer GPUs, and thus only BuiltinGraphics may work for them."; ObjectID = "mlh-hW-OqT"; */
+"mlh-hW-OqT.ibShadowedToolTip" = "为通过标准控制台输出的文本选择渲染器。\n目前支持两个渲染器: Builtin 和 System. System渲染器使用固件服务进行文本渲染。 Builtin则绕过固件服务，并自行执行文本渲染。 不同的渲染器支持不同的选项集。建议使用内置渲染器，因为它支持HiDPI模式并使用全屏分辨率。\n选项内容是文本渲染器和渲染模式的组合:\n• BuiltinGraphics — 切换到“图形”模式并将内置渲染器与自定义ConsoleControl一起使用.\n• SystemGraphics — 切换到“图形”模式，然后将系统渲染器与自定义ConsoleControl一起使用。\n• SystemText — 切换到文本模式，然后将系统渲染器与自定义ConsoleControl一起使用.\n• SystemGeneric — 将系统渲染器与系统ConsoleControl一起使用，并假设其行为正确。\nBuiltinGraphics的使用通常很简单。对于大多数平台，必须启用ProvideConsoleGop，将分辨率选项设置为Max，并选择配置Scale。\n系统协议的使用更加复杂。通常，首选设置是SystemGraphics或SystemText。启用ProvideConsoleGop，将“分辨率”设置为“最大”，启用“ReplaceTabWithSpace”在几乎所有平台上都很有用。 SanitiseClearScreen，IgnoreTextInGraphics和ClearScreenOnModeSwitch更具体，它们的使用取决于固件。\n\n注意:某些Mac机型，比如MacPro5,1，可能在较新的GPU上的控制台输出已损坏，因此只有BuiltinGraphics可以为它们工作。";
+
+/* Class = "NSButtonCell"; title = "DirectGopRendering"; ObjectID = "nIf-jD-bYP"; */
+"nIf-jD-bYP.title" = "DirectGopRendering";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Forcibly wraps Firmware Volume protocols or installs new to support custom cursor images for File Vault 2. Should be set to true to ensure File Vault 2 compatibility on everything but VMs and legacy Macs.\n\nNote: Several virtual machines including VMware may have corrupted cursor image in HiDPI mode and thus may also require this setting to be enabled."; ObjectID = "nvr-JF-3ne"; */
+"nvr-JF-3ne.ibShadowedToolTip" = "一般选NO。\n修复 Filevault 的 UI 问题, 设置为 YES 可以获得更好地兼容 FileVault";
+
+/* Class = "NSButtonCell"; title = "DeviceProperties"; ObjectID = "oMi-yN-r8X"; */
+"oMi-yN-r8X.title" = "DeviceProperties";
+
+/* Class = "NSButtonCell"; title = "AudioSupport"; ObjectID = "oT1-Q2-rhc"; */
+"oT1-Q2-rhc.title" = "AudioSupport";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Request fallback of some Boot prefixed variables from OC_VENDOR_VARIABLE_GUID to EFI_GLOBAL_VARIABLE_GUID.\nThis quirk requires RequestBootVarRouting to be enabled and therefore OC_FIRMWARE_RUNTIME protocol imple- mented in OpenRuntime.efi.\nBy redirecting Boot prefixed variables to a separate GUID namespace we achieve multiple goals:\n• Operating systems are jailed and only controlled by OpenCore boot environment to enhance security.\n• Operating systems do not mess with OpenCore boot priority, and guarantee fluent updates and hibernation wakes for cases that require reboots with OpenCore in the middle.\n• Potentially incompatible boot entries, such as macOS entries, are not deleted or anyhow corrupted.\nHowever, some firmwares do their own boot option scanning upon startup by checking file presence on the available disks. Quite often this scanning includes non-standard locations, such as Windows Bootloader paths. Normally it is not an issue, but some firmwares, ASUS firmwares on APTIO V in particular, have bugs. For them scanning is implemented improperly, and firmware preferences may get accidentally corrupted due to BootOrder entry duplication (each option will be added twice) making it impossible to boot without cleaning NVRAM.\nTo trigger the bug one should have some valid boot options (e.g. OpenCore) and then install Windows with RequestBootVarRouting enabled. As Windows bootloader option will not be created by Windows installer, the firmware will attempt to create it itself, and then corrupt its boot option list.\nThis quirk forwards all UEFI specification valid boot options, that are not related to macOS, to the firmware into BootF### and BootOrder variables upon write. As the entries are added to the end of BootOrder, this does not break boot priority, but ensures that the firmware does not try to append a new option on its own after Windows installation for instance."; ObjectID = "pL6-9H-9ky"; */
+"pL6-9H-9ky.ibShadowedToolTip" = "用于修复BIOS启动项顺序！\n如果你的BIOS启动项经常被打乱，开启这个选项试试！";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Some firmwares clear only part of screen when switching from graphics to text mode, leaving a fragment of previously drawn image visible. This option fills the entire graphics screen with black color before switching to text mode.\n\nNote: This option only applies to System renderer."; ObjectID = "qMh-AF-g0P"; */
+"qMh-AF-g0P.ibShadowedToolTip" = "图形模式切换到文本模式时，某些固件仅清除屏幕的一部分，使先前绘制的图像片段可见。 此选项在切换到文本模式之前用黑色填充整个图形屏幕。\n注意:此选项仅适用于系统渲染器才能起作用。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Reinstalls apple boot policy protocol with a builtin version. This may be used to ensure APFS compatibility on VMs or legacy Macs.\n\nNote: Some Macs, namely MacPro5,1, do have APFS compatibility, but their Apple Boot Policy protocol contains recovery detection issues, thus using this option is advised on them as well."; ObjectID = "rMl-Kr-h3I"; */
+"rMl-Kr-h3I.ibShadowedToolTip" = "用于确保虚拟机或旧白苹果上兼容 APFS，一般选择NO。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Multiplication coefficient for system volume to raw volume linear translation from 0 to 1000.\nVolume level range read from SystemAudioVolume varies depending on the codec. To transform read value in [0, 127] range into raw volume range [0, 100] the read value is scaled to VolumeAmplifier percents.\n\nNote: the transformation used in macOS is not linear, but it is very close and this nuance is thus ignored."; ObjectID = "rNr-97-fnH"; */
+"rNr-97-fnH.ibShadowedToolTip" = "系统音量到原始音量线性转换的倍数，范围是0到1000。\n\n\n注意：macOS中使用的转换不是线性的，但是非常接近，因此细微差别被忽略了.";
+
+/* Class = "NSButtonCell"; title = "PlayChime"; ObjectID = "rUJ-JZ-9dQ"; */
+"rUJ-JZ-9dQ.title" = "PlayChime";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Enable keyboard input sanity checking.\nApparently some boards like GA Z77P-D3 may return uninitialised data in EFI_INPUT_KEY with all input protocols. This option discards keys that are neither ASCII, nor are defined in the UEFI specification (see tables 107 and 108 in version 2.8)."; ObjectID = "rxJ-TB-rJc"; */
+"rxJ-TB-rJc.ibShadowedToolTip" = "启用键盘输入的健全性检查。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reinstalls Apple Key Map protocols with builtin versions."; ObjectID = "tY1-cE-XtN"; */
+"tY1-cE-XtN.ibShadowedToolTip" = "重建苹果功能键，选择NO。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Select firmwares output text onscreen in both graphics and text mode. This is normally unexpected, because random text may appear over graphical images and cause UI corruption. Setting this option to true will discard all text output when console control is in mode different from Text.\n\nNote: This option only applies to System renderer."; ObjectID = "tgx-cE-NIf"; */
+"tgx-cE-NIf.ibShadowedToolTip" = "修复不用 -v 开机时在苹果标志上覆盖有输出日志的问题。";
+
+/* Class = "NSTabViewItem"; label = "Input"; ObjectID = "tiX-oG-c7h"; */
+"tiX-oG-c7h.label" = "Apple快捷键相关";
+
+/* Class = "NSButtonCell"; title = "ClearScreenOnModeSwitch"; ObjectID = "tqx-Ek-u4V"; */
+"tqx-Ek-u4V.title" = "ClearScreenOnModeSwitch";
+
+/* Class = "NSButtonCell"; title = "AppleDebugLog"; ObjectID = "uqk-49-YG8"; */
+"uqk-49-YG8.title" = "AppleDebugLog";
+
+/* Class = "NSTextFieldCell"; title = "ExitBootServicesDelay"; ObjectID = "wxD-TC-lrQ"; */
+"wxD-TC-lrQ.title" = "ExitBootServicesDelay";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Remove key unless it was submitted during this timeout in milliseconds.\nAppleKeyMapAggregator protocol is supposed to contain a fixed length buffer of currently pressed keys. However, the majority of the drivers only report key presses as interrupts and pressing and holding the key on the keyboard results in subsequent submissions of this key with some defined time interval. As a result we use a timeout to remove once pressed keys from the buffer once the timeout expires and no new submission of this key happened.\nThis option allows to set this timeout based on your platform. The recommended value that works on the majority of the platforms is 5 milliseconds. For reference, holding one key on VMware will repeat it roughly every 2 milliseconds and the same value for APTIO V is 3-4 milliseconds. Thus it is possible to set a slightly lower value on faster platforms and slightly higher value on slower platforms for more responsive input."; ObjectID = "xNH-9V-3kd"; */
+"xNH-9V-3kd.ibShadowedToolTip" = "按住按键后每个键之间的时间间隔 (单位: 毫秒)\n此选项允许根据您的平台设置此超时。 在大多数平台上均可使用的建议值为5毫秒。 作为参考，在VMware上按住一个键大约每2毫秒重复一次，而APTIO V的相同值是3-4毫秒。 因此，可以在较快的平台上设置稍低的值，而在较慢的平台上设置稍高的值，以提高响应速度。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: 0\nDescription: Adds delay in microseconds after EXIT_BOOT_SERVICES event.\nThis is a very ugly quirk to circumvent \"Still waiting for root device\" message on select APTIO IV firmwares, namely ASUS Z87-Pro, when using FileVault 2 in particular. It seems that for some reason they execute code in parallel to EXIT_BOOT_SERVICES, which results in SATA controller being inaccessible from macOS. A better approach should be found in some future. Expect 3-5 seconds to be enough in case the quirk is needed."; ObjectID = "yXm-Kd-A6O"; */
+"yXm-Kd-A6O.ibShadowedToolTip" = "可以绕过选定的APTIO IV固件，即ASUS Z87-Pro上出现的\"Still waiting for root device\" 的提示信息，特别是在使用FileVault 2时。由于某种原因，导致无法从macOS访问SATA控制器。应该在将来找到更好的方法。如果使用此，则需要设置3-5秒才可以。\n一般保持默认值 0，不要随便更改！";
+
+/* Class = "NSButtonCell"; title = "IgnoreTextInGraphics"; ObjectID = "ygR-oy-xAC"; */
+"ygR-oy-xAC.title" = "IgnoreTextInGraphics";
+
+/* Class = "NSButtonCell"; title = "ReconnectOnResChange"; ObjectID = "zen-LP-Fan"; */
+"zen-LP-Fan.title" = "ReconnectOnResChange";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Some firmwares block partition handles by opening them in By Driver mode, which results in File System protocols being unable to install.\nNote: The quirk is mostly relevant for select HP laptops with no drives listed."; ObjectID = "zhZ-UN-ASB"; */
+"zhZ-UN-ASB.ibShadowedToolTip" = "惠普笔记本在 OpenCore 引导界面没有引导项时设置为 YES";

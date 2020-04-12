@@ -1,0 +1,447 @@
+
+/* Class = "NSTextFieldCell"; title = "SmcVersion"; ObjectID = "01x-DY-Yh2"; */
+"01x-DY-Yh2.title" = "SmcVersion";
+
+/* Class = "NSTabViewItem"; label = "DataHub - Generic - PlatformNVRAM"; ObjectID = "0SG-Wz-rih"; */
+"0SG-Wz-rih.label" = "DataHub - Generic - PlatformNVRAM";
+
+/* Class = "NSTextFieldCell"; title = "UpdateSMBIOSMode"; ObjectID = "0uc-j4-cpH"; */
+"0uc-j4-cpH.title" = "UpdateSMBIOSMode";
+
+/* Class = "NSTextFieldCell"; title = "ROM"; ObjectID = "1Sc-Fb-KaM"; */
+"1Sc-Fb-KaM.title" = "ROM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets InitialTSC in gEfiProcessorSubClassGuid. Sets initial TSC value, normally 0."; ObjectID = "2Oj-go-m5S"; */
+"2Oj-go-m5S.ibShadowedToolTip" = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets InitialTSC in gEfiProcessorSubClassGuid. Sets initial TSC value, normally 0.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "38m-qA-it7"; */
+"38m-qA-it7.ibShadowedToolTip" = "Add or remove this section from plist\nDefault value: Add";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "4bx-F9-aab"; */
+"4bx-F9-aab.title" = "Generate";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeatures and ExtendedFirmwareFeatures Description: 64-bit firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeatures. Upper 64 bits match ExtendedFirmwareFeatures."; ObjectID = "4l3-Do-kcw"; */
+"4l3-Do-kcw.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeatures and ExtendedFirmwareFeatures Description: 64-bit firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeatures. Upper 64 bits match ExtendedFirmwareFeatures.";
+
+/* Class = "NSTextFieldCell"; title = "PlatformNVRAM"; ObjectID = "5bx-Mf-EOd"; */
+"5bx-Mf-EOd.title" = "PlatformNVRAM";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "67d-7j-Elg"; */
+"67d-7j-Elg.title" = "Serial Number";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeatures. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeaturesMask\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeaturesMask"; ObjectID = "6Kd-rJ-POa"; */
+"6Kd-rJ-POa.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeatures. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeaturesMask\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeaturesMask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Release Date\nDescription: Firmware release date. Similar to BIOSVersion. May look like 12/08/2017."; ObjectID = "6gn-IY-sd7"; */
+"6gn-IY-sd7.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Release Date\nDescription: Firmware release date. Similar to BIOSVersion. May look like 12/08/2017.";
+
+/* Class = "NSTextFieldCell"; title = "Startup Power Events"; ObjectID = "7XG-zt-wiU"; */
+"7XG-zt-wiU.title" = "Startup Power Events";
+
+/* Class = "NSTextFieldCell"; title = "SKU Number"; ObjectID = "7ZS-hv-cMX"; */
+"7ZS-hv-cMX.title" = "SKU Number";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "7eK-xY-ftU"; */
+"7eK-xY-ftU.title" = "Version";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "7qD-we-NcT"; */
+"7qD-we-NcT.title" = "Version";
+
+/* Class = "NSButtonCell"; title = "UpdateNVRAM"; ObjectID = "8Bn-0E-TZu"; */
+"8Bn-0E-TZu.title" = "UpdateNVRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: MacPro6,1\nDescription: Refer to SMBIOS SystemProductName."; ObjectID = "8g1-Si-2Vs"; */
+"8g1-Si-2Vs.ibShadowedToolTip" = "Type: plist string\nDefault value: MacPro6,1\nDescription: Refer to SMBIOS SystemProductName.";
+
+/* Class = "NSTextFieldCell"; title = "DataHub"; ObjectID = "8wz-5k-5Zd"; */
+"8wz-5k-5Zd.title" = "DataHub";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "9UV-S4-eO3"; */
+"9UV-S4-eO3.title" = "Generate";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type: plist string\nDefault value: Auto\nDescription: Update SMBIOS fields approach:\n• Auto — Overwrite if new size is <= than the page-aligned original and there are no issues with legacy region unlock. Create otherwise.\n• Create — Replace the tables with newly allocated EfiReservedMemoryType at AllocateMaxAddress without any fallbacks.\n• Overwrite — Overwrite existing gEfiSmbiosTableGuid and gEfiSmbiosTable3Guid data if it fits new size. Abort with unspecified state otherwise.\n• Custom — Write first SMBIOS table (gEfiSmbiosTableGuid) to gOcCustomSmbiosTableGuid to workaround firmwares overwriting SMBIOS contents at ExitBootServices. Otherwise equivalent to Create. Requires patching AppleSmbios.kext and AppleACPIPlatform.kext to read from another GUID: \"EB9D2D31\" -> \"EB9D2D35\" (in ASCII)."; ObjectID = "9o2-8y-dq6"; */
+"9o2-8y-dq6.ibShadowedToolTip" = "Type: plist string\nDefault value: Auto\nDescription: Update SMBIOS fields approach:\n• Auto — Overwrite if new size is <= than the page-aligned original and there are no issues with legacy region unlock. Create otherwise.\n• Create — Replace the tables with newly allocated EfiReservedMemoryType at AllocateMaxAddress without any fallbacks.\n• Overwrite — Overwrite existing gEfiSmbiosTableGuid and gEfiSmbiosTable3Guid data if it fits new size. Abort with unspecified state otherwise.\n• Custom — Write first SMBIOS table (gEfiSmbiosTableGuid) to gOcCustomSmbiosTableGuid to workaround firmwares overwriting SMBIOS contents at ExitBootServices. Otherwise equivalent to Create. Requires patching AppleSmbios.kext and AppleACPIPlatform.kext to read from another GUID: \"EB9D2D31\" -> \"EB9D2D35\" (in ASCII).";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean \nFailsafe: false \nDescription: Forces Windows support in FirmwareFeatures. \nAdded bits to FirmwareFeatures:\n• FW_FEATURE_SUPPORTS_CSM_LEGACY_MODE (0x1) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being not the first partition on the disk.\n• FW_FEATURE_SUPPORTS_UEFI_WINDOWS_BOOT (0x20000000) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being the first partition on the disk."; ObjectID = "9sY-PL-wkx"; */
+"9sY-PL-wkx.ibShadowedToolTip" = "Type: plist boolean \nFailsafe: false \nDescription: Forces Windows support in FirmwareFeatures. \nAdded bits to FirmwareFeatures:\n• FW_FEATURE_SUPPORTS_CSM_LEGACY_MODE (0x1) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being not the first partition on the disk.\n• FW_FEATURE_SUPPORTS_UEFI_WINDOWS_BOOT (0x20000000) - Without this bit it is not possible to reboot to Windows installed on a drive with EFI partition being the first partition on the disk.";
+
+/* Class = "NSTextFieldCell"; title = "UUID"; ObjectID = "ADr-qW-Bb4"; */
+"ADr-qW-Bb4.title" = "UUID";
+
+/* Class = "NSTextFieldCell"; title = "BIOS"; ObjectID = "AuX-4b-jtu"; */
+"AuX-4b-jtu.title" = "BIOS";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets name in gEfiMiscSubClassGuid. Value found on Macs is platform in ASCII."; ObjectID = "BJm-4X-red"; */
+"BJm-4X-red.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Sets name in gEfiMiscSubClassGuid. Value found on Macs is platform in ASCII.";
+
+/* Class = "NSTextFieldCell"; title = "Board"; ObjectID = "CDl-Mt-vej"; */
+"CDl-Mt-vej.title" = "Board";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets StartupPowerEvents in gEfiMiscSubClassGuid. Value found on Macs is power management state bitmask, normally 0. Known bits read by X86PlatformPlugin.kext:\n• 0x00000001 — Shutdown cause was a PWROK event (Same as GEN_PMCON_2 bit 0)\n• 0x00000002 — Shutdown cause was a SYS_PWROK event (Same as GEN_PMCON_2 bit 1)\n• 0x00000004 — Shutdown cause was a THRMTRIP# event (Same as GEN_PMCON_2 bit 3)\n• 0x00000008 — Rebooted due to a SYS_RESET# event (Same as GEN_PMCON_2 bit 4)\n• 0x00000010 — Power Failure (Same as GEN_PMCON_3 bit 1 PWR_FLR)\n• 0x00000020 — Loss of RTC Well Power (Same as GEN_PMCON_3 bit 2 RTC_PWR_STS)\n• 0x00000040 — General Reset Status (Same as GEN_PMCON_3 bit 9 GEN_RST_STS)\n• 0xffffff80 — SUS Well Power Loss (Same as GEN_PMCON_3 bit 14)\n• 0x00010000 — Wake cause was a ME Wake event (Same as PRSTS bit 0, ME_WAKE_STS)\n• 0x00020000 — Cold Reboot was ME Induced event (Same as PRSTS bit 1 ME_HRST_COLD_STS) • 0x00040000 — Warm Reboot was ME Induced event (Same as PRSTS bit 2 ME_HRST_WARM_STS) • 0x00080000 — Shutdown was ME Induced event (Same as PRSTS bit 3 ME_HOST_PWRDN)\n• 0x00100000 — Global reset ME Wachdog Timer event (Same as PRSTS bit 6)\n• 0x00200000 — Global reset PowerManagment Wachdog Timer event (Same as PRSTS bit 15)"; ObjectID = "CdO-kb-3WH"; */
+"CdO-kb-3WH.ibShadowedToolTip" = "Type: plist integer, 64-bit\nDefault value: 0\nDescription: Sets StartupPowerEvents in gEfiMiscSubClassGuid. Value found on Macs is power management state bitmask, normally 0. Known bits read by X86PlatformPlugin.kext:\n• 0x00000001 — Shutdown cause was a PWROK event (Same as GEN_PMCON_2 bit 0)\n• 0x00000002 — Shutdown cause was a SYS_PWROK event (Same as GEN_PMCON_2 bit 1)\n• 0x00000004 — Shutdown cause was a THRMTRIP# event (Same as GEN_PMCON_2 bit 3)\n• 0x00000008 — Rebooted due to a SYS_RESET# event (Same as GEN_PMCON_2 bit 4)\n• 0x00000010 — Power Failure (Same as GEN_PMCON_3 bit 1 PWR_FLR)\n• 0x00000020 — Loss of RTC Well Power (Same as GEN_PMCON_3 bit 2 RTC_PWR_STS)\n• 0x00000040 — General Reset Status (Same as GEN_PMCON_3 bit 9 GEN_RST_STS)\n• 0xffffff80 — SUS Well Power Loss (Same as GEN_PMCON_3 bit 14)\n• 0x00010000 — Wake cause was a ME Wake event (Same as PRSTS bit 0, ME_WAKE_STS)\n• 0x00020000 — Cold Reboot was ME Induced event (Same as PRSTS bit 1 ME_HRST_COLD_STS) • 0x00040000 — Warm Reboot was ME Induced event (Same as PRSTS bit 2 ME_HRST_WARM_STS) • 0x00080000 — Shutdown was ME Induced event (Same as PRSTS bit 3 ME_HOST_PWRDN)\n• 0x00100000 — Global reset ME Wachdog Timer event (Same as PRSTS bit 6)\n• 0x00200000 — Global reset PowerManagment Wachdog Timer event (Same as PRSTS bit 15)";
+
+/* Class = "NSTextFieldCell"; title = "MemoryFormFactor"; ObjectID = "CxA-si-OgU"; */
+"CxA-si-OgU.title" = "MemoryFormFactor";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Asset Tag Number Description: Chassis type name. Varies, could be empty or MacBook-Aluminum."; ObjectID = "D26-kV-2wQ"; */
+"D26-kV-2wQ.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Asset Tag Number Description: Chassis type name. Varies, could be empty or MacBook-Aluminum.";
+
+/* Class = "NSTextFieldCell"; title = "Asset Tag"; ObjectID = "FGe-q0-v48"; */
+"FGe-q0-v48.title" = "Asset Tag";
+
+/* Class = "NSButtonCell"; title = "UpdateDataHub"; ObjectID = "FvU-m3-lup"; */
+"FvU-m3-lup.title" = "UpdateDataHub";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Asset Tag\nDescription: Asset tag number. Varies, may be empty or Type2 - Board Asset Tag."; ObjectID = "GJj-A4-bd9"; */
+"GJj-A4-bd9.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Asset Tag\nDescription: Asset tag number. Varies, may be empty or Type2 - Board Asset Tag.";
+
+/* Class = "NSTextFieldCell"; title = "Product Name"; ObjectID = "GbE-LE-4eK"; */
+"GbE-LE-4eK.title" = "Product Name";
+
+/* Class = "NSTextFieldCell"; title = "Board Revision"; ObjectID = "GiG-2a-PMR"; */
+"GiG-2a-PMR.title" = "Board Revision";
+
+/* Class = "NSTextFieldCell"; title = "Platform Name"; ObjectID = "Gud-fK-xY5"; */
+"Gud-fK-xY5.title" = "Platform Name";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Version\nDescription: Product iteration version number. May look like 1.1"; ObjectID = "Hjz-kh-KPV"; */
+"Hjz-kh-KPV.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Version\nDescription: Product iteration version number. May look like 1.1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "IJO-Va-YDO"; */
+"IJO-Va-YDO.ibShadowedToolTip" = "Add or remove this section from plist\nDefault value: Add";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "IqG-Mw-D8N"; */
+"IqG-Mw-D8N.title" = "Add this section in config.plist";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — SKU Number\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models. Sometimes it can be just empty."; ObjectID = "J9G-p3-A50"; */
+"J9G-p3-A50.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — SKU Number\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models. Sometimes it can be just empty.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RPlt in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RPlt key."; ObjectID = "JBr-Jy-s8V"; */
+"JBr-Jy-s8V.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RPlt in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RPlt key.";
+
+/* Class = "NSTextFieldCell"; title = "System UUID"; ObjectID = "JCc-EO-5xz"; */
+"JCc-EO-5xz.title" = "System UUID";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "JEO-9d-aFI"; */
+"JEO-9d-aFI.title" = "Add this section in config.plist";
+
+/* Class = "NSButtonCell"; title = "AdviseWindows"; ObjectID = "Jk7-vn-L68"; */
+"Jk7-vn-L68.title" = "AdviseWindows";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "KNP-Ab-25u"; */
+"KNP-Ab-25u.title" = "Generate";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_MLB and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB"; ObjectID = "L5e-wR-9li"; */
+"L5e-wR-9li.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_MLB and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeaturesMask. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeatures\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeatures"; ObjectID = "L5k-Nq-H9Z"; */
+"L5k-Nq-H9Z.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: This variable comes in pair with FirmwareFeaturesMask. Specifies the values of NVRAM variables:\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:FirmwareFeatures\n• 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ExtendedFirmwareFeatures";
+
+/* Class = "NSTextFieldCell"; title = "Device Paths Supported"; ObjectID = "LHd-Wt-aT8"; */
+"LHd-Wt-aT8.title" = "Device Paths Supported";
+
+/* Class = "NSTextFieldCell"; title = "Release Date"; ObjectID = "Lof-UF-S84"; */
+"Lof-UF-S84.title" = "Release Date";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "MRn-KI-kxS"; */
+"MRn-KI-kxS.title" = "Generate";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "MW7-wk-hds"; */
+"MW7-wk-hds.title" = "Serial Number";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the value of NVRAM variable 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID."; ObjectID = "MpC-g9-pKJ"; */
+"MpC-g9-pKJ.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the value of NVRAM variable 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "N0I-Qi-97B"; */
+"N0I-Qi-97B.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Location In Chassis"; ObjectID = "NKp-1W-cwW"; */
+"NKp-1W-cwW.title" = "Location In Chassis";
+
+/* Class = "NSTextFieldCell"; title = "Features"; ObjectID = "Ntb-g0-8oU"; */
+"Ntb-g0-8oU.title" = "Features";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "Oqy-j7-kv6"; */
+"Oqy-j7-kv6.title" = "Manufacturer";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "PHO-4O-OIP"; */
+"PHO-4O-OIP.ibShadowedToolTip" = "Add or remove this section from plist\nDefault value: Add";
+
+/* Class = "NSSegmentedCell"; PVt-qS-yBp.ibShadowedLabels[0] = "Model Lookup"; ObjectID = "PVt-qS-yBp"; */
+"PVt-qS-yBp.ibShadowedLabels[0]" = "Model Lookup";
+
+/* Class = "NSSegmentedCell"; PVt-qS-yBp.ibShadowedLabels[1] = "Check Coverage"; ObjectID = "PVt-qS-yBp"; */
+"PVt-qS-yBp.ibShadowedLabels[1]" = "Check Coverage";
+
+/* Class = "NSTextFieldCell"; title = "System Product Name"; ObjectID = "Pwo-2A-1gv"; */
+"Pwo-2A-1gv.title" = "System Product Name";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "Q7C-PE-T4u"; */
+"Q7C-PE-T4u.title" = "Version";
+
+/* Class = "NSTextFieldCell"; title = "Vendor"; ObjectID = "R7K-qk-Tpk"; */
+"R7K-qk-Tpk.title" = "Vendor";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 16-bit\nDefault value: Automatic\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE131 - ProcessorType Description: Combined of Processor Major and Minor types."; ObjectID = "RLW-Hz-QKb"; */
+"RLW-Hz-QKb.ibShadowedToolTip" = "Type: plist integer, 16-bit\nDefault value: Automatic\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE131 - ProcessorType Description: Combined of Processor Major and Minor types.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Family Description: Family name. May look like iMac Pro."; ObjectID = "Rag-wy-fpE"; */
+"Rag-wy-fpE.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Family Description: Family name. May look like iMac Pro.";
+
+/* Class = "NSTextFieldCell"; title = "Generic"; ObjectID = "Rcs-Ds-NTm"; */
+"Rcs-Ds-NTm.title" = "Generic";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Generate PlatformInfo based on Generic section instead of using values from DataHub, NVRAM, and SMBIOS sections.\nEnabling this option is useful when Generic section is flexible enough. When enabled SMBIOS, DataHub, and PlatformNVRAM data is unused."; ObjectID = "RfW-jb-UfW"; */
+"RfW-jb-UfW.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Generate PlatformInfo based on Generic section instead of using values from DataHub, NVRAM, and SMBIOS sections.\nEnabling this option is useful when Generic section is flexible enough. When enabled SMBIOS, DataHub, and PlatformNVRAM data is unused.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — Vendor\nDescription: BIOS Vendor. All rules of SystemManufacturer do apply."; ObjectID = "SO7-47-4Z3"; */
+"SO7-47-4Z3.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — Vendor\nDescription: BIOS Vendor. All rules of SystemManufacturer do apply.";
+
+/* Class = "NSTextFieldCell"; title = "Platform Feature"; ObjectID = "SVD-ga-fZP"; */
+"SVD-ga-fZP.title" = "Platform Feature";
+
+/* Class = "NSTextFieldCell"; title = "Firmware Features Mask"; ObjectID = "T2c-VK-Zji"; */
+"T2c-VK-Zji.title" = "Firmware Features Mask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: all zero\nDescription: Refer to 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM"; ObjectID = "TTj-aB-3ch"; */
+"TTj-aB-3ch.ibShadowedToolTip" = "Type: plist data, 6 bytes\nDefault value: all zero\nDescription: Refer to 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update SMBIOS fields. These fields are read from Generic or SMBIOS sections depending on Automatic value."; ObjectID = "U5f-5A-ryt"; */
+"U5f-5A-ryt.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Update SMBIOS fields. These fields are read from Generic or SMBIOS sections depending on Automatic value.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "U5s-uE-f0J"; */
+"U5s-uE-f0J.ibShadowedToolTip" = "Add or remove this section from plist\nDefault value: Add";
+
+/* Class = "NSTabViewItem"; label = "SMBIOS"; ObjectID = "ULX-O6-vek"; */
+"ULX-O6-vek.label" = "SMBIOS";
+
+/* Class = "NSButtonCell"; title = "from SMBIOS"; ObjectID = "UNS-re-qUK"; */
+"UNS-re-qUK.title" = "from SMBIOS";
+
+/* Class = "NSButtonCell"; title = "UpdateSMBIOS"; ObjectID = "Uzb-U1-Thj"; */
+"Uzb-U1-Thj.title" = "UpdateSMBIOS";
+
+/* Class = "NSButtonCell"; title = "from System"; ObjectID = "VKd-ep-fuP"; */
+"VKd-ep-fuP.title" = "from System";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: Automatic\nDescription: Sets FSBFrequency in gEfiProcessorSubClassGuid. Sets CPU FSB frequency."; ObjectID = "W2E-oe-9Uq"; */
+"W2E-oe-9Uq.ibShadowedToolTip" = "Type: plist integer, 64-bit\nDefault value: Automatic\nDescription: Sets FSBFrequency in gEfiProcessorSubClassGuid. Sets CPU FSB frequency.";
+
+/* Class = "NSTextFieldCell"; title = "Board Product"; ObjectID = "WDt-qb-GcR"; */
+"WDt-qb-GcR.title" = "Board Product";
+
+/* Class = "NSTextFieldCell"; title = "ARTFrequency"; ObjectID = "WEo-Ob-3Vp"; */
+"WEo-Ob-3Vp.title" = "ARTFrequency";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Sets REV in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC REV key."; ObjectID = "X7k-fY-cFM"; */
+"X7k-fY-cFM.ibShadowedToolTip" = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Sets REV in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC REV key.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Product\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models."; ObjectID = "X9U-bM-MRj"; */
+"X9U-bM-MRj.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Product\nDescription: Mac Board ID (board-id). May look like Mac-7BA5B2D9E42DDD94 or Mac-F221BEC8 in older models.";
+
+/* Class = "NSTextFieldCell"; title = "MLB"; ObjectID = "XDd-C5-ehh"; */
+"XDd-C5-ehh.title" = "MLB";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update DataHub fields. These fields are read from Generic or DataHub sections depending on Automatic value."; ObjectID = "XRB-18-dHU"; */
+"XRB-18-dHU.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Update DataHub fields. These fields are read from Generic or DataHub sections depending on Automatic value.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Board Type\nDescription: Either 0xA (Motherboard (includes processor, memory, and I/O) or 0xB (Processor/Memory Module), refer to Table 15 – Baseboard: Board Type for more details."; ObjectID = "YgB-Sp-EZ5"; */
+"YgB-Sp-EZ5.ibShadowedToolTip" = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Board Type\nDescription: Either 0xA (Motherboard (includes processor, memory, and I/O) or 0xB (Processor/Memory Module), refer to Table 15 – Baseboard: Board Type for more details.";
+
+/* Class = "NSButtonCell"; title = "Automatic"; ObjectID = "Yle-7s-0Gt"; */
+"Yle-7s-0Gt.title" = "Automatic";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply."; ObjectID = "YnG-4B-0S3"; */
+"YnG-4B-0S3.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE133 - PlatformFeature\nDescription: Platform features bitmask. Refer to AppleFeatures.h for more details."; ObjectID = "Yog-wn-LaZ"; */
+"Yog-wn-LaZ.ibShadowedToolTip" = "Type: plist integer\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE133 - PlatformFeature\nDescription: Platform features bitmask. Refer to AppleFeatures.h for more details.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Sets SMBIOS vendor fields to Acidanthera.\nIt is dangerous to use Apple in SMBIOS vendor fields for reasons given in SystemManufacturer description. However, certain firmwares may not provide valid values otherwise, which could break some software."; ObjectID = "Z8Z-8r-mnL"; */
+"Z8Z-8r-mnL.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Sets SMBIOS vendor fields to Acidanthera.\nIt is dangerous to use Apple in SMBIOS vendor fields for reasons given in SystemManufacturer description. However, certain firmwares may not provide valid values otherwise, which could break some software.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Serial Number\nDescription: Product serial number in defined format. Known formats are described in macserial."; ObjectID = "a03-aA-XtL"; */
+"a03-aA-XtL.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Serial Number\nDescription: Product serial number in defined format. Known formats are described in macserial.";
+
+/* Class = "NSTextFieldCell"; title = "Features Mask"; ObjectID = "aAi-r5-EIk"; */
+"aAi-r5-EIk.title" = "Features Mask";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Location in Chassis Description: Varies, may be empty or Part Component."; ObjectID = "aXB-A5-lJa"; */
+"aXB-A5-lJa.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Location in Chassis Description: Varies, may be empty or Part Component.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets SystemSerialNumber in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemSerialNumber in Unicode."; ObjectID = "agr-Am-FjN"; */
+"agr-Am-FjN.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Sets SystemSerialNumber in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemSerialNumber in Unicode.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RBr in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RBr key."; ObjectID = "bTa-i4-4eq"; */
+"bTa-i4-4eq.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: Not installed\nDescription: Sets RBr in gEfiMiscSubClassGuid. Custom property read by VirtualSMC or FakeSMC to generate SMC RBr key.";
+
+/* Class = "NSTextFieldCell"; title = "System UUID"; ObjectID = "baC-2d-vGR"; */
+"baC-2d-vGR.title" = "System UUID";
+
+/* Class = "NSTextFieldCell"; title = "System Product Name"; ObjectID = "baG-Ud-vWe"; */
+"baG-Ud-vWe.title" = "System Product Name";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Version\nDescription: Board version number. Varies, may match SystemProductName or SystemProductVersion."; ObjectID = "cWR-8m-2Jn"; */
+"cWR-8m-2Jn.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Version\nDescription: Board version number. Varies, may match SystemProductName or SystemProductVersion.";
+
+/* Class = "NSTextFieldCell"; title = "InitialTSC"; ObjectID = "dDc-Pn-pL2"; */
+"dDc-Pn-pL2.title" = "InitialTSC";
+
+/* Class = "NSTextFieldCell"; title = "Chassis"; ObjectID = "deV-WE-QcF"; */
+"deV-WE-QcF.title" = "Chassis";
+
+/* Class = "NSTextFieldCell"; title = "System"; ObjectID = "e0A-vD-ufi"; */
+"e0A-vD-ufi.title" = "System";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match BoardProduct."; ObjectID = "eGy-sp-yaM"; */
+"eGy-sp-yaM.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match BoardProduct.";
+
+/* Class = "NSSegmentedCell"; eez-pY-d3O.ibShadowedLabels[0] = "Mac"; ObjectID = "eez-pY-d3O"; */
+"eez-pY-d3O.ibShadowedLabels[0]" = "Mac";
+
+/* Class = "NSSegmentedCell"; eez-pY-d3O.ibShadowedLabels[1] = "Hack"; ObjectID = "eez-pY-d3O"; */
+"eez-pY-d3O.ibShadowedLabels[1]" = "Hack";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "fWq-dP-cDy"; */
+"fWq-dP-cDy.title" = "Add this section in config.plist";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Type\nDescription: Chassis type, refer to Table 17 — System Enclosure or Chassis Types for more details."; ObjectID = "frw-3J-2Cg"; */
+"frw-3J-2Cg.ibShadowedToolTip" = "Type: plist integer\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Type\nDescription: Chassis type, refer to Table 17 — System Enclosure or Chassis Types for more details.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — UUID\nDescription: A UUID is an identifier that is designed to be unique across both time and space. It requires no central registration process."; ObjectID = "fux-7e-g2r"; */
+"fux-7e-g2r.ibShadowedToolTip" = "Type: plist string, GUID\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — UUID\nDescription: A UUID is an identifier that is designed to be unique across both time and space. It requires no central registration process.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match SystemSerialNumber."; ObjectID = "gTB-8E-Nin"; */
+"gTB-8E-Nin.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Enclosure or Chassis (Type 3) — Version Description: Should match SystemSerialNumber.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Manufacturer\nDescription: OEM manufacturer of the particular board. Shall not be specified unless strictly required. Should not contain Apple Inc., as this confuses numerous services present in the operating system, such as firmware updates, eficheck, as well as kernel extensions developed in Acidanthera, such as Lilu and its plugins."; ObjectID = "gqH-S3-VMd"; */
+"gqH-S3-VMd.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1) — Manufacturer\nDescription: OEM manufacturer of the particular board. Shall not be specified unless strictly required. Should not contain Apple Inc., as this confuses numerous services present in the operating system, such as firmware updates, eficheck, as well as kernel extensions developed in Acidanthera, such as Lilu and its plugins.";
+
+/* Class = "NSButtonCell"; title = "SpoofVendor"; ObjectID = "gyz-Gt-IQK"; */
+"gyz-Gt-IQK.title" = "SpoofVendor";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "gzt-RV-VqZ"; */
+"gzt-RV-VqZ.title" = "Manufacturer";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Version\nDescription: Firmware version. This value gets updated and takes part in update delivery configuration and macOS version compatibility. This value could look like MM71.88Z.0234.B00.1809171422 in older firmwares, and is described in BiosId.h. In newer firmwares it should look like 236.0.0.0.0 or 220.230.16.0.0 (iBridge: 16.16.2542.0.0,0). iBridge version is read from BridgeOSVersion variable, and is only present on macs with T2."; ObjectID = "h4J-NQ-LcH"; */
+"h4J-NQ-LcH.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Version\nDescription: Firmware version. This value gets updated and takes part in update delivery configuration and macOS version compatibility. This value could look like MM71.88Z.0234.B00.1809171422 in older firmwares, and is described in BiosId.h. In newer firmwares it should look like 236.0.0.0.0 or 220.230.16.0.0 (iBridge: 16.16.2542.0.0,0). iBridge version is read from BridgeOSVersion variable, and is only present on macs with T2.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets board-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS BoardProduct in ASCII."; ObjectID = "h7z-Be-rOD"; */
+"h7z-Be-rOD.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Sets board-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS BoardProduct in ASCII.";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "hOi-c7-jOJ"; */
+"hOi-c7-jOJ.title" = "Type";
+
+/* Class = "NSTextFieldCell"; title = "MLB"; ObjectID = "hxm-Qi-SkM"; */
+"hxm-Qi-SkM.title" = "MLB";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "iJ4-50-puj"; */
+"iJ4-50-puj.title" = "Generate";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeaturesMask and ExtendedFirmwareFeaturesMask Description: Supported bits of extended firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeaturesMask. Upper 64 bits match ExtendedFirmwareFeaturesMask."; ObjectID = "ih3-wv-2Kc"; */
+"ih3-wv-2Kc.ibShadowedToolTip" = "Type: plist data, 8 bytes\nDefault value: 0\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE128 - FirmwareFeaturesMask and ExtendedFirmwareFeaturesMask Description: Supported bits of extended firmware features bitmask. Refer to AppleFeatures.h for more details. Lower 32 bits match FirmwareFeaturesMask. Upper 64 bits match ExtendedFirmwareFeaturesMask.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: Not installed\nDescription: Sets system-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemUUID."; ObjectID = "iip-zN-Jsb"; */
+"iip-zN-Jsb.ibShadowedToolTip" = "Type: plist string, GUID\nDefault value: Not installed\nDescription: Sets system-id in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemUUID.";
+
+/* Class = "NSTextFieldCell"; title = "Product"; ObjectID = "j1k-Mi-kEe"; */
+"j1k-Mi-kEe.title" = "Product";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string, GUID\nDefault value: OEM specified\nDescription: Refer to SMBIOS SystemUUID."; ObjectID = "jaL-um-8Nb"; */
+"jaL-um-8Nb.ibShadowedToolTip" = "Type: plist string, GUID\nDefault value: OEM specified\nDescription: Refer to SMBIOS SystemUUID.";
+
+/* Class = "NSTextFieldCell"; title = "SmcBranch"; ObjectID = "jm3-qG-kzP"; */
+"jm3-qG-kzP.title" = "SmcBranch";
+
+/* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "jzf-Ga-G68"; */
+"jzf-Ga-G68.title" = "Manufacturer";
+
+/* Class = "NSTextFieldCell"; title = "ProcessorType"; ObjectID = "kwQ-r3-1fQ"; */
+"kwQ-r3-1fQ.title" = "ProcessorType";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "l5R-bG-c9M"; */
+"l5R-bG-c9M.title" = "Version";
+
+/* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "lvE-6L-IGl"; */
+"lvE-6L-IGl.title" = "Add this section in config.plist";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 8-bit\nDefault value: OEM specified\nSMBIOS: Memory Device (Type 17) — Form Factor\nDescription: Memory form factor. On Macs it should be DIMM or SODIMM."; ObjectID = "m9k-yK-AdV"; */
+"m9k-yK-AdV.ibShadowedToolTip" = "Type: plist integer, 8-bit\nDefault value: OEM specified\nSMBIOS: Memory Device (Type 17) — Form Factor\nDescription: Memory form factor. On Macs it should be DIMM or SODIMM.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply."; ObjectID = "mON-cg-FYL"; */
+"mON-cg-FYL.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) - Manufacturer Description: Board manufacturer. All rules of SystemManufacturer do apply.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OPENCORE_SN1\nDescription: Refer to SMBIOS SystemSerialNumber."; ObjectID = "mPV-Tv-466"; */
+"mPV-Tv-466.ibShadowedToolTip" = "Type: plist string\nDefault value: OPENCORE_SN1\nDescription: Refer to SMBIOS SystemSerialNumber.";
+
+/* Class = "NSTextFieldCell"; title = "BID"; ObjectID = "mqi-pJ-IwL"; */
+"mqi-pJ-IwL.title" = "BID";
+
+/* Class = "NSTextFieldCell"; title = "SmcRevision"; ObjectID = "o2A-1V-M8O"; */
+"o2A-1V-M8O.title" = "SmcRevision";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Sets Model in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemProductName in Unicode."; ObjectID = "o9h-XT-hbD"; */
+"o9h-XT-hbD.ibShadowedToolTip" = "Type: plist string\nDefault value: Not installed\nDescription: Sets Model in gEfiMiscSubClassGuid. Value found on Macs is equal to SMBIOS SystemProductName in Unicode.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 16 bytes\nFailsafe: All zero\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE134 - Version\nDescription: ASCII string containing SMC version in upper case. Missing on T2 based Macs. Ignored when zero."; ObjectID = "oMm-l1-RDC"; */
+"oMm-l1-RDC.ibShadowedToolTip" = "Type: plist data, 16 bytes\nFailsafe: All zero\nSMBIOS: APPLE_SMBIOS_TABLE_TYPE134 - Version\nDescription: ASCII string containing SMC version in upper case. Missing on T2 based Macs. Ignored when zero.";
+
+/* Class = "NSTextFieldCell"; title = "SmcPlatform"; ObjectID = "p5r-L2-V0b"; */
+"p5r-L2-V0b.title" = "SmcPlatform";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1), Product Name\nDescription: Preferred Mac model used to mark the device as supported by the operating system. This value must be specified by any configuration for later automatic generation of the related values in this and other SMBIOS tables and related configuration parameters. If SystemProductName is not compatible with the target operating system, -no_compat_check boot argument may be used as an override.\nNote: If SystemProductName is unknown, and related fields are unspecified, default values should be assumed as being set to MacPro6,1 data. The list of known products can be found in MacInfoPkg."; ObjectID = "p9S-yK-fiz"; */
+"p9S-yK-fiz.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: System Information (Type 1), Product Name\nDescription: Preferred Mac model used to mark the device as supported by the operating system. This value must be specified by any configuration for later automatic generation of the related values in this and other SMBIOS tables and related configuration parameters. If SystemProductName is not compatible with the target operating system, -no_compat_check boot argument may be used as an override.\nNote: If SystemProductName is unknown, and related fields are unspecified, default values should be assumed as being set to MacPro6,1 data. The list of known products can be found in MacInfoPkg.";
+
+/* Class = "NSTextFieldCell"; title = "Family"; ObjectID = "pbb-64-p0X"; */
+"pbb-64-p0X.title" = "Family";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer, 64-bit\nDefault value: Not installed\nDescription: Sets ARTFrequency in gEfiProcessorSubClassGuid. Sets CPU ART frequency, Skylake and newer."; ObjectID = "qOV-63-yas"; */
+"qOV-63-yas.ibShadowedToolTip" = "Type: plist integer, 64-bit\nDefault value: Not installed\nDescription: Sets ARTFrequency in gEfiProcessorSubClassGuid. Sets CPU ART frequency, Skylake and newer.";
+
+/* Class = "NSTextFieldCell"; title = "Firmware"; ObjectID = "qoc-xS-eEN"; */
+"qoc-xS-eEN.title" = "Firmware";
+
+/* Class = "NSTextFieldCell"; title = "System Serial Number"; ObjectID = "quh-uV-8rJ"; */
+"quh-uV-8rJ.title" = "System Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "Asset Tag"; ObjectID = "rL4-uJ-e4c"; */
+"rL4-uJ-e4c.title" = "Asset Tag";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OPENCORE_MLB_SN11\nDescription: Refer to SMBIOS BoardSerialNumber."; ObjectID = "rLa-T9-n6A"; */
+"rLa-T9-n6A.ibShadowedToolTip" = "Type: plist string\nDefault value: OPENCORE_MLB_SN11\nDescription: Refer to SMBIOS BoardSerialNumber.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "rjU-uH-nCF"; */
+"rjU-uH-nCF.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "System Serial Number"; ObjectID = "sXU-di-o5I"; */
+"sXU-di-o5I.title" = "System Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "ROM"; ObjectID = "t2F-TN-y72"; */
+"t2F-TN-y72.title" = "ROM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 1 byte\nDefault value: 0\nDescription: Sets board-rev in gEfiMiscSubClassGuid. Value found on Macs seems to correspond to internal board revision (e.g. 01)."; ObjectID = "vrV-lt-VAU"; */
+"vrV-lt-VAU.ibShadowedToolTip" = "Type: plist data, 1 byte\nDefault value: 0\nDescription: Sets board-rev in gEfiMiscSubClassGuid. Value found on Macs seems to correspond to internal board revision (e.g. 01).";
+
+/* Class = "NSTextFieldCell"; title = "FSBFrequency"; ObjectID = "wVQ-fG-k75"; */
+"wVQ-fG-k75.title" = "FSBFrequency";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "wqB-YC-Vht"; */
+"wqB-YC-Vht.title" = "Serial Number";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "x5o-Jb-Da4"; */
+"x5o-Jb-Da4.title" = "Type";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Serial Number\nDescription: Board serial number in defined format. Known formats are described in macserial."; ObjectID = "xDD-P3-Saq"; */
+"xDD-P3-Saq.ibShadowedToolTip" = "Type: plist string\nDefault value: OEM specified\nSMBIOS: Baseboard (or Module) Information (Type 2) — Serial Number\nDescription: Board serial number in defined format. Known formats are described in macserial.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 1 byte\nDefault value: Not installed\nDescription: Sets DevicePathsSupported in gEfiMiscSubClassGuid. Must be set to 01 for AppleACPIPlat- form.kext to append SATA device paths to Boot#### and efi-boot-device-data variables. Set to 01 on all modern Macs."; ObjectID = "yKq-oF-Y1T"; */
+"yKq-oF-Y1T.ibShadowedToolTip" = "Type: plist data, 1 byte\nDefault value: Not installed\nDescription: Sets DevicePathsSupported in gEfiMiscSubClassGuid. Must be set to 01 for AppleACPIPlat- form.kext to append SATA device paths to Boot#### and efi-boot-device-data variables. Set to 01 on all modern Macs.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_ROM and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM"; ObjectID = "yhE-PH-xkY"; */
+"yhE-PH-xkY.ibShadowedToolTip" = "Type: plist data, 6 bytes\nDefault value: Not installed\nDescription: Specifies the values of NVRAM variables 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_ROM and 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM";
+
+/* Class = "NSTextFieldCell"; title = "Firmware Features"; ObjectID = "z92-Rg-GSY"; */
+"z92-Rg-GSY.title" = "Firmware Features";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nDefault value: false\nDescription: Update NVRAM fields related to platform information.\nThese fields are read from Generic or PlatformNVRAM sections depending on Automatic value. All the other fields are to be specified with NVRAM section.\nIf UpdateNVRAM is set to false the aforementioned variables can be updated with NVRAM section. If UpdateNVRAM is set to true the behaviour is undefined when any of the fields are present in NVRAM section."; ObjectID = "zXC-sw-kEf"; */
+"zXC-sw-kEf.ibShadowedToolTip" = "Type: plist boolean\nDefault value: false\nDescription: Update NVRAM fields related to platform information.\nThese fields are read from Generic or PlatformNVRAM sections depending on Automatic value. All the other fields are to be specified with NVRAM section.\nIf UpdateNVRAM is set to false the aforementioned variables can be updated with NVRAM section. If UpdateNVRAM is set to true the behaviour is undefined when any of the fields are present in NVRAM section.";
