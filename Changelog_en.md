@@ -6,6 +6,12 @@
 5. Set **Bootx64.efi** to first boot in **UEFI Setup**
 6. Restart and enjoy your hackintosh
 
+**2020/05/03**
+- Fix AsusSMC with Fn function (all working again)
+- Fix Touchpad not working on some situation
+- Fix inject VoodooI2C and VoodooPS2 in OpenCore (delete these kexts in /L/E or disable them in config.plist)
+- Disable OpenCanopy and BootChime by default (enable in config.plist)
+
 **2020/04/12**
 - Add GUI for OpenCore by OpenCanopy
 - Add startup sound (manually enable in config.plist)

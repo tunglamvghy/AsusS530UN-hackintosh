@@ -6,6 +6,12 @@
 5. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
 6. Khởi động lại máy và thưởng thức!!
 
+**03/05/2020**
+- Sửa lại hoạt động phím Fn
+- Sửa lại lỗi Touchpad không hoạt động ở 1 số máy
+- Đưa VoodooI2C và VoodooPS2 vào OpenCore (phải xoá những Kexts này trong /L/E hoặc tắt chúng trong config.plist)
+- Tắt giao diện khởi động (OpenCanopy) và âm thanh khởi động (mở lại trong config.plist)
+
 **12/04/2020**
 - Thêm GUI khởi động cho OpenCore và âm thanh (tự kích hoạt âm thanh trong config.plist)
 - Tối ưu hoá. Loại bỏ 1 số phần không cần thiết
