@@ -1,0 +1,7 @@
+Clover Configurator
+EVKey
+Hackintool
+IORegistryExplorer
+MaciASL
+OpenCore Configurator
+TurboBoost Switcher

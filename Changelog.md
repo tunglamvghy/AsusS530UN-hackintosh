@@ -6,6 +6,11 @@
 5. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
 6. Khởi động lại máy và thưởng thức!!
 
+**27/05/2020**
+- Cập nhật OpenCore, Kexts
+- Cập nhật macOS lên bản 10.15.5
+- Thêm kext Apple Intel wifi để chạy được card wifi gắn sẵn trong máy.
+
 **03/05/2020**
 - Sửa lại hoạt động phím Fn
 - Sửa lại lỗi Touchpad không hoạt động ở 1 số máy

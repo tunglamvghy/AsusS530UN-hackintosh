@@ -6,6 +6,12 @@
 5. Set **Bootx64.efi** to first boot in **UEFI Setup**
 6. Restart and enjoy your hackintosh
 
+**2020/05/27**
+- Update OpenCore to 0.5.9
+- Update Kexts
+- Update macOS to vesion 10.15.5
+- Add Intel Wifi kext for who wants to try to use Intel AC8265 Dual-Band Wifi card.
+
 **2020/05/03**
 - Fix AsusSMC with Fn function (all working again)
 - Fix Touchpad not working on some situation
