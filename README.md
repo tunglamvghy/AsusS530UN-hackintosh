@@ -3,8 +3,8 @@ I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of f
 Any donation would help me a lot!
 
 # Asus Vivobook S530UN
-# Mac OS X 10.15 Catalina
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
+# Mac OS X 11 BigSur beta (testing)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.webp)
 # Specification
 - **MainBoard:** Asus X530UN.
 - **Processor:** Intel Core i5-8250U @ 1.6GHz (KabyLake-R)
@@ -68,7 +68,7 @@ Any donation would help me a lot!
 - Waiting for Intel Wifi firmware (soon)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/Screen%20Shot%202020-02-08%20at%2022.59.14.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200706.png)
 
 ## Credits
 @RehabMan for his guide for beginner
