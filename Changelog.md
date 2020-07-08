@@ -1,88 +1,98 @@
-**Cách cài đặt**
-1. Tạo bộ cài USB (hỏi chị google) và cài macOS vào máy bạn (có thể dùng Clover | OpenCore không load được bàn phím =))
-2. Tải thư mục **OC** và **Boot** và chép vào thư mục EFI của máy
-3. Chỉnh sửa lại PlatformInfo trong **config.plist** (tạo mới bằng [https://github.com/corpnewt/GenSMBIOS])
-4. Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /Kexts in /L/E và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool
-5. Chỉnh cài đặt UEFI để file Bootx64.efi lên đầu danh sách boot.
-6. Khởi động lại máy và thưởng thức!!
+**Installation**
+1. Make installation device and install MacOS to your PC (use Clover folder)
+2. Download **OC** folder and **Boot** folder copy it to your PC folder
+3. Edit **PlatformInfo** in **config.plist** (Generate new MacInfo: [https://github.com/corpnewt/GenSMBIOS])
+4. Copy VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext from **/EFI/OC/Kexts/** and install them to **/L/E** then rebuild cache using *Hackintool*.
+5. Set **Bootx64.efi** to first boot in **UEFI Setup**
+6. Restart and enjoy your hackintosh
 
-**27/05/2020**
-- Cập nhật OpenCore, Kexts
-- Cập nhật macOS lên bản 10.15.5
-- Thêm kext Apple Intel wifi để chạy được card wifi gắn sẵn trong máy.
+**2020/07/08**
+- **Update to macOS 11 BigSur**
+- Update OpenCore to 0.6.0 develop vesion (can update to BigSur from macOS 10.15)
+- Update kexts
+- Use ACPIBattery (bugs with BatterySMC in BigSur)
+- All working as normal
 
-**03/05/2020**
-- Sửa lại hoạt động phím Fn
-- Sửa lại lỗi Touchpad không hoạt động ở 1 số máy
-- Đưa VoodooI2C và VoodooPS2 vào OpenCore (phải xoá những Kexts này trong /L/E hoặc tắt chúng trong config.plist)
-- Tắt giao diện khởi động (OpenCanopy) và âm thanh khởi động (mở lại trong config.plist)
+**2020/05/27**
+- Update OpenCore to 0.5.9
+- Update Kexts
+- Update macOS to vesion 10.15.5
+- Add Intel Wifi kext for who wants to try to use Intel AC8265 Dual-Band Wifi card.
 
-**12/04/2020**
-- Thêm GUI khởi động cho OpenCore và âm thanh (tự kích hoạt âm thanh trong config.plist)
-- Tối ưu hoá. Loại bỏ 1 số phần không cần thiết
-- Chỉnh về chế độ cân bằng điện năng vs hiệu năng
-- Sửa lỗi DRM
-- Lỗi còn tồn tại: Thỉnh thoảng mất âm thanh sau khi khởi động từ Windows và chuyển sang MacOS (reset máy bằng giữ nút nguồn vài giây để âm thanh hoạt động lại)
+**2020/05/03**
+- Fix AsusSMC with Fn function (all working again)
+- Fix Touchpad not working on some situation
+- Fix inject VoodooI2C and VoodooPS2 in OpenCore (delete these kexts in /L/E or disable them in config.plist)
+- Disable OpenCanopy and BootChime by default (enable in config.plist)
 
-**09/04/2020**
-- Cập nhật OpenCore lên v0.5.8
-- Cập nhật kexts
-- Sửa lỗi boot do IGPU sau khi update lên 10.15.4 (sửa hoàn toàn)
-- Lỗi còn tồn tại: Thỉnh thoảng mất âm thanh sau khi khởi động từ Windows và chuyển sang MacOS
+**2020/04/12**
+- Add GUI for OpenCore by OpenCanopy
+- Add startup sound (manually enable in config.plist)
+- Optimized. Remove some unused things.
+- Fixed DRM
+- Known issues: Sometimes lost sound after booting to Windows and come back MacOS (try to hard-reset your PC to make sound working again)
 
-**02/04/2020**
-- Cập nhật kexts
-- Sửa lỗi boot do IGPU sau khi update lên 10.15.4 (tạm thời)
+**2020/04/09**
+- Update OpenCore to v0.5.8 (newest config)
+- Update kexts
+- Fix boot issues related to IGPU after update to MacOS 10.15.4 (completely fixed)
+- Known issues: Sometimes lost sound after booting to Windows and come back MacOS
 
-**16/03/2020**
-- Cập nhật OpenCore v0.5.6
-- fix lỗi boot
-- lỗi chưa sửa: không load được VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ OpenCore (sửa bằng cách Chép VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext từ thư mục /EFI/OC/Kexts và cài chúng vào /L/E sau đó rebuild cache bằng Hackintool )
+**2020/04/02**
+- Update kexts
+- Fix boot issues related to IGPU after update to MacOS 10.15.4
 
-**21/02/2020**
-- Cập nhật kexts
-- Thay thế USBInjectAll thành USBMap
+**2020/03/16**
+- Update OpenCore to v0.5.6
+- fix boot error after update OpenCore
+- known bugs: cant load VoodooI2C and VoodooPS2Controller from OpenCore. Just install those kext to /L/E and rebuild cache using Hackintool.
 
-**08/02/2020**
-- Sửa ACPI để AsusSMC kext hoạt động
-- Sửa lỗi đèn nền bàn phím
-- Danh sách phím chức năng Fn:
-  + F1: Mute
-  + F2/F3: Giảm/Tăng âm
-  + F4/F5: Giảm/Tăng độ sáng màn hình
-  + F6: Bật/Tắt Touchpad
-  + F7/F8: Tăng/Giảm đèn nền bàn phím (16 mức độ)
-  + F9/F10/F11/F12: Home/End/PgUp/PgDown
-  + Fn + phím cách: Play/Pause âm nhạc
-  + Fn + Enter : Sleep máy tính (chạy file install_daemon.sh để hoạt động)
-  + Fn + Esc: Tắt/Bật màn hình
-- Thêm firmware Bluetooth  
-- Sửa hoàn toàn lỗi âm thanh
-- Cập nhật OpenCore lên 0.5.5
-- Cập nhật toàn bộ kext lên phiên bản mới nhất
+**2020/02/21**
+- Update Kexts
+- Replace USBInjectAll.kext with USBMap.kext
 
-**06/12/2019**
-- Cập nhật OpenCore lên 0.5.4
-- Cập nhật các kexts lên phiên bản mới nhất
-- Sửa lỗi kernel panic của Whatevergreen 1.3.6
+**2020/02/08**
+- Edit ACPI to make AsusSMC kext work
+- Fix Keyboard Backlight
+- Fn function list:
+  + Fn + F1: Mute
+  + Fn + F2/F3: Increase/Decrease volume
+  + Fn + F4/F5: Increase/Decrease screen brightness
+  + Fn + F6: On/Off Touchpad
+  + Fn + F7/F8: Increase/Decrease Keyboard Backlight (16 levels)
+  + Fn + F9/F10/F11/F12: Home/End/PgUp/PgDown
+  + Fn + Space: Play/Pause
+  + Fn + Enter : Put Computer to Sleep (run install_daemon.sh as root to make this work)
+  + Fn + Esc: On/Off Screen
+- Add firmware Bluetooth (can use Intel Bluetooth)
+- Sound fixing completely
+- Update OpenCore to version 0.5.5
+- Update all Kexts to newest version
+* waiting for Wifi Intel Dual-Band AC8265 working
 
-**18/11/2019**
-- Ổn định trên macOS 10.15.1
-- Ngừng Cập nhật Clover (chuyển hoàn toàn sang OpenCore)
-- Cập nhật OC Bootloader
-- Cập nhật Kexts
-- Sửa lỗi âm thanh
-- Loại bỏ kext USB Wifi (dùng file cài trên trang chủ)
+**2019/12/06**
+- Update OpenCore to version 0.5.4
+- Update Kexts to newest version
+- Fix kernel panic when use Whatevergreen 1.3.6
 
-**17/09/2019**
-- Dùng OpenCore Bootloader làm Bootloader chính
-- Cập nhật OC, kexts
-- Thêm hướng dẫn cài driver USB Wifi Comfast CF-811AC
+**2019/11/18**
+- Stable on macOS 10.15.1
+- Stop update Clover (moved completely to OpenCore)
+- Update OC Bootloader
+- Update Kexts to newest version
+- Fix sound not working
+- Remove kext USB Wifi (just use setup file from homepage)
+  + macOS 10.15: Use Hackintool to mount /System then run setup file
 
-**27/08/2019**
-- Thêm OpenCore Bootloader (testing)
-- Chỉnh sửa lỗi âm thanh
+**2019/09/17**
+- Make OpenCore Bootloader as Main Bootloader
+- Update OpenCore Bootloader, kexts
+- Add íntalling driver USB Wifi Comfast CF-811AC instruction
+
+**2019/08/27**
+- Add OpenCore Bootloader (testing)
+- Fix Apple ALC
 - Fix Minor bugs
 
-**14/06/2019**
-- Tải lên toàn bộ dữ liệu
+**2019/06/14**
+- Initialized
