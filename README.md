@@ -12,7 +12,7 @@ Any donation would help me a lot!
   + Intel UHD620 (1536MB of dynamic memory (shared from the system))
   + NVIDIA GeForce MX150 2GB
 - **Network:**
-  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) <use USB Wifi Comfast CF-811AC instead>
+  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2))
   + Ethernet: No
   + Bluetooth: V4.1 (working)
 - **Audio:** Realtek ALC256 (working)
@@ -29,7 +29,7 @@ Any donation would help me a lot!
 - [x] **Graphics UHD 620**
 - [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
-- [ ] WiFi (Replace with USB Wifi or waiting for Intel Wifi firmware)
+- [x] **Wifi (working on beta version of itlwm and HeliPort)**
 - [x] **Bluetooth** (fully supported)
 - [x] Apple Store
 - [x] External USB headphone
@@ -65,7 +65,7 @@ Any donation would help me a lot!
 - [ ] HandOff (Not test yet)
 
 # KNOWN ISSUES
-- Waiting for Intel Wifi firmware (soon)
+- Intel Wifi firmware (testing - unstable)
 
 # SCREENSHOT
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200706.png)
