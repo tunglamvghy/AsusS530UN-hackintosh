@@ -6,6 +6,13 @@
 5. Set **Bootx64.efi** to first boot in **UEFI Setup**
 6. Restart and enjoy your hackintosh
 
+**2020/07/12**
+- Update to macOS 11 BigSur Beta 2
+- Update to latest version of OpenCore, Lilu, Whatevergreen, VirtualSMC
+- Intel Wifi testing with Heliport and itwlm thanks to @OpenIntelWireless[https://github.com/OpenIntelWireless]
+(Copy Heliport in Wifi folder to Application and open it to connect Wifi)
+- Working as normal.
+
 **2020/07/08**
 - **Update to macOS 11 BigSur**
 - Update OpenCore to 0.6.0 develop vesion (can update to BigSur from macOS 10.15)
