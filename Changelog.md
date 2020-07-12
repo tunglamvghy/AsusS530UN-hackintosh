@@ -1,16 +1,10 @@
-**Installation**
-1. Make installation device and install MacOS to your PC (use Clover folder)
-2. Download **OC** folder and **Boot** folder copy it to your PC folder
-3. Edit **PlatformInfo** in **config.plist** (Generate new MacInfo: [https://github.com/corpnewt/GenSMBIOS])
-4. Copy VoodooPS2Controller and VoodooI2C, VoodooI2CHID kext from **/EFI/OC/Kexts/** and install them to **/L/E** then rebuild cache using *Hackintool*.
-5. Set **Bootx64.efi** to first boot in **UEFI Setup**
-6. Restart and enjoy your hackintosh
+# CHANGELOG
 
 **2020/07/12**
 - Update to macOS 11 BigSur Beta 2
 - Update to latest version of OpenCore, Lilu, Whatevergreen, VirtualSMC
-- Intel Wifi testing with Heliport and itwlm thanks to @OpenIntelWireless[https://github.com/OpenIntelWireless]
-(Copy Heliport in Wifi folder to Application and open it to connect Wifi)
+- Intel Wifi testing with Heliport and itwlm thanks to @[OpenIntelWireless](https://github.com/OpenIntelWireless) *(enabled by default in config.plist)*
+(Extract *Heliport.app* in Wifi folder to Application and open it to connect Wifi)
 - Working as normal.
 
 **2020/07/08**
