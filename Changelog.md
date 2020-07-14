@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2020/07/14**
+- Improve performance
+- Fix bugs
+- Disable Intel WiFi testing by default (enable it manually in ***config.plist***)
+
 **2020/07/12**
 - Update to macOS 11 BigSur Beta 2
 - Update to latest version of OpenCore, Lilu, Whatevergreen, VirtualSMC
