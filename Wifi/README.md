@@ -6,4 +6,4 @@
 - extract **HeliPort.app.zip** to ***Application*** folder
 - open **HeliPort** app and enjoy
 
-*Kext and app combined on 15/07/2020*
+*Kext and app combined on 18/07/2020*

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2020/07/18**
+- Fix SMCBattery kext and remove ACPIBatteryManager
+- Update OpenCore, kexts
+- Update Intel Wifi testing (HeliPort and itlwm)
+
 **2020/07/14**
 - Improve performance
 - Fix bugs
