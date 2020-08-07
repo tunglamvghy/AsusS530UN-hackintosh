@@ -3,7 +3,7 @@ I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of f
 Any donation would help me a lot!
 
 # Asus Vivobook S530UN
-# Mac OS X 11 BigSur beta 3 (testing/unstable)
+# Mac OS X 11 BigSur beta 4 (testing/unstable)
 ***This EFI can be used for macOS Catalina***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
@@ -68,7 +68,7 @@ Any donation would help me a lot!
 # KNOWN ISSUES
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200723.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200807.png)
 
 ## Credits
 @RehabMan for his guide for beginner

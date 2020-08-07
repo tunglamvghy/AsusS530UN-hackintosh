@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2020/08/07**
+- Update to macOS 11 BigSur Beta 4
+- Update OpenCore to v0.6.1
+- Update kexts
+- Update Intel Wifi testing (HeliPort and itlwm)
+
 **2020/07/18**
 - Fix SMCBattery kext and remove ACPIBatteryManager
 - Update OpenCore, kexts
