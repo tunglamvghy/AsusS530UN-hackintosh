@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2020/08/13**
+- Update OpenCore to latest commit.
+- Customize OpenCanopy
+
 **2020/08/07**
 - Update to macOS 11 BigSur Beta 4
 - Update OpenCore to v0.6.1
