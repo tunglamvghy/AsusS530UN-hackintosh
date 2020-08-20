@@ -1655,9 +1655,25 @@
 				<key>Comment</key>
 				<string>Intel Wifi test</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/itlwm</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>Black80211.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/Black80211</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1910,6 +1926,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>ApECID</key>
+			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
 			<key>BootProtect</key>
@@ -1920,6 +1938,8 @@
 			<integer>3</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>Vault</key>
@@ -2036,7 +2056,7 @@
 		<key>WriteFlash</key>
 		<true/>
 	</dict>
-	<key>PlatformInfo</key>
+<key>PlatformInfo</key>
 	<dict>
 		<key>Automatic</key>
 		<true/>
@@ -2047,7 +2067,8 @@
 			<key>BoardProduct</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>BoardRevision</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -2057,11 +2078,14 @@
 			<key>PlatformName</key>
 			<string></string>
 			<key>SmcBranch</key>
-			<data></data>
+			<data>
+			</data>
 			<key>SmcPlatform</key>
-			<data></data>
+			<data>
+			</data>
 			<key>SmcRevision</key>
-			<data></data>
+			<data>
+			</data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
@@ -2078,7 +2102,9 @@
 			<key>MLB</key>
 			<string>FVF033701CD00001F</string>
 			<key>ROM</key>
-			<data>zhPlaS0y</data>
+			<data>
+			zhPlaS0y
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -2093,13 +2119,19 @@
 			<key>BID</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
+			<data>
+			N+EP/AAAAAA=
+			</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>
+			P/8f/wAAAAA=
+			</data>
 			<key>MLB</key>
 			<string>FVF033701CD00001F</string>
 			<key>ROM</key>
-			<data>zhPlaS0y</data>
+			<data>
+			zhPlaS0y
+			</data>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -2134,9 +2166,13 @@
 			<key>ChassisVersion</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
+			<data>
+			N+EP/AAAAAA=
+			</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>
+			P/8f/wAAAAA=
+			</data>
 			<key>MemoryFormFactor</key>
 			<integer>0</integer>
 			<key>PlatformFeature</key>
@@ -2144,7 +2180,8 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SmcVersion</key>
-			<data></data>
+			<data>
+			</data>
 			<key>SystemFamily</key>
 			<string>MacBook Pro</string>
 			<key>SystemManufacturer</key>
@@ -2272,9 +2309,13 @@
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
+			<key>AppleImg4Verification</key>
+			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleRtcRam</key>
+			<false/>
+			<key>AppleSecureBoot</key>
 			<false/>
 			<key>AppleSmcIo</key>
 			<false/>
