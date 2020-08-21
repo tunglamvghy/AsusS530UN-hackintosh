@@ -3,7 +3,7 @@ I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of f
 Any donation would help me a lot!
 
 # Asus Vivobook S530UN
-# Mac OS X 11 BigSur beta 4 (testing/unstable)
+# Mac OS X 11 BigSur beta 5 (testing/unstable)
 ***This EFI can be used for macOS Catalina***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
@@ -13,7 +13,7 @@ Any donation would help me a lot!
   + Intel UHD620 (1536MB of dynamic memory (shared from the system))
   + NVIDIA GeForce MX150 2GB
 - **Network:**
-  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) <use USB Wifi Comfast CF-811AC instead>
+  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) (working unstable!!)
   + Ethernet: No
   + Bluetooth: V4.1 (working)
 - **Audio:** Realtek ALC256 (working)
@@ -59,22 +59,22 @@ Any donation would help me a lot!
 - [ ] Personal Hotspot (Not test yet)
 - [x] Power Management and P-States
 - [x] iCloud 
-- [ ] iMessage (Not test yet)
-- [ ] Airdrop (Not test yet)
-- [ ] AirPlay (Not test yet)
-- [x] iBooks (Not test yet)
-- [ ] HandOff (Not test yet)
 
 # KNOWN ISSUES
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200807.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200820.png)
 
 ## Credits
 @RehabMan for his guide for beginner
+
 @alexandred and his team for VoodooI2C
+
 @acidanthera for his OpenCore Bootloader and kexts
+
 @hieplpvip for AsusSMC kexts
+
 @OpenIntelWireless for his Intel Wifi support
+
 @black.dragon74 for custom FAN control (see https://osxlatitude.com/forums/topic/10244-how-to-implement-custom-fan-control-on-asus-laptops/
 and many more people that I can't list here.

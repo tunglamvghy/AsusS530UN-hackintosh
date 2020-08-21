@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2020/08/20**
+- Update to macOS 11 BigSur Beta 5
+- Update OpenCore to latest commit
+- Update kexts
+- Disable Intel Wifi testing by default because of unstable (enable in config.plist)
+
 **2020/08/13**
 - Update OpenCore to latest commit.
 - Customize OpenCanopy
