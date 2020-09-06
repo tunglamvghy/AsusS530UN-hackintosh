@@ -3,7 +3,7 @@ I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of f
 Any donation would help me a lot!
 
 # Asus Vivobook S530UN
-# Mac OS X 11 BigSur beta 5 (testing/unstable)
+# Mac OS X 11 BigSur beta 6 (testing/unstable)
 ***This EFI can be used for macOS Catalina***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
@@ -49,21 +49,21 @@ Any donation would help me a lot!
     + **Fn + Esc**: On/Off Screen
 - [x] Led light keyboard (Fn + F7/F8: Increase/Decrease Keyboard Backlight (16 levels))
 - [x] Sleep power
-- [x] Battery
-- [x] Trackpad (Only in Polling MODE with VoodooI2C)
+- [x] Battery with Battery Threshold feature (limit charging at 80% for a long-life battery) 
+- [x] Trackpad (Only working in Polling MODE with VoodooI2C)
 - [x] Full 4 cores
 - [x] Temporature
+- [x] System Fan Control
 - [x] Disabling discrete graphics GPU with SSDT Patching
 - [x] Ethernet (Using NullEthernet.kext)~~
-- [x] Hardware Acceleration (Not test yet)
-- [ ] Personal Hotspot (Not test yet)
+- [x] Hardware Acceleration
 - [x] Power Management and P-States
 - [x] iCloud 
 
 # KNOWN ISSUES
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200820.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200906.png)
 
 ## Credits
 @RehabMan for his guide for beginner
@@ -72,7 +72,7 @@ Any donation would help me a lot!
 
 @acidanthera for his OpenCore Bootloader and kexts
 
-@hieplpvip for AsusSMC kexts
+@hieplpvip for his AsusSMC kexts
 
 @OpenIntelWireless for his Intel Wifi support
 
