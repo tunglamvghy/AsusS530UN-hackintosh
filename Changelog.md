@@ -1,9 +1,11 @@
 # CHANGELOG
 **2020/09/06**
 - Update to macOS 11 BigSur Beta 6
-- Update pre-release AsusSMC kext (thanks to @hieplpvip) with 2 new features:
-        + Battery Threshold (set default at 80%) - enable in Battery Setting > Battery Health
-        + Add Fan speed
+- Update **pre-release AsusSMC kext** (thanks to @hieplpvip) with ***2 new features***:
+
+        ▪ Battery Threshold (set default at 80%) => enable in **Battery Setting > Battery Health**...
+        
+        ▪ Add Fan speed
 - Change from SSDT-DATA to CPUFriendProvider.kext
 - Fix sleep issue
 - Remove unused driver, ACPI files, optimised...
