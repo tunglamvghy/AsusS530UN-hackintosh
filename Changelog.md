@@ -1,10 +1,15 @@
 # CHANGELOG
+**2020/09/15**
+- Update OC to v0.6.2
+- Update kexts, ACPI for AsusSMC
+- Optimised config for OC 0.6.2
+- Fix boot issue.
+
 **2020/09/06**
 - Update to macOS 11 BigSur Beta 6
 - Update **pre-release AsusSMC kext** (thanks to @hieplpvip) with ***2 new features***:
 
-        ▪ Battery Threshold (set default at 80%) => enable in **Battery Setting > Battery Health**...
-        
+        ▪ Battery Threshold (set default at 80%) => enable in Battery Setting > Battery Health...
         ▪ Add Fan speed
 - Change from SSDT-DATA to CPUFriendProvider.kext
 - Fix sleep issue
