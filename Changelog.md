@@ -2,6 +2,7 @@
 
 **2020/09/18**
 - Successfully updated to macOS 11 beta 7 (20A5374g)
+- Update OpenCore to latest commit
 
 **2020/09/15**
 - Update OC to v0.6.2
@@ -17,6 +18,7 @@
         ▪ Add Fan speed
 - Change from SSDT-DATA to CPUFriendProvider.kext
 - Fix sleep issue
+- Change SMBIOS to Macbook Air 8,2 for better battery.
 - Remove unused driver, ACPI files, optimised...
 - Update OpenCore to latest commit
 - Update kexts
