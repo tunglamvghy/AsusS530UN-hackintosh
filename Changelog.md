@@ -1,4 +1,8 @@
 # CHANGELOG
+
+**2020/09/18**
+- Successfully updated to macOS 11 beta 7 (20A5374g)
+
 **2020/09/15**
 - Update OC to v0.6.2
 - Update kexts, ACPI for AsusSMC
