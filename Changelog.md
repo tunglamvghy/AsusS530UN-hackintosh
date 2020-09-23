@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2020/09/23**
+- Successfully updated to macOS 11.0 beta 8 (20A5374i)
+- Change ***SecureBootModel*** to ***Disable*** in config.plist for updating from beta 7
+
 **2020/09/18**
 - Successfully updated to macOS 11 beta 7 (20A5374g)
 - Update OpenCore to latest commit
@@ -11,7 +15,7 @@
 - Fix boot issue.
 
 **2020/09/06**
-- Update to macOS 11 BigSur Beta 6
+- Update to macOS 11.0 BigSur Beta 6
 - Update **pre-release AsusSMC kext** (thanks to @hieplpvip) with ***2 new features***:
 
         ▪ Battery Threshold (set default at 80%) => enable in Battery Setting > Battery Health...
@@ -24,7 +28,7 @@
 - Update kexts
 
 **2020/08/20**
-- Update to macOS 11 BigSur Beta 5
+- Update to macOS 11.0 BigSur Beta 5
 - Update OpenCore to latest commit
 - Update kexts
 - Disable Intel Wifi testing by default because of unstable (enable in config.plist)
@@ -34,7 +38,7 @@
 - Customize OpenCanopy
 
 **2020/08/07**
-- Update to macOS 11 BigSur Beta 4
+- Update to macOS 11.0 BigSur Beta 4
 - Update OpenCore to v0.6.1
 - Update kexts
 - Update Intel Wifi testing (HeliPort and itlwm)
@@ -50,14 +54,14 @@
 - Disable Intel WiFi testing by default (enable it manually in ***config.plist***)
 
 **2020/07/12**
-- Update to macOS 11 BigSur Beta 2
+- Update to macOS 11.0 BigSur Beta 2
 - Update to latest version of OpenCore, Lilu, Whatevergreen, VirtualSMC
 - Intel Wifi testing with Heliport and itwlm thanks to @[OpenIntelWireless](https://github.com/OpenIntelWireless) *(enabled by default in config.plist)*
 (Extract *Heliport.app* in Wifi folder to Application and open it to connect Wifi)
 - Working as normal.
 
 **2020/07/08**
-- **Update to macOS 11 BigSur**
+- **Update to macOS 11.0 BigSur**
 - Update OpenCore to 0.6.0 develop vesion (can update to BigSur from macOS 10.15)
 - Update kexts
 - Use ACPIBattery (bugs with BatterySMC in BigSur)
