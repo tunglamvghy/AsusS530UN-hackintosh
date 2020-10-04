@@ -2,8 +2,9 @@
 I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
 Any donation would help me a lot!
 ## Need help. Contact me
-- Telegram: https://t.me/tunglamvghy
-- Messenger: https://m.me/k38b.lamtung
+[![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
+[![Messenger](https://img.shields.io/badge/Chat_on-Messenger-0078FF)](https://m.me/k38b.lamtung)
+
 # Asus Vivobook S530UN
 # Mac OS X 11 BigSur beta 8
 ***This EFI can be used for macOS Catalina***
