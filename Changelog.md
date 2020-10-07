@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2020/10/07**
+- Working stable on macOS 11.0 beta 9 (20A5384c)
+- Update OC 0.6.3 and kexts to latest commit
+- Update itlwm for using Airport Menu (still unstable)
+- Add contact me method!! (see README.MD)
+
 **2020/09/23**
 - Successfully updated to macOS 11.0 beta 8 (20A5374i)
 - Change ***SecureBootModel*** to ***Disable*** in config.plist for updating from beta 7

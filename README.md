@@ -66,7 +66,7 @@ Any donation would help me a lot!
 # KNOWN ISSUES
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20200923.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20201007.png)
 
 ## Credits
 @RehabMan for his guide for beginner
