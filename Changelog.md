@@ -1,5 +1,12 @@
 # CHANGELOG
 
+**2020/10/17**
+- Working stable on macOS 11.0 beta 10 (20A5395g)
+- Update OC 0.6.3 and kexts to latest commit
+- Add **AppleBacklightSmoother** kext thanks to @hieplpvip
+- Remove unused drivers and tools
+- Remove unused boot-args
+
 **2020/10/07**
 - Working stable on macOS 11.0 beta 9 (20A5384c)
 - Update OC 0.6.3 and kexts to latest commit
