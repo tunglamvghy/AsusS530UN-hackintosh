@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2020/11/06**
+- Working stable on macOS 11.0.1 beta 1 RC (20B5022a)
+- Update OC and kexts to latest commit
+- Enable Itlwm again for testing Intel Wifi (working stable except upload issue)
+
 **2020/10/29**
 - Working stable on macOS 11.0.1 beta 1 (20B5012d)
 - Update OC and kexts to latest commit

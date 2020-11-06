@@ -1377,7 +1377,7 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<false/>
+			<true/>
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
@@ -1545,6 +1545,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AppleBacklightSmoother.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleBacklightSmoother</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -2024,24 +2042,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
-				<key>Comment</key>
-				<string>Intel Wifi test</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string>Intel Wifi test</string>
@@ -2204,8 +2204,6 @@
 			<key>DisableLinkeditJettison</key>
 			<false/>
 			<key>DisableRtcChecksum</key>
-			<false/>
-			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
@@ -2377,7 +2375,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>alcid=13 kext-dev-mode=1</string>
+				<string></string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
@@ -2634,7 +2632,6 @@
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
-			<string>#AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>

@@ -6,7 +6,7 @@ Any donation would help me a lot!
 [![Messenger](https://img.shields.io/badge/Chat_on-Messenger-0078FF)](https://m.me/k38b.lamtung)
 
 # Asus Vivobook S530UN
-# Mac OS X 11.0.1 BigSur beta 1
+# Mac OS X 11.0.1 BigSur beta RC (20B5022a)
 ***This EFI can be used for macOS Catalina***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
@@ -66,7 +66,7 @@ Any donation would help me a lot!
 # KNOWN ISSUES
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20201029.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20201106.png)
 
 ## Credits
 @RehabMan for his guide for beginner
