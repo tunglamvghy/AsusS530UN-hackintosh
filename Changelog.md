@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2020/11/14**
+- Working stable on macOS 11.0.1 publicrelease (20B29)
+- Update OC and kexts to latest commit
+
 **2020/11/06**
 - Working stable on macOS 11.0.1 beta 1 RC (20B5022a)
 - Update OC and kexts to latest commit
