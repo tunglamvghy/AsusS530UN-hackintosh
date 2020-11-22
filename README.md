@@ -65,6 +65,12 @@ Any donation would help me a lot!
 
 # KNOWN ISSUES
 
+# INSTALLATION GUIDE
+[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Installation%20Guide.md)
+
+# CHANGELOG
+[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Changelog.md)
+
 # SCREENSHOT
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20201114.png)
 

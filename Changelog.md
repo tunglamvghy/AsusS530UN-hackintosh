@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2020/11/22**
+- Update OC and kexts to latest commit
+- Intel Wifi is more stable (still has terrible upload speed)
+- Update **Installation guide** for online-installing macOS
+
 **2020/11/14**
 - Working stable on macOS 11.0.1 publicrelease (20B29)
 - Update OC and kexts to latest commit
