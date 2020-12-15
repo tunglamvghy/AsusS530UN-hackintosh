@@ -1,5 +1,13 @@
 # CHANGELOG
 
+**2020/12/15**
+- Working stable on macOS 11.1 (20C69)
+- Update OC and kexts to latest commit
+- Update Intel Wifi for both Catanila and BigSur (more stable - still has terrible upload speed)
+- Update ACPI files
+- Update USB mapping
+- Remove NullEthernet (can re-add manually)
+
 **2020/11/22**
 - Update OC and kexts to latest commit
 - Intel Wifi is more stable (still has terrible upload speed)

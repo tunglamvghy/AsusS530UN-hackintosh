@@ -1,12 +1,13 @@
 ## [Donate me](https://paypal.me/vtlam98)
 I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
 Any donation would help me a lot!
-## Need help. Contact me
+***If you want me to create your own EFI for you, please contact me via Telegram***
+
+## Contact me
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
-[![Messenger](https://img.shields.io/badge/Chat_on-Messenger-0078FF)](https://m.me/k38b.lamtung)
 
 # Asus Vivobook S530UN
-# Mac OS X 11.0.1 BigSur public release (20B29)
+# Mac OS X 11.1 BigSur (20B29)
 ***This EFI can be used for previous version of macOS ***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
