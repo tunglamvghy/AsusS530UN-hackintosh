@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2020/12/28**
+- Update OC and kexts to latest commit
+- Fix **OC: Failed to load configuration** error on some situation
+
 **2020/12/15**
 - Working stable on macOS 11.1 (20C69)
 - Update OC and kexts to latest commit
