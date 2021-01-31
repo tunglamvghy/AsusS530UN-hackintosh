@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2021/01/31**
+- Update OC to v0.6.6
+- Update kexts to latest commit
+
 **2020/12/28**
 - Update OC and kexts to latest commit
 - Fix **OC: Failed to load configuration** error on some situation

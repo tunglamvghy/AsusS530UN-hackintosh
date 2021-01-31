@@ -13,6 +13,7 @@
 ## Need help. Contact me
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 [![Messenger](https://img.shields.io/badge/Chat_on-Messenger-0078FF)](https://m.me/k38b.lamtung)
+***Due to COVID-19, now I have freetime. So if you want me to create your own EFI with a little payment, contact me via Telegram.***
 
 ## [Donate me](https://paypal.me/vtlam98)
 If you want to donate, send me via [**PayPal**](https://paypal.me/vtlam98)
