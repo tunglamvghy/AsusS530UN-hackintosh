@@ -5,6 +5,7 @@
 - Update OC to v0.6.7
 - Update kexts to latest commit
 - Fix OpenCanopy
+- Remove Bootstrap option, Fix boot entry disappear after reset NVRAM
 - Update ***Installation Guide***
 
 **2021/01/31**
