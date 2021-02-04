@@ -1,5 +1,12 @@
 # CHANGELOG
 
+**2021/02/04**
+- Working stable on macOS 11.2 (20D64)
+- Update OC to v0.6.7
+- Update kexts to latest commit
+- Fix OpenCanopy
+- Update ***Installation Guide***
+
 **2021/01/31**
 - Update OC to v0.6.6
 - Update kexts to latest commit

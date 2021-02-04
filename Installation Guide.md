@@ -7,13 +7,25 @@
 5. Boot to macOS you've installed
 6. Using [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) or **OpenCore Configurator** to generate new SMBIOS
 7. Copy **OC** folder and **Boot** folder from EFI partition of your USB to EFI partition of your SSD.
-8. Restart and enjoy your new hackintosh
-***Notes:*** If your pc has different specs, try to read [**OpenCore guide**](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) or [**Dortania guide**](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) for more details
+8. Restart and do **Adjust Power Mode for CPU**
+9. Enjoy your new hackintosh
+***Notes:*** 
+- Adjust PowerMode for CPU
+    1. Make sure you have good network
+    2. Run the following command with Terminal
+    ```bash
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/stevezhengshiqi/one-key-cpufriend/main/one-key-cpufriend.sh)"
+    ```
+    3. Choose the power scheme
+    4. Copy generated **CPUFriendDataProvider.kext** in Desktop and replace the old kext in /OC/Kexts
+    5. Restart your Hackintosh
+    If you change the SMBIOS, do all steps again.
+- If your pc has different specs, try to read [**OpenCore guide**](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) or [**Dortania guide**](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) for more details
 
 ## Need help. Contact me
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 [![Messenger](https://img.shields.io/badge/Chat_on-Messenger-0078FF)](https://m.me/k38b.lamtung)
-***Due to COVID-19, now I have freetime. So if you want me to create your own EFI with a little payment, contact me via Telegram.***
+***Due to COVID-19, now I have free time. So if you want me to create your own EFI with a little payment, contact me via Telegram.***
 
 ## [Donate me](https://paypal.me/vtlam98)
 If you want to donate, send me via [**PayPal**](https://paypal.me/vtlam98)

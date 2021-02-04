@@ -7,7 +7,7 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 11.1 BigSur (20B29)
+# Mac OS X 11.2 BigSur (20D64)
 ***This EFI can be used for previous version of macOS ***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 # Specification
@@ -73,7 +73,7 @@ Any donation would help me a lot!
 [See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20201114.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20210204.png)
 
 ## Credits
 @RehabMan for his guide for beginner
