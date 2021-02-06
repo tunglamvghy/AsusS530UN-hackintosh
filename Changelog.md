@@ -1,5 +1,8 @@
 # CHANGELOG
 
+**2021/02/06**
+- Add Background for OpenCanopy (want to change -> see ***Installation Guide***)
+
 **2021/02/04**
 - Working stable on macOS 11.2 (20D64)
 - Update OC to v0.6.7

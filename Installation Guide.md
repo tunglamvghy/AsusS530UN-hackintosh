@@ -9,8 +9,9 @@
 7. Copy **OC** folder and **Boot** folder from EFI partition of your USB to EFI partition of your SSD.
 8. Restart and do **Adjust Power Mode for CPU**
 9. Enjoy your new hackintosh
+
 ***Notes:*** 
-- Adjust PowerMode for CPU
+- *Adjust PowerMode for CPU*
     1. Make sure you have good network
     2. Run the following command with Terminal
     ```bash
@@ -20,6 +21,16 @@
     4. Copy generated **CPUFriendDataProvider.kext** in Desktop and replace the old kext in /OC/Kexts
     5. Restart your Hackintosh
     If you change the SMBIOS, do all steps again.
+    
+- *Change OpenCanopy background*
+    1. You need a really big image! It seems this follows the same rules as any retina image, so you need an image double your resolution (3840x2160)
+    2. Change the image to *PNG format*, rename it to *ModernBackground.png*
+    3. Get [*chris1111/Icnspack-Builder*](https://github.com/chris1111/Icnspack-Builder) and install then launch the app.
+    4. Click run. Drop your image on Icnspack-Builder. Click ready. Click save and save it somewhere.
+    5. You should now have a resources.zip folder. Unzip that thing!
+    6. Inside the folder should be Background.icns, put that into EFI/OC/Resources/Image
+    7. Reboot and make sure it works
+    
 - If your pc has different specs, try to read [**OpenCore guide**](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) or [**Dortania guide**](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) for more details
 
 ## Need help. Contact me
