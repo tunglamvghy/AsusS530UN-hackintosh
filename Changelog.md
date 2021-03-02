@@ -1,5 +1,12 @@
 # CHANGELOG
 
+**2021/03/02**
+-  Working stable on macOS 11.2.2 (20D80)
+- Update OC and kexts to latest commit
+- Add **Combo Jack** fix.
+- Change **alcid** to **77**
+- Turn off all debug options (Please turn them on for first use)
+
 **2021/02/06**
 - Add Background for OpenCanopy (want to change -> see ***Installation Guide***)
 

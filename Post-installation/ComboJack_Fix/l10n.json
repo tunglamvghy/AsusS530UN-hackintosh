@@ -1,0 +1,50 @@
+{
+    "vi_VN": {
+        "dialogTitle" : "Thông báo Combo Jack",
+        "dialogMsg" : "Chọn loại thiết bị vừa cắm vào?\n(Ấn ESC để huỷ)\n Tắt giảm tiếng ồn trong phần Cài đặt khi sử dụng Mic ngoài",
+        "btnHeadphone" : "Headphones (Mic trong)",
+        "btnLinein" : "Line-In",
+        "btnHeadset" : "Headset (Mic ngoài)",
+        "btnCancel" : "Huỷ"
+    },
+    "zh_CN": {
+        "dialogTitle" : "耳机接入通知",
+        "dialogMsg" : "请选择接入的设备类型（按ESC键取消）",
+        "btnHeadphone" : "耳机",
+        "btnLinein" : "线路输入",
+        "btnHeadset" : "耳麦",
+        "btnCancel" : "取消"
+    },
+    "en_US": {
+        "dialogTitle" : "Combo Jack Notification",
+        "dialogMsg" : "What did you just plug in?\n(Press ESC to cancel)\nTurn off Use ambient noise reduction when you choose Headset or Line-In",
+        "btnHeadphone" : "Headphones (Internal Mic)",
+        "btnLinein" : "Line-In",
+        "btnHeadset" : "Headset (External Mic)",
+        "btnCancel" : "Cancel"
+    },
+    "ru_RU": {
+        "dialogTitle" : "Combo Jack Notification",
+        "dialogMsg" : "Какое устройство было подключено? (ESC для отмены)",
+        "btnHeadphone" : "Наушники",
+        "btnLinein" : "Линейный вход",
+        "btnHeadset" : "Гарнитура",
+        "btnCancel" : "Отмена"
+    },
+    "ru_UA": {
+        "dialogTitle" : "Combo Jack Notification",
+        "dialogMsg" : "Какое устройство было подключено? (ESC для отмены)",
+        "btnHeadphone" : "Наушники",
+        "btnLinein" : "Линейный вход",
+        "btnHeadset" : "Гарнитура",
+        "btnCancel" : "Отмена"
+    },
+    "uk_UA": {
+        "dialogTitle" : "Combo Jack Notification",
+        "dialogMsg" : "Який пристрій було підключено? (ESC для скасування)",
+        "btnHeadphone" : "Навушники",
+        "btnLinein" : "Лінійний вхід",
+        "btnHeadset" : "Гарнітура",
+        "btnCancel" : "Скасувати"
+    }
+}

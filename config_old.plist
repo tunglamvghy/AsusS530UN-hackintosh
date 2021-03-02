@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DATA.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
 				<key>Enabled</key>
 				<true/>
@@ -1617,24 +1625,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>CPUFriendDataProvider.kext</string>
-				<key>Comment</key>
-				<string>Processor</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>CpuTscSync.kext</string>
 				<key>Comment</key>
 				<string>Processor</string>
@@ -1642,24 +1632,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CpuTscSync</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>NullEthernet.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NullEthernet</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1957,11 +1929,11 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>RtWlanU.kext</string>
 				<key>Comment</key>
-				<string>USB Wifi</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1975,11 +1947,11 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>RtWlanU1827.kext</string>
 				<key>Comment</key>
-				<string>USB Wifi</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -2226,14 +2198,18 @@
 			<string>Auto</string>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>LauncherOption</key>
+			<string>Full</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>0</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -2276,8 +2252,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -2371,7 +2345,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>-v</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
@@ -2447,7 +2421,6 @@
 			<string>Mac-226CB3C6A851A671</string>
 			<key>BoardRevision</key>
 			<data>
-			Aw==
 			</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
@@ -2462,7 +2435,6 @@
 			</data>
 			<key>SmcPlatform</key>
 			<data>
-			ajE0MGEAAAA=
 			</data>
 			<key>SmcRevision</key>
 			<data>
@@ -2472,21 +2444,23 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZL036LYWM</string>
+			<string>FVFC80AFLYWM</string>
 			<key>SystemUUID</key>
-			<string>50AFB1EE-045D-497A-95F0-F1C969758123</string>
+			<string>057F8651-B68B-4DAF-AC74-9A62CED3184F</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF943609GU00001M</string>
+			<string>FVF007609GU0000AD</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
 			<data>
-			oElvXQTT
+			NBITRDUh
 			</data>
 			<key>SpoofVendor</key>
 			<false/>
@@ -2495,9 +2469,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir8,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZL036LYWM</string>
+			<string>FVFC80AFLYWM</string>
 			<key>SystemUUID</key>
-			<string>50AFB1EE-045D-497A-95F0-F1C969758123</string>
+			<string>057F8651-B68B-4DAF-AC74-9A62CED3184F</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -2505,17 +2479,17 @@
 			<string>Mac-226CB3C6A851A671</string>
 			<key>FirmwareFeatures</key>
 			<data>
-			LvSP/QAAAAA=
+			N+EP/AAAAAA=
 			</data>
 			<key>FirmwareFeaturesMask</key>
 			<data>
-			P/+f/wAAAAA=
+			P/8f/wAAAAA=
 			</data>
 			<key>MLB</key>
-			<string>FVF943609GU00001M</string>
+			<string>FVF007609GU0000AD</string>
 			<key>ROM</key>
 			<data>
-			oElvXQTT
+			NBITRDUh
 			</data>
 			<key>SystemUUID</key>
 			<string></string>
@@ -2523,13 +2497,13 @@
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>08/09/2020</string>
+			<string>07/12/2020</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1554.40.9.0.0</string>
+			<string>1539.0.0.0.1</string>
 			<key>BoardAssetTag</key>
-			<string>Base Board Asset Tag</string>
+			<string></string>
 			<key>BoardLocationInChassis</key>
 			<string>Part Component</string>
 			<key>BoardManufacturer</key>
@@ -2537,33 +2511,33 @@
 			<key>BoardProduct</key>
 			<string>Mac-226CB3C6A851A671</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF943609GU00001M</string>
+			<string>FVF007609GU0000AD</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookAir8,2</string>
+			<string>1.0</string>
 			<key>ChassisAssetTag</key>
-			<string>Asset Tag#</string>
+			<string>Air-Enclosure</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFZL036LYWM</string>
+			<string>FVFC80AFLYWM</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
 			<string>Mac-226CB3C6A851A671</string>
 			<key>FirmwareFeatures</key>
 			<data>
-			LvSP/QAAAAA=
+			N+EP/AAAAAA=
 			</data>
 			<key>FirmwareFeaturesMask</key>
 			<data>
-			P/+f/wAAAAA=
+			P/8f/wAAAAA=
 			</data>
 			<key>PlatformFeature</key>
 			<integer>58</integer>
 			<key>ProcessorType</key>
-			<integer>1537</integer>
+			<integer>0</integer>
 			<key>SmcVersion</key>
 			<data>
 			</data>
@@ -2576,9 +2550,9 @@
 			<key>SystemSKUNumber</key>
 			<string>Mac-226CB3C6A851A671</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZL036LYWM</string>
+			<string>FVFC80AFLYWM</string>
 			<key>SystemUUID</key>
-			<string>50AFB1EE-045D-497A-95F0-F1C969758123</string>
+			<string>057F8651-B68B-4DAF-AC74-9A62CED3184F</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -2590,6 +2564,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
