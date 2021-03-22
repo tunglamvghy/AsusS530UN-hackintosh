@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2021/03/22**
+- Working stable on macOS 11.2.3 (20D91)
+- Fix HDMI connections
+- Update OC and kexts to latest commit
+- Remove unused stuffs
+
 **2021/03/02**
 -  Working stable on macOS 11.2.2 (20D80)
 - Update OC and kexts to latest commit

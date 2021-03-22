@@ -40,7 +40,7 @@ Add '-v' to boot-args
 
 ## Need help. Contact me
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
-***Due to COVID-19, now I have free time. So if you want me to create your own EFI with a little payment, contact me via Telegram.***
+***If you want me to create your own EFI with a little payment, contact me via Telegram.***
 
 ## [Donate me](https://paypal.me/vtlam98)
 If you want to donate, send me via [**PayPal**](https://paypal.me/vtlam98)
