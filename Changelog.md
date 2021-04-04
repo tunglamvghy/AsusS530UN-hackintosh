@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2021/04/04**
+- Update OC and kexts
+- Fix OpenCanopy
+
 **2021/03/22**
 - Working stable on macOS 11.2.3 (20D91)
 - Fix HDMI connections

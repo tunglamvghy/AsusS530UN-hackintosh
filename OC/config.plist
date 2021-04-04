@@ -1968,7 +1968,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>hbfx-ahbm agdpmod=vit9696 igfxagdc=0</string>
+				<string>hbfx-ahbm agdpmod=vit9696</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2128,6 +2128,10 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
+			<key>KeyInitialDelay</key>
+			<integer>50</integer>
+			<key>KeySubsequentDelay</key>
+			<integer>50</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
