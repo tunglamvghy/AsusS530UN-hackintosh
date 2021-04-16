@@ -2,7 +2,7 @@
 
 1. Make a recovery USB using [**gibMacOS**](https://github.com/corpnewt/gibMacOS)
 2. Copy **OC** folder and **Boot** folder to EFI partition of your USB.
-3. Turn all Debug options for OC including
+3. Change all Debug options for OC including
 
 | Property | Value |
 | - | - |

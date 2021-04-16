@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2021/04/16**
+- Update OC to v0.6.9
+- Update kexts to latest version
+- Reduce size of Wifi and Bluetooth kexts
+- Remove Wifi kext for Catalina
+
 **2021/04/04**
 - Update OC and kexts
 - Fix OpenCanopy

@@ -34,8 +34,8 @@ Any donation would help me a lot!
 - [x] **Graphics UHD 620**
 - [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
-- [x] **WiFi (testing with itlwm and HeliPort)**
-- [x] **Bluetooth** (fully supported)
+- [x] **WiFi**
+- [x] **Bluetooth** 
 - [x] Apple Store
 - [x] External USB headphone
 - [x] USB 2.0
