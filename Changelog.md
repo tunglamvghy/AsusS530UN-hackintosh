@@ -1,5 +1,16 @@
 # CHANGELOG
 
+**2021/06/23*
+- Update OC to the latest commit
+- Fix bluetooth on macOS Monterey
+
+**2021/06/22**
+- Update everything to upgrade to macOS 12 Monterey (in **monterey** branch)
+- Known issues:
+    + Stuck at apple logo in the first login after update. Be patient and wait until it show login screen. After that, go to System Preferences > Users & Groups and turn on automatic login.
+    + Bluetooth not working
+    + Performance issue (need further updates)
+
 **2021/04/16**
 - Update OC to v0.6.9
 - Update kexts to latest version

@@ -10,6 +10,7 @@ Any donation would help me a lot!
 # Mac OS X 12.0 Beta (21A5248p)
 ***This EFI can be used for previous version of macOS ***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
+
 # Specification
 - **MainBoard:** Asus X530UN.
 - **Processor:** Intel Core i5-8250U @ 1.6GHz (KabyLake-R)
@@ -66,8 +67,8 @@ Any donation would help me a lot!
 
 # KNOWN ISSUES
 - TSC error
-- Bluetooth
-- slow at login (fix by tủn on automatic login)
+- Bluetooth (fixed)
+- slow at login (fix by turn on automatic login)
 
 # INSTALLATION GUIDE
 [See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Installation%20Guide.md)
