@@ -1296,7 +1296,7 @@
 				<key>Comment</key>
 				<string>Processor</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CpuTscSync</string>
 				<key>MaxKernel</key>
@@ -1368,7 +1368,7 @@
 				<key>Comment</key>
 				<string>Bluetooth</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1380,7 +1380,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
@@ -1560,7 +1560,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
@@ -1596,13 +1596,13 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AirportItlwmB.kext</string>
 				<key>Comment</key>
 				<string>Intel Wifi test</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -1614,13 +1614,31 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>ECEnabler.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ECEnabler</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>RtWlanU.kext</string>
 				<key>Comment</key>
 				<string>USB Wifi</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RtWlanU</string>
 				<key>MaxKernel</key>
@@ -1638,27 +1656,9 @@
 				<key>Comment</key>
 				<string>USB Wifi</string>
 				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RtWlanU1827</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>ECEnabler.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/ECEnabler</string>
+				<string>Contents/MacOS/RtWlanU1827</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1899,6 +1899,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
@@ -1930,7 +1932,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera\GoldenGate</string>
+			<string>ASUS</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -1968,7 +1970,7 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
-			<true/>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1988,9 +1990,9 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>2163459</integer>
 			<key>SecureBootModel</key>
-			<string>j140a</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -2001,17 +2003,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<dict>
-				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
-				<key>boot-args</key>
-				<string>-v</string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
-				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
-			</dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
@@ -2023,6 +2014,17 @@
 			<dict>
 				<key>rtc-blacklist</key>
 				<data></data>
+			</dict>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<dict>
+				<key>SystemAudioVolume</key>
+				<data>Rg==</data>
+				<key>boot-args</key>
+				<string>watchdog=0</string>
+				<key>csr-active-config</key>
+				<data>AAAAAA==</data>
+				<key>prev-lang:kbd</key>
+				<data>ZW4tVVM6MA==</data>
 			</dict>
 			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
 			<dict>
@@ -2078,6 +2080,46 @@
 		</dict>
 		<key>WriteFlash</key>
 		<true/>
+	</dict>
+	<key>PlatformInfo</key>
+	<dict>
+		<key>Automatic</key>
+		<true/>
+		<key>CustomMemory</key>
+		<false/>
+		<key>Generic</key>
+		<dict>
+			<key>AdviseFeatures</key>
+			<false/>
+			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>MLB</key>
+			<string>FVF007609GU0000AD</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>ROM</key>
+			<data>NBITRDUh</data>
+			<key>SpoofVendor</key>
+			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>SystemProductName</key>
+			<string>MacBookAir8,2</string>
+			<key>SystemSerialNumber</key>
+			<string>FVFC80AFLYWM</string>
+			<key>SystemUUID</key>
+			<string>057F8651-B68B-4DAF-AC74-9A62CED3184F</string>
+		</dict>
+		<key>UpdateDataHub</key>
+		<true/>
+		<key>UpdateNVRAM</key>
+		<true/>
+		<key>UpdateSMBIOS</key>
+		<true/>
+		<key>UpdateSMBIOSMode</key>
+		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -2254,46 +2296,6 @@
 		</dict>
 		<key>ReservedMemory</key>
 		<array/>
-	</dict>
-	<key>PlatformInfo</key>
-	<dict>
-		<key>Automatic</key>
-		<true/>
-		<key>CustomMemory</key>
-		<false/>
-		<key>Generic</key>
-		<dict>
-			<key>AdviseWindows</key>
-			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
-			<key>MLB</key>
-			<string>FVF007609GU0000AD</string>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>ROM</key>
-			<data>NBITRDUh</data>
-			<key>SpoofVendor</key>
-			<false/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>SystemProductName</key>
-			<string>MacBookAir8,2</string>
-			<key>SystemSerialNumber</key>
-			<string>FVFC80AFLYWM</string>
-			<key>SystemUUID</key>
-			<string>057F8651-B68B-4DAF-AC74-9A62CED3184F</string>
-		</dict>
-		<key>UpdateDataHub</key>
-		<true/>
-		<key>UpdateNVRAM</key>
-		<true/>
-		<key>UpdateSMBIOS</key>
-		<true/>
-		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
-		<key>UseRawUuidEncoding</key>
-		<false/>
 	</dict>
 </dict>
 </plist>

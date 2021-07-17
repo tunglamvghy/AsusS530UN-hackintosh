@@ -1,5 +1,13 @@
 # CHANGELOG
 
+**2021/07/17**
+- Update OC to the latest commit
+- Update kexts to the latest commit
+- Fix Software Update 
+- Known issues:
+    - Sleep
+    - HDMI (not test)
+
 **2021/06/23*
 - Update OC to the latest commit
 - Fix bluetooth on macOS Monterey
