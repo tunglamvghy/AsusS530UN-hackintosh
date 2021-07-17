@@ -36,7 +36,7 @@ Any donation would help me a lot!
 - [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
 - [x] **WiFi**
-- [ ] **Bluetooth** (NOT work on macOS 12)
+- [x] **Bluetooth** 
 - [x] Apple Store
 - [x] External USB headphone
 - [x] USB 2.0
