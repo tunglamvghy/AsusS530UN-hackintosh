@@ -7,7 +7,7 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 12.0 Beta 3 (21A5284e)
+# Mac OS X 12.0 Monterey Beta 4 (21A5294g)
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
 
@@ -68,8 +68,8 @@ Any donation would help me a lot!
 # KNOWN ISSUES
 - TSC error (fixed)
 - Bluetooth (fixed)
-- slow at login (fix by turn on automatic login) -> Fix in beta 2
-- Sleep
+- slow at login (fixed)
+- Sleep (fixed)
 - HDMI (not test)
 
 # INSTALLATION GUIDE
