@@ -7,9 +7,10 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 11.2.3 BigSur (20D91)
-***This EFI can be used for previous version of macOS ***
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
+# Mac OS X 12.0 Monterey Beta 4 (21A5294g)
+***This EFI can be used for previous version of macOS (not recommended)***
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
+
 # Specification
 - **MainBoard:** Asus X530UN.
 - **Processor:** Intel Core i5-8250U @ 1.6GHz (KabyLake-R)
@@ -65,15 +66,20 @@ Any donation would help me a lot!
 - [x] iCloud 
 
 # KNOWN ISSUES
+- TSC error (fixed)
+- Bluetooth (fixed)
+- slow at login (fixed)
+- Sleep (fixed)
+- HDMI (not test)
 
 # INSTALLATION GUIDE
-[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Installation%20Guide.md)
+[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Installation%20Guide.md)
 
 # CHANGELOG
-[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Changelog.md)
+[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20210204.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/20210717.png)
 
 ## Credits
 @RehabMan for his guide for beginner
