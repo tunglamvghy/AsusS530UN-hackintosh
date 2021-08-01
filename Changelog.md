@@ -6,6 +6,19 @@
 - Update kexts to the latest commit
 - Replace TSCAdjustReset with new version of CpuTscSync kext
 - ***Fix Sleep issue***
+- ***Fix Update issue:***
+
+    1 Turn on **SIP**
+    
+    + in config.plist, set csr-active-config to <00000000> 
+        
+    + in Mac Recovery, run **csrutil enable**
+        
+    2 Turn on **gatekeeper**, run **sudo spctl --master-enable**
+    
+    3 **Reset NVRAM** in OC Bootloader
+    
+    4 Check for update again.
 
 **2021/07/17**
 - Update OC to the latest commit
