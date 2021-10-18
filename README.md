@@ -7,7 +7,7 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 12.0 Monterey Beta 4 (21A5294g)
+# Mac OS X 12.0 Monterey Beta 10 (21A5552a)
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
 
@@ -36,7 +36,7 @@ Any donation would help me a lot!
 - [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
 - [x] **WiFi**
-- [x] **Bluetooth** 
+- [x] **Bluetooth** (broken in macOS 12 beta 10)
 - [x] Apple Store
 - [x] External USB headphone
 - [x] USB 2.0
@@ -66,11 +66,7 @@ Any donation would help me a lot!
 - [x] iCloud 
 
 # KNOWN ISSUES
-- TSC error (fixed)
-- Bluetooth (fixed)
-- slow at login (fixed)
-- Sleep (fixed)
-- HDMI (not test)
+- **Bluetooth** (broken in macOS 12 beta 10)
 
 # INSTALLATION GUIDE
 [See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Installation%20Guide.md)

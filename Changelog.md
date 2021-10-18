@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2021/10/18**
+- Successfully update to macOS 12 beta 10 (21A5552a)
+- **Bluetooth** (broken in macOS 12 beta 10)
+
 **2021/07/29**
 - Successfully update to macOS 12 beta 4 (21A5294g)
 - Update OC to the latest commit
