@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>RtWlanU</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1830.32.b20.05052020, Copyright © Realtek (R)</string>
+	<string>1830.32.b27.11192020, Copyright © Realtek (R)</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.realtek.driver.RtWlanU</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1830.32.b20</string>
+	<string>1830.32.b27</string>
 	<key>CFBundleSignature</key>
 	<string>realtek</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1830.32.b20</string>
+	<string>1830.32.b27</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -764,6 +764,25 @@
 			<key>idVendor</key>
 			<integer>8193</integer>
 		</dict>
+		<key>DLink_DWA181_3322_12BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13090</integer>
+			<key>idVendor</key>
+			<integer>8193</integer>
+		</dict>
 		<key>DLink_DWA182B1_3313_12AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -1334,6 +1353,25 @@
 			<key>idVendor</key>
 			<integer>29586</integer>
 		</dict>
+		<key>Edimax_EXPERT_U3_F822_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>63522</integer>
+			<key>idVendor</key>
+			<integer>29586</integer>
+		</dict>
 		<key>Edimax_GLP_A813_11AU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -1616,6 +1654,25 @@
 			<integer>0</integer>
 			<key>idProduct</key>
 			<integer>63</integer>
+			<key>idVendor</key>
+			<integer>5041</integer>
+		</dict>
+		<key>Linksys_WUSB6300v2_0045_8822BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>69</integer>
 			<key>idVendor</key>
 			<integer>5041</integer>
 		</dict>
@@ -3098,6 +3155,25 @@
 			<integer>0</integer>
 			<key>idProduct</key>
 			<integer>32843</integer>
+			<key>idVendor</key>
+			<integer>8436</integer>
+		</dict>
+		<key>TrendNet_TEW805UB_805A_8812BU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.realtek.driver.RtWlanU</string>
+			<key>IOClass</key>
+			<string>RtWlanU</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32858</integer>
 			<key>idVendor</key>
 			<integer>8436</integer>
 		</dict>

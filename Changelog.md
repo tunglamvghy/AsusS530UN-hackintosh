@@ -1,5 +1,11 @@
 # CHANGELOG
 
+**2022/01/31**
+- Successfully update to macOS Monterey 12.2
+- Bluetooth fixed
+- Update OC to the latest commit
+- Update kexts to the latest commit
+
 **2021/10/18**
 - Successfully update to macOS 12 beta 10 (21A5552a)
 - **Bluetooth** (broken in macOS 12 beta 10)
