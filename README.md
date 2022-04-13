@@ -7,7 +7,7 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X Monterey 12.2 (21D49)
+# Mac OS X Monterey 12.3.1 (21E258)
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
 

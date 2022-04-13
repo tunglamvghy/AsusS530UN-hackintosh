@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2022/04/13**
+- Successfully update to macOS Monterey 12.3.1
+- Update OC to the latest commit
+- Update kexts to the latest commit
+
 **2022/01/31**
 - Successfully update to macOS Monterey 12.2
 - Bluetooth fixed
