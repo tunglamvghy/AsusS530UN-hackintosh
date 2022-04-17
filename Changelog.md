@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2022/04/17**
+- Fix error **Volume Hash Mismatch Hash mismatch detected on volume**
+- Back to previous version of Bluetooth kext for better performance
+
 **2022/04/13**
 - Successfully update to macOS Monterey 12.3.1
 - Update OC to the latest commit
