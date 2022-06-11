@@ -1,5 +1,13 @@
 # CHANGELOG
 
+**2022/06/11**
+- Support macOS 13 Ventura Beta (22A5266r)
+- Update OC and kexts to latest version
+- Known issues:
+	+ If you want to try macOS Ventura, you must create an installation media (using gibmacOS) then format and reinstall macOS
+	+ Wifi -> Install Heliport app in Post-installation folder
+	+ Bluetooth	
+
 **2022/04/17**
 - Fix error **Volume Hash Mismatch Hash mismatch detected on volume**
 - Back to previous version of Bluetooth kext for better performance

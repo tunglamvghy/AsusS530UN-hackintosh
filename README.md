@@ -7,9 +7,9 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X Monterey 12.3.1 (21E258)
+# Mac OS X 13.0 Ventura Beta (22A5266r)
 ***This EFI can be used for previous version of macOS (not recommended)***
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/os.png)
 
 # Specification
 - **MainBoard:** Asus X530UN.
@@ -66,16 +66,17 @@ Any donation would help me a lot!
 - [x] iCloud 
 
 # KNOWN ISSUES
-- **Bluetooth** (broken in macOS 12 beta 10)
+- **Bluetooth** (broken in macOS 13 beta)
+- **Wifi** using Heliport app
 
 # INSTALLATION GUIDE
-[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Installation%20Guide.md)
+[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Installation%20Guide.md)
 
 # CHANGELOG
-[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Changelog.md)
+[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/20210717.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/20220611.png)
 
 ## Credits
 @RehabMan for his guide for beginner
