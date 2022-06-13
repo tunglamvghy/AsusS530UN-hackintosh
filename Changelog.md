@@ -1,5 +1,14 @@
 # CHANGELOG
 
+**2022/06/13**
+- Update OC and kexts to latest version
+- Can directly update from Monterey (tested)
+- Fix Wifi using latest itlwm kext
+- Remove legacy itlwm.kext
+- Fix control center and time disappearance by adding back Airportitlwm for Ventura (reset network preferences after this update)
+- Known issues:
+    + Bluetooth -> not fixed yet
+
 **2022/06/11**
 - Support macOS 13 Ventura Beta (22A5266r)
 - Update OC and kexts to latest version
