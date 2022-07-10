@@ -7,7 +7,7 @@ Any donation would help me a lot!
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 13.0 Ventura Beta (22A5266r)
+# Mac OS X 13.0 Ventura Beta 3 (22A5295h)
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/os.png)
 
@@ -66,8 +66,7 @@ Any donation would help me a lot!
 - [x] iCloud 
 
 # KNOWN ISSUES
-- **Bluetooth** (broken in macOS 13 beta)
-- **Wifi** using Heliport app
+
 
 # INSTALLATION GUIDE
 [See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Installation%20Guide.md)

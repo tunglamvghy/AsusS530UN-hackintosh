@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2022/07/10*
+- Support macOS 13 Beta 3 (22A5295h)
+- Fix bluetooth
+- Update OC and kexts to latest version  
+
 **2022/06/13**
 - Update OC and kexts to latest version
 - Can directly update from Monterey (tested)
