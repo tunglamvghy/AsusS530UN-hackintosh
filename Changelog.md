@@ -1,6 +1,10 @@
 # CHANGELOG
 
-**2022/07/10*
+**2022/08/12**
+- Support macOS 13 Beta 5 (22A5321d)
+- Update OC and kexts to latest version  
+
+**2022/07/10**
 - Support macOS 13 Beta 3 (22A5295h)
 - Fix bluetooth
 - Update OC and kexts to latest version  
