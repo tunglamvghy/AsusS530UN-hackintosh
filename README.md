@@ -1,9 +1,10 @@
 ## Donate me
 I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
 Any donation would help me a lot!
-[**PayPal**](https://paypal.me/vtlam98)
-**Momo**
-![Scan this QR code](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg)
+
+| [**PayPal**](https://paypal.me/vtlam98) | **Momo** |
+| - | - |
+| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/paypal.png" width="24%" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg" width="24%" height="" /> |
 
 ***If you want me to create your own EFI with a little payment, contact me via Telegram.***
 
