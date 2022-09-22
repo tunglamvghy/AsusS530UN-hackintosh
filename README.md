@@ -4,7 +4,7 @@ Any donation would help me a lot!
 
 | [**PayPal**](https://paypal.me/vtlam98) | **Momo** |
 | - | - |
-| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/paypal.png" width="24%" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg" width="24%" height="" /> |
+| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/paypal.png" width="150px" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg" width="150px" height="" /> |
 
 ***If you want me to create your own EFI with a little payment, contact me via Telegram.***
 
