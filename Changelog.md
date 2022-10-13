@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2022/10/13
+- Support macOS 13 Beta 11
+- Fixed missing files
+- Update OC and kexts to latest version  
+
 **2022/09/22**
 - Support macOS 13 Beta 8 (22A5352e)
 - Update OC and kexts to latest version  
