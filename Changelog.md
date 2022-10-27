@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2022/10/27**
+- Support macOS 13 official and macOS 13.1 Beta
+- Update OC
+
 **2022/10/13
 - Support macOS 13 Beta 11 (22A5373b)
 - Fixed missing files
