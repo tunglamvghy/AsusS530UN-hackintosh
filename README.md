@@ -4,7 +4,7 @@ Any donation would help me a lot!
 
 | [**PayPal**](https://paypal.me/vtlam98) | **Momo** |
 | - | - |
-| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/paypal.png" width="150px" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg" width="150px" height="" /> |
+| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/paypal.png" width="150px" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/momo.jpg" width="150px" height="" /> |
 
 ***If you want me to create your own EFI with a little payment, contact me via Telegram.***
 
@@ -18,7 +18,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 # Asus Vivobook S530UN
 # Mac OS X 13.0 Ventura Official
 ***This EFI can be used for previous version of macOS (not recommended)***
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/os.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
 
 # Specification
 - **MainBoard:** Asus X530UN.
@@ -78,13 +78,13 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 
 
 # INSTALLATION GUIDE
-[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Installation%20Guide.md)
+[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Installation%20Guide.md)
 
 # CHANGELOG
-[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Changelog.md)
+[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/20220611.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20220611.png)
 
 ## Credits
 @RehabMan for his guide for beginner
