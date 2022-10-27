@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20B5022a</string>
+	<string>21F79</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,29 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.2</string>
+	<string>2.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.1.2</string>
+	<string>2.3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12B5018i</string>
+	<string>13C100</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.0</string>
+	<string>12.1</string>
 	<key>DTSDKBuild</key>
-	<string>20A5374f</string>
+	<string>21C46</string>
 	<key>DTSDKName</key>
-	<string>macosx11.0</string>
+	<string>macosx12.1</string>
 	<key>DTXcode</key>
-	<string>1220</string>
+	<string>1321</string>
 	<key>DTXcodeBuild</key>
-	<string>12B5018i</string>
+	<string>13C100</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>IntelBluetoothFirmware_0026</key>
@@ -73,6 +73,23 @@
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>50</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+		<key>IntelBluetoothFirmware_0035</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.zxystd.IntelBluetoothFirmware</string>
+			<key>IOClass</key>
+			<string>IntelBluetoothFirmware</string>
+			<key>IOMatchCategory</key>
+			<string>IntelBluetoothFirmware</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>53</integer>
 			<key>idVendor</key>
 			<integer>32903</integer>
 		</dict>
@@ -192,6 +209,23 @@
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>41</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+		<key>IntelBluetoothFirmware_ax210</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.zxystd.IntelBluetoothFirmware</string>
+			<key>IOClass</key>
+			<string>IntelBluetoothFirmware</string>
+			<key>IOMatchCategory</key>
+			<string>IntelBluetoothFirmware</string>
+			<key>IOProbeScore</key>
+			<integer>4000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>51</integer>
 			<key>idVendor</key>
 			<integer>32903</integer>
 		</dict>

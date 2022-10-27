@@ -127,23 +127,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>T1NJRA==</data>
+				<data>
+				T1NJRA==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNJRA==</data>
+				<data>
+				WFNJRA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -157,23 +165,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X09TSQ==</data>
+				<data>
+				X09TSQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>
+				WE9TSQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -187,23 +203,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SEVDSQ==</data>
+				<data>
+				SEVDSQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>SU1FSQ==</data>
+				<data>
+				SU1FSQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -217,23 +241,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>R0ZYMA==</data>
+				<data>
+				R0ZYMA==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>SUdQVQ==</data>
+				<data>
+				SUdQVQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -247,23 +279,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0NSUwigGQ==</data>
+				<data>
+				X0NSUwigGQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>WENSUwigGQ==</data>
+				<data>
+				WENSUwigGQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -277,23 +318,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>IgABeQA=</data>
+				<data>
+				IgABeQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>IgAAeQA=</data>
+				<data>
+				IgAAeQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -307,23 +357,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>IgEAeQA=</data>
+				<data>
+				IgEAeQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>IgAAeQA=</data>
+				<data>
+				IgAAeQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -337,23 +396,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>UkFMUwA=</data>
+				<data>
+				UkFMUwA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEFMUwA=</data>
+				<data>
+				WEFMUwA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -367,23 +434,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>S0RJQU5FCsc=</data>
+				<data>
+				S0RJQU5FCsc=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>S0RJQU5FCsQ=</data>
+				<data>
+				S0RJQU5FCsQ=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -397,23 +472,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1EwRQA=</data>
+				<data>
+				X1EwRQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFEwRQA=</data>
+				<data>
+				WFEwRQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -427,23 +510,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1EwRgA=</data>
+				<data>
+				X1EwRgA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFEwRgA=</data>
+				<data>
+				WFEwRgA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -457,23 +548,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1ExMgA=</data>
+				<data>
+				X1ExMgA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFExMgA=</data>
+				<data>
+				WFExMgA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -487,23 +586,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1EwRAA=</data>
+				<data>
+				X1EwRAA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFEwRAA=</data>
+				<data>
+				WFEwRAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -517,23 +624,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1ExMQg=</data>
+				<data>
+				X1ExMQg=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFExMQg=</data>
+				<data>
+				WFExMQg=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -547,23 +662,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E3NwA=</data>
+				<data>
+				X1E3NwA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFE3NwA=</data>
+				<data>
+				WFE3NwA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -577,23 +700,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1FENQA=</data>
+				<data>
+				X1FENQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFFENQA=</data>
+				<data>
+				WFFENQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -607,23 +738,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E3MQA=</data>
+				<data>
+				X1E3MQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFE3MQA=</data>
+				<data>
+				WFE3MQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -637,23 +776,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>R1BSVwI=</data>
+				<data>
+				R1BSVwI=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFBSVwI=</data>
+				<data>
+				WFBSVwI=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -667,23 +814,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1BUUwE=</data>
+				<data>
+				X1BUUwE=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WlBUUwE=</data>
+				<data>
+				WlBUUwE=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -697,23 +852,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0JJWAA=</data>
+				<data>
+				X0JJWAA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJJWAA=</data>
+				<data>
+				WEJJWAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -727,23 +890,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QklGQQA=</data>
+				<data>
+				QklGQQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJJRgA=</data>
+				<data>
+				WEJJRgA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -757,23 +928,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>U01CUgs=</data>
+				<data>
+				U01CUgs=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNNUgs=</data>
+				<data>
+				WFNNUgs=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -787,23 +966,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>U01CVw0=</data>
+				<data>
+				U01CVw0=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNNVw0=</data>
+				<data>
+				WFNNVw0=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -817,23 +1004,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RkJTVAQ=</data>
+				<data>
+				RkJTVAQ=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJTVAQ=</data>
+				<data>
+				WEJTVAQ=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -847,23 +1042,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1NUQQCgDZNQ</data>
+				<data>
+				X1NUQQCgDZNQ
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNUQQCgDZNQ</data>
+				<data>
+				WFNUQQCgDZNQ
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -877,23 +1080,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1JFRwKgCw==</data>
+				<data>
+				X1JFRwKgCw==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFJFRwKgCw==</data>
+				<data>
+				WFJFRwKgCw==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -907,23 +1118,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QVBTUw==</data>
+				<data>
+				QVBTUw==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>QVBYWA==</data>
+				<data>
+				QVBYWA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -935,7 +1154,7 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<true/>
+			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
 			<key>SyncTableIds</key>
@@ -967,7 +1186,7 @@
 			<key>EnableWriteUnprotector</key>
 			<true/>
 			<key>ForceBooterSignature</key>
-			<false/>
+			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
@@ -1010,7 +1229,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,5/0,0</string>
 				<key>built-in</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -1032,37 +1253,17 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AADAhw==</data>
+				<data>
+				AADAhw==
+				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
-				<data>FlkAAA==</data>
+				<data>
+				FlkAAA==
+				</data>
 				<key>device_type</key>
 				<string>Display Controller</string>
-				<key>enable-hdmi20</key>
-				<data>AAAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-flags</key>
-				<data>IAAAAA==</data>
-				<key>framebuffer-con1-index</key>
-				<data>/////w==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -1096,7 +1297,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>USBToolBox.kext</string>
 				<key>Comment</key>
@@ -1114,7 +1315,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>UTBMap.kext</string>
 				<key>Comment</key>
@@ -1260,6 +1461,24 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>FeatureUnlock.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/FeatureUnlock</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string>Audio</string>
@@ -1330,19 +1549,19 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
+				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>Bluetooth</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/IntelBTPatcher</string>
 				<key>MaxKernel</key>
-				<string>20.9.9</string>
-				<key>MinKernel</key>
 				<string></string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1550,7 +1769,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>Intel Wifi test</string>
+				<string>Wifi for Monterey</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1559,6 +1778,24 @@
 				<string>21.9.9</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AirportItlwmV.kext</string>
+				<key>Comment</key>
+				<string>Wifi for Ventura</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>22.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1588,7 +1825,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RtWlanU</string>
 				<key>MaxKernel</key>
@@ -1606,7 +1843,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RtWlanU1827</string>
 				<key>MaxKernel</key>
@@ -1622,9 +1859,11 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -1689,21 +1928,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleIntelLpssI2C</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1719,21 +1964,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleIntelLpssI2CController</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1749,21 +2000,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1771,17 +2028,19 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1838,7 +2097,7 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>System</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1872,8 +2131,6 @@
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -1883,11 +2140,7 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
-			<true/>
-			<key>AllowToggleSip</key>
 			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
@@ -1904,15 +2157,53 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
-			<integer>2163459</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>j140a</string>
 			<key>Vault</key>
 			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>
+				/w==
+				</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array/>
@@ -1924,25 +2215,36 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
-				<string>alctsel=1</string>
+				<string></string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
+				<data>
+				ZW4tVVM6MA==
+				</data>
 			</dict>
 			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
 			<dict>
@@ -1966,8 +2268,6 @@
 				<string>boot-args</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -2009,14 +2309,16 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>FVF007609GU0000AD</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>NBITRDUh</data>
+			<data>
+			NBITRDUh
+			</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -2070,9 +2372,9 @@
 			<integer>5</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>0</integer>
 			<key>PointerPollMax</key>
+			<integer>0</integer>
+			<key>PointerPollMin</key>
 			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
@@ -2115,6 +2417,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
@@ -2125,6 +2429,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -2135,8 +2441,34 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string>--preserve-boot</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ToggleSipEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -2186,10 +2518,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>-1</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>

@@ -1,5 +1,44 @@
 # CHANGELOG
 
+**2022/10/27**
+- Support macOS 13 official and macOS 13.1 Beta
+- Update OC
+
+**2022/10/13
+- Support macOS 13 Beta 11 (22A5373b)
+- Fixed missing files
+- Update OC and kexts to latest version  
+
+**2022/09/22**
+- Support macOS 13 Beta 8 (22A5352e)
+- Update OC and kexts to latest version  
+
+**2022/08/12**
+- Support macOS 13 Beta 5 (22A5321d)
+- Update OC and kexts to latest version  
+
+**2022/07/10**
+- Support macOS 13 Beta 3 (22A5295h)
+- Fix bluetooth
+- Update OC and kexts to latest version  
+
+**2022/06/13**
+- Update OC and kexts to latest version
+- Can directly update from Monterey (tested)
+- Fix Wifi using latest itlwm kext
+- Remove legacy itlwm.kext
+- Fix control center and time disappearance by adding back Airportitlwm for Ventura (reset network preferences after this update)
+- Known issues:
+    + Bluetooth -> not fixed yet
+
+**2022/06/11**
+- Support macOS 13 Ventura Beta (22A5266r)
+- Update OC and kexts to latest version
+- Known issues:
+	+ If you want to try macOS Ventura, you must create an installation media (using gibmacOS) then format and reinstall macOS
+	+ Wifi -> Install Heliport app in Post-installation folder
+	+ Bluetooth	
+
 **2022/04/17**
 - Fix error **Volume Hash Mismatch Hash mismatch detected on volume**
 - Back to previous version of Bluetooth kext for better performance

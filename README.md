@@ -1,15 +1,24 @@
-## [Donate me](https://paypal.me/vtlam98)
+## Donate me
 I'll try to keep this repo up-to-date BUT as a student, I need to pay a lot of fees: tuition fees, exam fees, house rent, food, etc.
 Any donation would help me a lot!
+
+| [**PayPal**](https://paypal.me/vtlam98) | **Momo** |
+| - | - |
+| <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/paypal.png" width="150px" height="" /> | <img src="https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/momo.jpg" width="150px" height="" /> |
+
 ***If you want me to create your own EFI with a little payment, contact me via Telegram.***
+
+**List of my repo**
+The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tunglamvghy)
+
 
 ## Contact me
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X Monterey 12.3.1 (21E258)
+# Mac OS X 13.0 Ventura Official
 ***This EFI can be used for previous version of macOS (not recommended)***
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/os.jpeg)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/os.png)
 
 # Specification
 - **MainBoard:** Asus X530UN.
@@ -66,16 +75,16 @@ Any donation would help me a lot!
 - [x] iCloud 
 
 # KNOWN ISSUES
-- **Bluetooth** (broken in macOS 12 beta 10)
+
 
 # INSTALLATION GUIDE
-[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Installation%20Guide.md)
+[See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Installation%20Guide.md)
 
 # CHANGELOG
-[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/monterey/Changelog.md)
+[See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/ventura/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/monterey/Screenshoot/20210717.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/ventura/Screenshoot/20220611.png)
 
 ## Credits
 @RehabMan for his guide for beginner
