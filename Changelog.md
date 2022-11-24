@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2022/11/24**
+- Fixed missing files
+- Update OC and kexts to latest version  
+
 **2022/10/27**
 - Support macOS 13 official and macOS 13.1 Beta
 - Update OC
