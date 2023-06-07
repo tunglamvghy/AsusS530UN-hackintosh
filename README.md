@@ -16,9 +16,9 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 13.0 Ventura Official
+# Mac OS X 14.0 Sonoma Preview
 ***This EFI can be used for previous version of macOS (not recommended)***
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.jpeg)
 
 # Specification
 - **MainBoard:** Asus X530UN.
@@ -84,7 +84,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 [See Changelog](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Changelog.md)
 
 # SCREENSHOT
-![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20220611.png)
+![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/20230607.png)
 
 ## Credits
 @RehabMan for his guide for beginner

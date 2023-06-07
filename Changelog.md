@@ -1,5 +1,12 @@
 # CHANGELOG
 
+**2023/06/07**
+- Support macOS 14 Sonoma
+- Update OC and kexts to latest version  
+- Known issues: 
+      + Wifi not working (use itlwm and Heliport instead)
+      + Bluetooth not working 
+
 **2022/11/24**
 - Fixed missing files
 - Update OC and kexts to latest version  
