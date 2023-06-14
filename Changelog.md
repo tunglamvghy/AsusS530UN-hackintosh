@@ -1,10 +1,19 @@
 # CHANGELOG
 
+**2023/06/14**
+- Bluetooth <fixed>
+- Update OC and kexts to latest version  
+- Known issues: 
+
+      + Wifi not working (use itlwm and Heliport instead)
+
 **2023/06/07**
 - Support macOS 14 Sonoma
 - Update OC and kexts to latest version  
 - Known issues: 
+
       + Wifi not working (use itlwm and Heliport instead)
+
       + Bluetooth not working 
 
 **2022/11/24**
@@ -40,14 +49,18 @@
 - Remove legacy itlwm.kext
 - Fix control center and time disappearance by adding back Airportitlwm for Ventura (reset network preferences after this update)
 - Known issues:
+
     + Bluetooth -> not fixed yet
 
 **2022/06/11**
 - Support macOS 13 Ventura Beta (22A5266r)
 - Update OC and kexts to latest version
 - Known issues:
+
 	+ If you want to try macOS Ventura, you must create an installation media (using gibmacOS) then format and reinstall macOS
+
 	+ Wifi -> Install Heliport app in Post-installation folder
+
 	+ Bluetooth	
 
 **2022/04/17**
