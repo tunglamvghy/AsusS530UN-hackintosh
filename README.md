@@ -45,7 +45,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 - [x] Graphics NVIDIA GeForce MX150 **(NOT support now)**
 - [x] **Sound**
 - [x] **WiFi**
-- [x] **Bluetooth** (broken in macOS 12 beta 10)
+- [x] **Bluetooth** 
 - [x] Apple Store
 - [x] External USB headphone
 - [x] USB 2.0
