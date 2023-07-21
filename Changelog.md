@@ -1,7 +1,13 @@
 # CHANGELOG
 
+**2023/07/21**
+- Support macOS 14 Sonoma beta 3
+- Update OC and kexts to latest version  
+- Wifi fixed
+- Add rEFInd for dual boot with Windows (see Post-installation)
+
 **2023/06/14**
-- Bluetooth <fixed>
+- Bluetooth fixed
 - Update OC and kexts to latest version  
 - Known issues: 
 

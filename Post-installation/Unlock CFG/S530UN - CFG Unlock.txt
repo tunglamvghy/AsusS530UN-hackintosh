@@ -1,0 +1,10 @@
+0x24E99 	VarStore: VarStoreId: 0x1 [EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9], Size: 0x107F, Name: Setup {24 1C 43 D6 87 EC A4 EB B5 4B A1 E5 3F 3E 36 B2 0D A9 01 00 7F 10 53 65 74 75 70 00}
+
+One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x562, VarStore: 0x1, QuestionId: 0x157, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 12 03 13 03 57 01 01 00 62 05 10 10 00 01 00}
+0x298D2 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x298D9 			One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}
+0x298E0 		End One Of {29 02}
+
+
+
+setup_var_cv Setup 0x562 0x01 0x00
