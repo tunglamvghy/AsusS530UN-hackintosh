@@ -1,5 +1,7 @@
 # CHANGELOG
 
+
+
 **2023/07/21**
 - Support macOS 14 Sonoma beta 3
 - Update OC and kexts to latest version  
