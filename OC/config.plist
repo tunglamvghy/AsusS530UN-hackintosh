@@ -1024,6 +1024,8 @@
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>hda-idle-support</key>
+				<integer>1</integer>
 				<key>layout-id</key>
 				<integer>77</integer>
 				<key>model</key>
@@ -1039,6 +1041,30 @@
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>Display Controller</string>
+				<key>enable-hdmi20</key>
+				<data>AAAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-busid</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-flags</key>
+				<data>IAAAAA==</data>
+				<key>framebuffer-con1-index</key>
+				<data>/////w==</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -1618,7 +1644,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RtWlanU</string>
 				<key>MaxKernel</key>
@@ -1636,7 +1662,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RtWlanU1827</string>
 				<key>MaxKernel</key>
@@ -1672,7 +1698,7 @@
 				<key>Comment</key>
 				<string>Intel Wifi</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IO80211Family</string>
 				<key>Identifier</key>
@@ -1692,7 +1718,7 @@
 				<key>Comment</key>
 				<string>Intel Wifi</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IO80211NetBooter</string>
 				<key>Identifier</key>
@@ -2077,7 +2103,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>alctcsel=1 alcdelay=3000 revpatch=sbvmm</string>
+				<string>revpatch=sbvmm agdpmod=vit9696 igfxagdc=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2440,6 +2466,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>

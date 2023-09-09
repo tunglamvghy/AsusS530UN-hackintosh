@@ -1,6 +1,11 @@
 # CHANGELOG
 
-
+**2023/09/09**
+- Support macOS 14 Sonoma beta 7
+- Update OC and kexts to latest version
+- Re-add HDMI patch for external display
+- Fixed flicker while changing from battery mode to charging mode
+- Wifi kext (Airportitlwm) MUST be used only for macOS Sonoma beta 5 and newer. (DON'T use for beta 4 and older)  
 
 **2023/07/21**
 - Support macOS 14 Sonoma beta 3

@@ -27,9 +27,10 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
   + Intel UHD620 (1536MB of dynamic memory (shared from the system))
   + NVIDIA GeForce MX150 2GB
 - **Network:**
-  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) (working unstable!!)
-  + Ethernet: No
+  + Wifi: Intel 8265/8275 M2 NGFF (802.11 AC (2x2)) (working)
   + Bluetooth: V4.1 (working)
+(for better performance, I replace this wifi card with Intel AX210 but the kext is still usable for both wifi card)
+  + Ethernet: No
 - **Audio:** Realtek ALC256 (working)
 - **Touchpad:** ELAN 1300 (I2C) (working in Polling mode)
 - **Storage**:
@@ -39,6 +40,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 - **Card Reader**: microSD CardReader
 - **WebCam**: VGA Web Camera
 - **Battery**: 3 Cells 42 Whrs Battery
+
 
 # WORKING:
 - [x] **Graphics UHD 620**
