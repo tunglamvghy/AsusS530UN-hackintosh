@@ -16,7 +16,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 14.0 Sonoma Preview
+# Mac OS X 14.0 Sonoma RC
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.jpeg)
 

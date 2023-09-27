@@ -1,5 +1,9 @@
 # CHANGELOG
 
+**2023/09/27**
+- Support macOS 14 Sonoma RC
+- Update OC and kexts to latest version
+
 **2023/09/09**
 - Support macOS 14 Sonoma beta 7
 - Update OC and kexts to latest version
