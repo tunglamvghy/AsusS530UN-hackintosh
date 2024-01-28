@@ -16,7 +16,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 [![Telegram](https://img.shields.io/badge/Chat_on-Telegram-blue.svg)](https://t.me/tunglamvghy)
 
 # Asus Vivobook S530UN
-# Mac OS X 14.0 Sonoma RC
+# Mac OS X 14.3 Sonoma 
 ***This EFI can be used for previous version of macOS (not recommended)***
 ![Alt text](https://github.com/tunglamvghy/AsusS530UN-hackintosh/raw/master/Screenshoot/os.jpeg)
 
@@ -49,6 +49,7 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 - [x] **WiFi**
 - [x] **Bluetooth** 
 - [x] Apple Store
+- [x] HDMI with audio for external monitor
 - [x] External USB headphone
 - [x] USB 2.0
 - [x] USB 3.0
@@ -77,7 +78,8 @@ The list of made EFI was on [my profile page](https://github.com/tunglamvghy/tun
 - [x] iCloud 
 
 # KNOWN ISSUES
-
+- Lost audio when rebooting from Windows OS
+- Some people faced up with flicker while charging 
 
 # INSTALLATION GUIDE
 [See Installation guide](https://github.com/tunglamvghy/AsusS530UN-hackintosh/blob/master/Installation%20Guide.md)

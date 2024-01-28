@@ -1,5 +1,10 @@
 # CHANGELOG
 
+**2024/01/28**
+- Support macOS 14.3
+- Update OC and kexts to latest version
+- HDMI working with audio (tested with LG UP850W monitor)
+
 **2023/09/27**
 - Support macOS 14 Sonoma RC
 - Update OC and kexts to latest version

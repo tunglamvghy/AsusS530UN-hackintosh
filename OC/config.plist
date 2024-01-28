@@ -966,6 +966,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<true/>
 			<key>ForceExitBootServices</key>
@@ -2103,7 +2105,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>revpatch=sbvmm agdpmod=vit9696 igfxagdc=0</string>
+				<string>revpatch=sbvmm agdpmod=vit9696 igfxagdc=0 </string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
